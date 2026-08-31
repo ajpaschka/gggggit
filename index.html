@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>gggggit — a tagged library of real, trending GitHub repos</title>
 <meta name="description" content="A tagged, growing library of trending GitHub repos worth knowing about — design, AI, visualization, video, code, and agent practice. Not a feed. Nothing expires.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=JetBrains+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&display=swap">
 <style>
   :root {
     --page-bg: #FAF9F6;
@@ -32,15 +32,15 @@
   }
 
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--page-bg); color: var(--page-ink); font-family: 'Archivo', system-ui, sans-serif; }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 48px 24px 90px; }
+  body { margin: 0; background: var(--page-bg); color: var(--page-ink); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .text-wrap { max-width: 1180px; margin: 0 auto; padding: 48px 24px 34px; }
 
   header { max-width: 680px; margin-bottom: 34px; }
   .kicker { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--page-sub); margin-bottom: 12px; }
   h1 { font-size: clamp(30px, 4.2vw, 44px); font-weight: 900; line-height: 1.08; margin: 0 0 14px; letter-spacing: -0.01em; }
   header p { font-size: 15px; line-height: 1.65; color: var(--page-sub); margin: 0; font-weight: 500; max-width: 56ch; }
 
-  nav.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 30px 0 40px; }
+  nav.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 30px 0 0; }
   nav.tags button {
     font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.04em;
     background: var(--pill-bg); color: var(--pill-ink); border: 1px solid var(--page-line);
@@ -51,20 +51,22 @@
   nav.tags button.active { background: var(--pill-active-bg); color: var(--pill-active-ink); border-color: transparent; }
   nav.tags .count { opacity: 0.6; margin-left: 5px; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 26px; }
+  /* Quilt: flush tiles, no gutter, no side margin, no shadow between
+     patches — the grid itself runs full-bleed against the viewport, only
+     the header/nav/footer text keeps a readable margin. */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0; margin-top: 30px; }
   .card {
-    aspect-ratio: 1 / 1; border-radius: 4px; box-shadow: var(--card-shadow);
-    display: flex; flex-direction: column; overflow: hidden; text-decoration: none; color: inherit;
-    transition: transform 0.15s ease;
+    aspect-ratio: 1 / 1; display: flex; flex-direction: column; overflow: hidden;
+    text-decoration: none; color: inherit; position: relative; z-index: 0;
   }
-  .card:hover { transform: translateY(-2px); }
-  .card-body { flex: 1; padding: 9% 9% 6%; display: flex; flex-direction: column; justify-content: space-between; }
+  .card:hover { z-index: 1; box-shadow: var(--card-shadow); }
+  .card-body { flex: 1; padding: 9% 9% 6%; display: flex; flex-direction: column; justify-content: space-between; min-height: 0; }
   .card-tag { font-family: 'JetBrains Mono', monospace; font-size: clamp(10px, 1.3vw, 11px); font-weight: 600; letter-spacing: 0.13em; text-transform: uppercase; opacity: 0.86; }
-  .card-desc { font-weight: 900; line-height: 1.1; letter-spacing: -0.01em; font-size: clamp(17px, 3.4vw, 23px); }
+  .card-desc { font-weight: 700; line-height: 1.18; letter-spacing: -0.005em; font-size: clamp(14px, 2.4vw, 18px); overflow: hidden; }
   .card-foot {
-    font-family: 'JetBrains Mono', monospace; font-size: clamp(10px, 1.2vw, 11px); font-weight: 600;
-    padding: 6% 9%; display: flex; justify-content: space-between; align-items: baseline;
-    background: rgba(0,0,0,0.14); border-top: 1px solid rgba(0,0,0,0.08);
+    font-family: 'JetBrains Mono', monospace; font-size: clamp(9px, 1.1vw, 11px); font-weight: 600;
+    padding: 6% 9%; display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
+    background: rgba(0,0,0,0.14); border-top: 1px solid rgba(0,0,0,0.08); flex-shrink: 0; white-space: nowrap;
   }
   .card, .card .card-desc, .card .card-tag, .card .card-foot { color: #FBF6EA; }
   .card.on-light, .card.on-light .card-desc, .card.on-light .card-tag { color: #16140F; }
@@ -72,12 +74,12 @@
 
   .empty { grid-column: 1 / -1; font-size: 14px; color: var(--page-sub); padding: 40px 0; text-align: center; }
 
-  footer { margin-top: 70px; padding-top: 26px; border-top: 1px solid var(--page-line); font-size: 13px; color: var(--page-sub); line-height: 1.6; }
+  footer { margin-top: 4px; padding: 26px 24px 90px; border-top: 1px solid var(--page-line); font-size: 13px; color: var(--page-sub); line-height: 1.6; max-width: 1180px; margin-left: auto; margin-right: auto; }
   footer a { color: var(--page-ink); }
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="text-wrap">
   <header>
     <div class="kicker">A tagged library, not a feed</div>
     <h1>gggggit</h1>
@@ -85,15 +87,15 @@
   </header>
 
   <nav class="tags" id="tagNav" aria-label="Filter by tag"></nav>
-
-  <div class="grid" id="grid"></div>
-
-  <footer>
-    Updated weekly. Built by <a href="https://paschkastudio.com">Alexander Paschka</a> — named after
-    <a href="https://en.wikipedia.org/wiki/FFFFOUND!">FFFFOUND!</a>, in the spirit of
-    <a href="https://en.wikipedia.org/wiki/We_Are_Hunted">We Are Hunted</a>.
-  </footer>
 </div>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  Updated weekly. Built by <a href="https://paschkastudio.com">Alexander Paschka</a> — named after
+  <a href="https://en.wikipedia.org/wiki/FFFFOUND!">FFFFOUND!</a>, in the spirit of
+  <a href="https://en.wikipedia.org/wiki/We_Are_Hunted">We Are Hunted</a>.
+</footer>
 
 <script>
   // seq is always a plain integer, 1-based. Hue cycles through the 7-color
@@ -115,6 +117,17 @@
   function formatDate(iso) {
     const [y, m, d] = iso.split('-');
     return `${m}.${d}.${y}`;
+  }
+
+  // Hard cap so a long real repo description can't push the SIGNAL/date
+  // footer out of the fixed-square card. Truncates at the last whole word
+  // inside the budget, never mid-word.
+  const DESC_MAX = 92;
+  function truncate(str, max) {
+    if (str.length <= max) return str;
+    const cut = str.slice(0, max);
+    const lastSpace = cut.lastIndexOf(' ');
+    return (lastSpace > 40 ? cut.slice(0, lastSpace) : cut) + '…';
   }
 
   async function init() {
@@ -175,7 +188,7 @@
         a.innerHTML = `
           <div class="card-body">
             <div class="card-tag">${e.name}</div>
-            <div class="card-desc">${e.description}</div>
+            <div class="card-desc">${truncate(e.description, DESC_MAX)}</div>
           </div>
           <div class="card-foot"><span>SIGNAL ${String(e.seq).padStart(2,'0')}</span><span>${formatDate(e.date_found)}</span></div>
         `;
