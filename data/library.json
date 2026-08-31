@@ -1,0 +1,110 @@
+{
+  "tags": [
+    { "slug": "ai-agents", "name": "AI & Agents" },
+    { "slug": "design-visual", "name": "Design & Visual Tools" },
+    { "slug": "data-viz", "name": "Data Visualization" },
+    { "slug": "creative-coding", "name": "Creative Coding" },
+    { "slug": "video-motion", "name": "Video & Motion" },
+    { "slug": "agent-practice", "name": "Agent Practice" }
+  ],
+  "colors": [
+    { "seq": 1, "hex": "#A8362B", "name": "Brick" },
+    { "seq": 2, "hex": "#C06A2E", "name": "Ember" },
+    { "seq": 3, "hex": "#C79A2E", "name": "Ochre" },
+    { "seq": 4, "hex": "#3F6B4A", "name": "Moss" },
+    { "seq": 4.5, "hex": "#2E7A5F", "name": "Pine" },
+    { "seq": 5, "hex": "#2C5A82", "name": "Cerulean" },
+    { "seq": 6, "hex": "#3A3A72", "name": "Indigo" },
+    { "seq": 7, "hex": "#6B3A5E", "name": "Plum" }
+  ],
+  "entries": [
+    {
+      "id": "genart-skill-20260831",
+      "repo": "camilleroux/genart-skill",
+      "name": "genart-skill",
+      "url": "https://github.com/camilleroux/genart-skill",
+      "description": "Deterministic, hash-seeded generative art skill for Claude Code",
+      "tags": ["creative-coding"],
+      "stars": 106,
+      "date_found": "2026-08-31",
+      "seq": 1
+    },
+    {
+      "id": "forward-implementation-first-20260831",
+      "repo": "Vuk97/forward-implementation-first",
+      "name": "forward-implementation-first",
+      "url": "https://github.com/Vuk97/forward-implementation-first",
+      "description": "Stops coding agents from stalling on self-invented verification busywork — ship, then verify",
+      "tags": ["agent-practice"],
+      "stars": 149,
+      "date_found": "2026-08-31",
+      "seq": 2
+    },
+    {
+      "id": "open-steps-20260831",
+      "repo": "kharmanskyi/open-steps",
+      "name": "open-steps",
+      "url": "https://github.com/kharmanskyi/open-steps",
+      "description": "Translates a coding agent's output into plain, honest, followable reports",
+      "tags": ["agent-practice"],
+      "stars": 134,
+      "date_found": "2026-08-31",
+      "seq": 3
+    },
+    {
+      "id": "jantt-20260831",
+      "repo": "AhmadHassan-BTed/Jantt",
+      "name": "Jantt",
+      "url": "https://github.com/AhmadHassan-BTed/Jantt",
+      "description": "AI-native JSON Gantt chart engine with a topological DAG solver",
+      "tags": ["data-viz"],
+      "stars": 10,
+      "date_found": "2026-08-31",
+      "seq": 4
+    },
+    {
+      "id": "design-extractor-20260831",
+      "repo": "harebeats/design-extractor",
+      "name": "design-extractor",
+      "url": "https://github.com/harebeats/design-extractor",
+      "description": "Extracts a live site's full design — HTML, computed styles, hover and keyframe states — for an AI agent to reuse",
+      "tags": ["design-visual"],
+      "stars": 2,
+      "date_found": "2026-08-31",
+      "seq": 4.5
+    },
+    {
+      "id": "beatscope-20260831",
+      "repo": "chosuicide/beatscope",
+      "name": "beatscope",
+      "url": "https://github.com/chosuicide/beatscope",
+      "description": "Turns raw audio into reusable rhythm maps for visual creators and coding agents",
+      "tags": ["creative-coding"],
+      "stars": 47,
+      "date_found": "2026-08-31",
+      "seq": 5
+    },
+    {
+      "id": "opengrok-20260831",
+      "repo": "OnlyTerp/opengrok",
+      "name": "opengrok",
+      "url": "https://github.com/OnlyTerp/opengrok",
+      "description": "One-command setup to run any model in Grok Bot, with a model picker and provider wire maps",
+      "tags": ["ai-agents"],
+      "stars": 389,
+      "date_found": "2026-08-31",
+      "seq": 6
+    },
+    {
+      "id": "ukiyoe-picture-skill-20260831",
+      "repo": "cakeni/ukiyoe-picture-skill",
+      "name": "ukiyoe-picture-skill",
+      "url": "https://github.com/cakeni/ukiyoe-picture-skill",
+      "description": "Generates ukiyo-e and woodblock-print style artwork as a Claude Code skill",
+      "tags": ["creative-coding"],
+      "stars": 2,
+      "date_found": "2026-08-31",
+      "seq": 7
+    }
+  ]
+}
