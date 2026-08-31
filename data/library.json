@@ -8,15 +8,15 @@
     { "slug": "agent-practice", "name": "Agent Practice" }
   ],
   "colors": [
-    { "seq": 1, "hex": "#A8362B", "name": "Brick" },
-    { "seq": 2, "hex": "#C06A2E", "name": "Ember" },
-    { "seq": 3, "hex": "#C79A2E", "name": "Ochre" },
-    { "seq": 4, "hex": "#3F6B4A", "name": "Moss" },
-    { "seq": 4.5, "hex": "#2E7A5F", "name": "Pine" },
-    { "seq": 5, "hex": "#2C5A82", "name": "Cerulean" },
-    { "seq": 6, "hex": "#3A3A72", "name": "Indigo" },
-    { "seq": 7, "hex": "#6B3A5E", "name": "Plum" }
+    { "hue": "red", "name": "Brick", "variants": ["#A8362B"] },
+    { "hue": "orange", "name": "Ember", "variants": ["#C06A2E"] },
+    { "hue": "yellow", "name": "Ochre", "variants": ["#C79A2E"], "onLight": true },
+    { "hue": "green", "name": "Moss", "variants": ["#3F6B4A", "#2E7A5F"] },
+    { "hue": "blue", "name": "Cerulean", "variants": ["#2C5A82"] },
+    { "hue": "indigo", "name": "Indigo", "variants": ["#3A3A72"] },
+    { "hue": "violet", "name": "Plum", "variants": ["#6B3A5E"] }
   ],
+  "next_seq": 9,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -71,7 +71,7 @@
       "tags": ["design-visual"],
       "stars": 2,
       "date_found": "2026-08-31",
-      "seq": 4.5
+      "seq": 5
     },
     {
       "id": "beatscope-20260831",
@@ -82,7 +82,7 @@
       "tags": ["creative-coding"],
       "stars": 47,
       "date_found": "2026-08-31",
-      "seq": 5
+      "seq": 6
     },
     {
       "id": "opengrok-20260831",
@@ -93,7 +93,7 @@
       "tags": ["ai-agents"],
       "stars": 389,
       "date_found": "2026-08-31",
-      "seq": 6
+      "seq": 7
     },
     {
       "id": "ukiyoe-picture-skill-20260831",
@@ -104,7 +104,7 @@
       "tags": ["creative-coding"],
       "stars": 2,
       "date_found": "2026-08-31",
-      "seq": 7
+      "seq": 8
     }
   ]
 }

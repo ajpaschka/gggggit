@@ -96,20 +96,20 @@
 </div>
 
 <script>
-  // `onLight: true` = this hue fails WCAG contrast with the default cream
-  // text (checked directly: ochre #C79A2E against #FBF6EA measures ~2.4:1,
-  // below the 3:1 floor for large bold text) — those cards get dark ink
-  // text instead via the .on-light class, not a guess.
-  const COLOR_SEQ = [
-    { hex: '#A8362B' }, { hex: '#C06A2E' }, { hex: '#C79A2E', onLight: true }, { hex: '#3F6B4A' },
-    { hex: '#2E7A5F' }, { hex: '#2C5A82' }, { hex: '#3A3A72' }, { hex: '#6B3A5E' }
-  ];
-
-  function colorForSeq(seq) {
-    // seq values like 4.5 (a "variation") land between their neighbors —
-    // just floor to the base slot for color purposes.
-    const idx = ((Math.floor(seq - 1) % COLOR_SEQ.length) + COLOR_SEQ.length) % COLOR_SEQ.length;
-    return COLOR_SEQ[idx];
+  // seq is always a plain integer, 1-based. Hue cycles through the 7-color
+  // ROYGBIV wheel every 7 entries (`hueIdx`); `lap` counts how many times
+  // the wheel has gone around, and picks which real variant of that hue's
+  // family to use — cycling through available variants, never crashing if
+  // a hue only has one. `onLight: true` on a hue (set from real WCAG
+  // contrast checks, not guessed) means that card gets dark ink text
+  // instead of the default cream via the .on-light class.
+  function colorForSeq(seq, palette) {
+    const n = palette.length;
+    const hueIdx = ((seq - 1) % n + n) % n;
+    const lap = Math.floor((seq - 1) / n);
+    const hue = palette[hueIdx];
+    const variant = hue.variants[lap % hue.variants.length];
+    return { hex: variant, onLight: !!hue.onLight, hueName: hue.name };
   }
 
   function formatDate(iso) {
@@ -167,7 +167,7 @@
       }
 
       entries.forEach(e => {
-        const color = colorForSeq(e.seq);
+        const color = colorForSeq(e.seq, data.colors);
         const a = document.createElement('a');
         a.href = e.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
         a.className = 'card' + (color.onLight ? ' on-light' : '');
@@ -177,7 +177,7 @@
             <div class="card-tag">${e.name}</div>
             <div class="card-desc">${e.description}</div>
           </div>
-          <div class="card-foot"><span>SIGNAL ${String(Math.floor(e.seq)).padStart(2,'0')}${e.seq % 1 !== 0 ? 'v' : ''}</span><span>${formatDate(e.date_found)}</span></div>
+          <div class="card-foot"><span>SIGNAL ${String(e.seq).padStart(2,'0')}</span><span>${formatDate(e.date_found)}</span></div>
         `;
         grid.appendChild(a);
       });
