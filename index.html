@@ -268,7 +268,7 @@
     const counts = { all: data.entries.length };
     data.tags.forEach(t => { counts[t.slug] = data.entries.filter(e => e.tags.includes(t.slug)).length; });
 
-    // "hhhhhhearts" — same repeated-letter naming convention as the site
+    // "Hhhhhearts" — same repeated-letter naming convention as the site
     // itself. Only shown when signed in, since it's a personal filter,
     // not a real tag on the shared library data. If the active filter is
     // 'hearts' and the user signs out, there's nothing valid left to show
@@ -297,7 +297,7 @@
 
       if (currentUser) {
         const heartsBtn = document.createElement('button');
-        heartsBtn.textContent = 'hhhhhhearts';
+        heartsBtn.textContent = 'Hhhhhearts';
         heartsBtn.dataset.tag = 'hearts';
         const hc = document.createElement('span');
         hc.className = 'count'; hc.textContent = `(${myHearts.size})`;
