@@ -6,6 +6,7 @@
 <title>gggggit — a tagged library of real, trending GitHub repos</title>
 <meta name="description" content="A tagged, growing library of trending GitHub repos worth knowing about — design, AI, visualization, video, code, and agent practice. Not a feed. Nothing expires.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <style>
   :root {
     --page-bg: #FAF9F6;
@@ -35,10 +36,23 @@
   body { margin: 0; background: var(--page-bg); color: var(--page-ink); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .text-wrap { max-width: 1180px; margin: 0 auto; padding: 48px 24px 34px; }
 
-  header { max-width: 680px; margin-bottom: 34px; }
-  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--page-sub); margin-bottom: 12px; }
-  h1 { font-size: clamp(30px, 4.2vw, 44px); font-weight: 900; line-height: 1.08; margin: 0 0 14px; letter-spacing: -0.01em; }
+  header { margin-bottom: 34px; }
+  .header-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 12px; }
+  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--page-sub); }
+  h1 { font-size: clamp(30px, 4.2vw, 44px); font-weight: 900; line-height: 1.08; margin: 0 0 14px; letter-spacing: -0.01em; max-width: 680px; }
   header p { font-size: 15px; line-height: 1.65; color: var(--page-sub); margin: 0; font-weight: 500; max-width: 56ch; }
+
+  .auth-area { display: flex; align-items: center; gap: 10px; }
+  .auth-btn {
+    font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.03em;
+    background: var(--pill-active-bg); color: var(--pill-active-ink); border: none;
+    border-radius: 999px; padding: 9px 16px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  }
+  .auth-btn svg { width: 14px; height: 14px; fill: currentColor; }
+  .auth-user { display: flex; align-items: center; gap: 8px; }
+  .auth-user img { width: 26px; height: 26px; border-radius: 50%; }
+  .auth-user span { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--page-sub); }
+  .auth-signout { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--page-sub); background: none; border: none; cursor: pointer; text-decoration: underline; padding: 0; }
 
   nav.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 30px 0 0; }
   nav.tags button {
@@ -72,6 +86,19 @@
   .card.on-light, .card.on-light .card-desc, .card.on-light .card-tag { color: #16140F; }
   .card.on-light .card-foot { color: #16140F; background: rgba(0,0,0,0.08); border-top-color: rgba(0,0,0,0.12); }
 
+  .heart-btn {
+    position: absolute; top: 8px; right: 8px; z-index: 2;
+    display: flex; align-items: center; gap: 4px;
+    background: rgba(0,0,0,0.22); border: none; border-radius: 999px;
+    padding: 5px 9px; cursor: pointer; font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; font-weight: 600; color: #FBF6EA; line-height: 1;
+  }
+  .card.on-light .heart-btn { background: rgba(255,255,255,0.35); color: #16140F; }
+  .heart-btn svg { width: 13px; height: 13px; }
+  .heart-btn .heart-fill { fill: none; stroke: currentColor; stroke-width: 2; }
+  .heart-btn.hearted .heart-fill { fill: currentColor; stroke: currentColor; }
+  .heart-btn:disabled { cursor: default; opacity: 0.85; }
+
   .empty { grid-column: 1 / -1; font-size: 14px; color: var(--page-sub); padding: 40px 0; text-align: center; }
 
   footer { margin-top: 4px; padding: 26px 24px 90px; border-top: 1px solid var(--page-line); font-size: 13px; color: var(--page-sub); line-height: 1.6; max-width: 1180px; margin-left: auto; margin-right: auto; }
@@ -81,9 +108,12 @@
 <body>
 <div class="text-wrap">
   <header>
-    <div class="kicker">A tagged library, not a feed</div>
+    <div class="header-top">
+      <div class="kicker">A tagged library, not a feed</div>
+      <div class="auth-area" id="authArea"></div>
+    </div>
     <h1>gggggit</h1>
-    <p>Real repos, found by a script that actually searches GitHub every week — not invented, not padded. Everything stays here permanently, browsable by tag. Nothing expires.</p>
+    <p>Real repos, found by a script that actually searches GitHub every week — not invented, not padded. Everything stays here permanently, browsable by tag. Nothing expires. Sign in with GitHub to heart the ones worth remembering.</p>
   </header>
 
   <nav class="tags" id="tagNav" aria-label="Filter by tag"></nav>
@@ -130,6 +160,94 @@
     return (lastSpace > 40 ? cut.slice(0, lastSpace) : cut) + '…';
   }
 
+  // Public anon key — safe to embed client-side by design, protected only
+  // by RLS on the server. See supabase/migrations/ in this repo for the
+  // schema: hearts is per-user, private (RLS: own rows only); heart_counts
+  // is the one public aggregate, exposing counts, never who-hearted-what.
+  const SUPABASE_URL = 'https://jelfnsfpqrajjueguyvp.supabase.co';
+  const SUPABASE_ANON_KEY = 'sb_publishable_v4npo7LGYmW6Ff3PpVIQMQ_dlnfMN82';
+
+  let sb = null;
+  try {
+    sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  } catch (e) {
+    console.warn('Supabase client failed to init — hearts disabled, library still works.', e);
+  }
+
+  let currentUser = null;
+  let heartCounts = {};      // repo -> count, public, always loaded
+  let myHearts = new Set();  // repo set, only populated when signed in
+
+  function renderAuthArea() {
+    const el = document.getElementById('authArea');
+    if (!sb) { el.innerHTML = ''; return; }
+    if (currentUser) {
+      const meta = currentUser.user_metadata || {};
+      const avatar = meta.avatar_url ? `<img src="${meta.avatar_url}" alt="">` : '';
+      const name = meta.user_name || meta.full_name || 'signed in';
+      el.innerHTML = `
+        <div class="auth-user">
+          ${avatar}
+          <span>${name}</span>
+          <button class="auth-signout" id="signOutBtn">sign out</button>
+        </div>`;
+      document.getElementById('signOutBtn').addEventListener('click', () => sb.auth.signOut());
+    } else {
+      el.innerHTML = `
+        <button class="auth-btn" id="signInBtn">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          Sign in with GitHub
+        </button>`;
+      document.getElementById('signInBtn').addEventListener('click', () => {
+        sb.auth.signInWithOAuth({ provider: 'github', options: { redirectTo: window.location.href } });
+      });
+    }
+  }
+
+  async function loadHeartCounts() {
+    if (!sb) return;
+    const { data: rows, error } = await sb.from('heart_counts').select('repo, hearts');
+    if (error) { console.warn('heart_counts fetch failed', error); return; }
+    heartCounts = Object.fromEntries(rows.map(r => [r.repo, r.hearts]));
+  }
+
+  async function loadMyHearts() {
+    myHearts = new Set();
+    if (!sb || !currentUser) return;
+    const { data: rows, error } = await sb.from('hearts').select('repo');
+    if (error) { console.warn('hearts fetch failed', error); return; }
+    myHearts = new Set(rows.map(r => r.repo));
+  }
+
+  async function toggleHeart(repo, btn) {
+    if (!sb) return;
+    if (!currentUser) {
+      sb.auth.signInWithOAuth({ provider: 'github', options: { redirectTo: window.location.href } });
+      return;
+    }
+    btn.disabled = true;
+    const already = myHearts.has(repo);
+    try {
+      if (already) {
+        const { error } = await sb.from('hearts').delete().eq('repo', repo).eq('user_id', currentUser.id);
+        if (error) throw error;
+        myHearts.delete(repo);
+        heartCounts[repo] = Math.max(0, (heartCounts[repo] || 1) - 1);
+      } else {
+        const { error } = await sb.from('hearts').insert({ repo, user_id: currentUser.id });
+        if (error) throw error;
+        myHearts.add(repo);
+        heartCounts[repo] = (heartCounts[repo] || 0) + 1;
+      }
+    } catch (e) {
+      console.warn('heart toggle failed', e);
+    }
+    btn.disabled = false;
+    renderCurrent();
+  }
+
+  let renderCurrent = () => {};
+
   async function init() {
     let data;
     try {
@@ -140,6 +258,20 @@
         '<div class="empty">Could not load the library data. If you\'re viewing this file directly, serve it over http instead — fetch() needs a real server, not file://.</div>';
       return;
     }
+
+    if (sb) {
+      const { data: { session } } = await sb.auth.getSession();
+      currentUser = session?.user || null;
+      sb.auth.onAuthStateChange(async (_event, session) => {
+        currentUser = session?.user || null;
+        renderAuthArea();
+        await loadMyHearts();
+        renderCurrent();
+      });
+    }
+    renderAuthArea();
+    await loadHeartCounts();
+    await loadMyHearts();
 
     const tagMeta = Object.fromEntries(data.tags.map(t => [t.slug, t.name]));
     const nav = document.getElementById('tagNav');
@@ -168,7 +300,10 @@
       nav.appendChild(btn);
     });
 
+    let activeTagState = 'all';
+
     function render(activeTag) {
+      activeTagState = activeTag;
       grid.innerHTML = '';
       const entries = data.entries
         .filter(e => activeTag === 'all' || e.tags.includes(activeTag))
@@ -185,16 +320,38 @@
         a.href = e.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
         a.className = 'card' + (color.onLight ? ' on-light' : '');
         a.style.background = color.hex;
+
+        const count = heartCounts[e.repo] || 0;
+        const isHearted = myHearts.has(e.repo);
+        const heartHTML = sb ? `
+          <button class="heart-btn${isHearted ? ' hearted' : ''}" data-repo="${e.repo}" aria-label="Heart this entry" title="${count} heart${count === 1 ? '' : 's'}">
+            <svg viewBox="0 0 16 16"><path class="heart-fill" d="M8 14s-5.5-3.36-5.5-7.28C2.5 4.5 4.2 3 6 3c.9 0 1.6.4 2 1 .4-.6 1.1-1 2-1 1.8 0 3.5 1.5 3.5 3.72C13.5 10.64 8 14 8 14Z"/></svg>
+            <span>${count}</span>
+          </button>` : '';
+
         a.innerHTML = `
+          ${heartHTML}
           <div class="card-body">
             <div class="card-tag">${e.name}</div>
             <div class="card-desc">${truncate(e.description, DESC_MAX)}</div>
           </div>
           <div class="card-foot"><span>SIGNAL ${String(e.seq).padStart(2,'0')}</span><span>${formatDate(e.date_found)}</span></div>
         `;
+
+        const heartBtn = a.querySelector('.heart-btn');
+        if (heartBtn) {
+          heartBtn.addEventListener('click', (evt) => {
+            evt.preventDefault();
+            evt.stopPropagation();
+            toggleHeart(e.repo, heartBtn);
+          });
+        }
+
         grid.appendChild(a);
       });
     }
+
+    renderCurrent = () => render(activeTagState);
 
     nav.addEventListener('click', (evt) => {
       const btn = evt.target.closest('button');
