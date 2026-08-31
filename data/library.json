@@ -1,22 +1,84 @@
 {
   "tags": [
-    { "slug": "ai-agents", "name": "AI & Agents" },
-    { "slug": "design-visual", "name": "Design & Visual Tools" },
-    { "slug": "data-viz", "name": "Data Visualization" },
-    { "slug": "creative-coding", "name": "Creative Coding" },
-    { "slug": "video-motion", "name": "Video & Motion" },
-    { "slug": "agent-practice", "name": "Agent Practice" }
+    {
+      "slug": "ai-agents",
+      "name": "AI & Agents"
+    },
+    {
+      "slug": "design-visual",
+      "name": "Design & Visual Tools"
+    },
+    {
+      "slug": "data-viz",
+      "name": "Data Visualization"
+    },
+    {
+      "slug": "creative-coding",
+      "name": "Creative Coding"
+    },
+    {
+      "slug": "video-motion",
+      "name": "Video & Motion"
+    },
+    {
+      "slug": "agent-practice",
+      "name": "Agent Practice"
+    }
   ],
   "colors": [
-    { "hue": "red", "name": "Brick", "variants": ["#A8362B"] },
-    { "hue": "orange", "name": "Ember", "variants": ["#C06A2E"] },
-    { "hue": "yellow", "name": "Ochre", "variants": ["#C79A2E"], "onLight": true },
-    { "hue": "green", "name": "Moss", "variants": ["#3F6B4A", "#2E7A5F"] },
-    { "hue": "blue", "name": "Cerulean", "variants": ["#2C5A82"] },
-    { "hue": "indigo", "name": "Indigo", "variants": ["#3A3A72"] },
-    { "hue": "violet", "name": "Plum", "variants": ["#6B3A5E"] }
+    {
+      "hue": "red",
+      "name": "Brick",
+      "variants": [
+        "#A8362B"
+      ]
+    },
+    {
+      "hue": "orange",
+      "name": "Ember",
+      "variants": [
+        "#C06A2E"
+      ]
+    },
+    {
+      "hue": "yellow",
+      "name": "Ochre",
+      "variants": [
+        "#C79A2E"
+      ],
+      "onLight": true
+    },
+    {
+      "hue": "green",
+      "name": "Moss",
+      "variants": [
+        "#3F6B4A",
+        "#2E7A5F"
+      ]
+    },
+    {
+      "hue": "blue",
+      "name": "Cerulean",
+      "variants": [
+        "#2C5A82"
+      ]
+    },
+    {
+      "hue": "indigo",
+      "name": "Indigo",
+      "variants": [
+        "#3A3A72"
+      ]
+    },
+    {
+      "hue": "violet",
+      "name": "Plum",
+      "variants": [
+        "#6B3A5E"
+      ]
+    }
   ],
-  "next_seq": 9,
+  "next_seq": 22,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -24,7 +86,9 @@
       "name": "genart-skill",
       "url": "https://github.com/camilleroux/genart-skill",
       "description": "Deterministic, hash-seeded generative art skill for Claude Code",
-      "tags": ["creative-coding"],
+      "tags": [
+        "creative-coding"
+      ],
       "stars": 106,
       "date_found": "2026-08-31",
       "seq": 1
@@ -34,8 +98,10 @@
       "repo": "Vuk97/forward-implementation-first",
       "name": "forward-implementation-first",
       "url": "https://github.com/Vuk97/forward-implementation-first",
-      "description": "Stops coding agents from stalling on self-invented verification busywork — ship, then verify",
-      "tags": ["agent-practice"],
+      "description": "Stops coding agents from stalling on self-invented verification busywork \u2014 ship, then verify",
+      "tags": [
+        "agent-practice"
+      ],
       "stars": 149,
       "date_found": "2026-08-31",
       "seq": 2
@@ -46,7 +112,9 @@
       "name": "open-steps",
       "url": "https://github.com/kharmanskyi/open-steps",
       "description": "Translates a coding agent's output into plain, honest, followable reports",
-      "tags": ["agent-practice"],
+      "tags": [
+        "agent-practice"
+      ],
       "stars": 134,
       "date_found": "2026-08-31",
       "seq": 3
@@ -57,7 +125,9 @@
       "name": "Jantt",
       "url": "https://github.com/AhmadHassan-BTed/Jantt",
       "description": "AI-native JSON Gantt chart engine with a topological DAG solver",
-      "tags": ["data-viz"],
+      "tags": [
+        "data-viz"
+      ],
       "stars": 10,
       "date_found": "2026-08-31",
       "seq": 4
@@ -67,8 +137,10 @@
       "repo": "harebeats/design-extractor",
       "name": "design-extractor",
       "url": "https://github.com/harebeats/design-extractor",
-      "description": "Extracts a live site's full design — HTML, computed styles, hover and keyframe states — for an AI agent to reuse",
-      "tags": ["design-visual"],
+      "description": "Extracts a live site's full design \u2014 HTML, computed styles, hover and keyframe states \u2014 for an AI agent to reuse",
+      "tags": [
+        "design-visual"
+      ],
       "stars": 2,
       "date_found": "2026-08-31",
       "seq": 5
@@ -79,7 +151,9 @@
       "name": "beatscope",
       "url": "https://github.com/chosuicide/beatscope",
       "description": "Turns raw audio into reusable rhythm maps for visual creators and coding agents",
-      "tags": ["creative-coding"],
+      "tags": [
+        "creative-coding"
+      ],
       "stars": 47,
       "date_found": "2026-08-31",
       "seq": 6
@@ -90,7 +164,9 @@
       "name": "opengrok",
       "url": "https://github.com/OnlyTerp/opengrok",
       "description": "One-command setup to run any model in Grok Bot, with a model picker and provider wire maps",
-      "tags": ["ai-agents"],
+      "tags": [
+        "ai-agents"
+      ],
       "stars": 389,
       "date_found": "2026-08-31",
       "seq": 7
@@ -101,10 +177,181 @@
       "name": "ukiyoe-picture-skill",
       "url": "https://github.com/cakeni/ukiyoe-picture-skill",
       "description": "Generates ukiyo-e and woodblock-print style artwork as a Claude Code skill",
-      "tags": ["creative-coding"],
+      "tags": [
+        "creative-coding"
+      ],
       "stars": 2,
       "date_found": "2026-08-31",
       "seq": 8
+    },
+    {
+      "id": "codex-with-chatgpt-20260831",
+      "repo": "XiaoDuoYa/codex-with-chatgpt",
+      "name": "codex-with-chatgpt",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "description": "Separates planning (ChatGPT) from execution (Codex harness) in autonomous coding workflows",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 1712,
+      "date_found": "2026-08-31",
+      "seq": 9
+    },
+    {
+      "id": "acryl-20260831",
+      "repo": "acryldev/acryl",
+      "name": "acryl",
+      "url": "https://github.com/acryldev/acryl",
+      "description": "Agent Context Relay Yielding Lifecycles \u2014 one persistent workspace, one canonical context, any coding agent",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 231,
+      "date_found": "2026-08-31",
+      "seq": 10
+    },
+    {
+      "id": "OpenInstinct-20260831",
+      "repo": "Merit-Systems/OpenInstinct",
+      "name": "OpenInstinct",
+      "url": "https://github.com/Merit-Systems/OpenInstinct",
+      "description": "iMessage personal assistant and password vault",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 219,
+      "date_found": "2026-08-31",
+      "seq": 11
+    },
+    {
+      "id": "cohesive-colors-20260831",
+      "repo": "Cohesive-Colors/cohesive-colors.github.io",
+      "name": "cohesive-colors",
+      "url": "https://github.com/Cohesive-Colors/cohesive-colors.github.io",
+      "description": "Color palette explorer and generator \u2014 480 curated palettes of 3 to 10 colors, harmonised in OKLCH",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-08-31",
+      "seq": 12
+    },
+    {
+      "id": "kroppix-20260831",
+      "repo": "MatheusDevlog/kroppix",
+      "name": "kroppix",
+      "url": "https://github.com/MatheusDevlog/kroppix",
+      "description": "Local, offline design tool \u2014 remove backgrounds, vectorize images to SVG, upscale 2x/4x \u2014 Python, pywebview, React",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-08-31",
+      "seq": 13
+    },
+    {
+      "id": "ibcs-react-20260831",
+      "repo": "NibelungAI/ibcs-react",
+      "name": "ibcs-react",
+      "url": "https://github.com/NibelungAI/ibcs-react",
+      "description": "ISO 24896 business-reporting components for React \u2014 charts, tables, KPIs, zero dependency",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-08-31",
+      "seq": 14
+    },
+    {
+      "id": "machine-vision-20260831",
+      "repo": "amirmushichge/machine-vision",
+      "name": "machine-vision",
+      "url": "https://github.com/amirmushichge/machine-vision",
+      "description": "Browser-based procedural machine-vision graphics for local video playback",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 50,
+      "date_found": "2026-08-31",
+      "seq": 15
+    },
+    {
+      "id": "fayaaa-20260831",
+      "repo": "Xblueprintlab/fayaaa",
+      "name": "fayaaa",
+      "url": "https://github.com/Xblueprintlab/fayaaa",
+      "description": "Shape-aware WebGPU playground for turning images, text, and marks into living fire",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-08-31",
+      "seq": 16
+    },
+    {
+      "id": "zing-world-model-20260831",
+      "repo": "seedleap/zing-world-model",
+      "name": "zing-world-model",
+      "url": "https://github.com/seedleap/zing-world-model",
+      "description": "Zing-0.5: an efficient, real-time interactive world model for generative environments",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 123,
+      "date_found": "2026-08-31",
+      "seq": 17
+    },
+    {
+      "id": "short-drama-production-20260831",
+      "repo": "suihe1/short-drama-production",
+      "name": "short-drama-production",
+      "url": "https://github.com/suihe1/short-drama-production",
+      "description": "AI short-form drama production skill \u2014 storyboarding, MiniMax H3, sound assets, QC, vertical-format output",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 21,
+      "date_found": "2026-08-31",
+      "seq": 18
+    },
+    {
+      "id": "ComfyUI_MiniMaxH3_Smart_Director-20260831",
+      "repo": "Kiwi-shijie/ComfyUI_MiniMaxH3_Smart_Director",
+      "name": "ComfyUI_MiniMaxH3_Smart_Director",
+      "url": "https://github.com/Kiwi-shijie/ComfyUI_MiniMaxH3_Smart_Director",
+      "description": "ComfyUI smart director \u2014 storyboard planning, LLM-powered prompt optimization, MiniMax H3, visual preview, upscale",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 12,
+      "date_found": "2026-08-31",
+      "seq": 19
+    },
+    {
+      "id": "ai-short-drama-skill-20260831",
+      "repo": "xixihhhh/ai-short-drama-skill",
+      "name": "ai-short-drama-skill",
+      "url": "https://github.com/xixihhhh/ai-short-drama-skill",
+      "description": "Dramake skill for Codex/Claude Code \u2014 turns text into short-form AI drama with storyboard, generation, voiceover, and QC",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 8,
+      "date_found": "2026-08-31",
+      "seq": 20
+    },
+    {
+      "id": "LayerRecall-20260831",
+      "repo": "Yixuan-Ding-ZJU/LayerRecall",
+      "name": "LayerRecall",
+      "url": "https://github.com/Yixuan-Ding-ZJU/LayerRecall",
+      "description": "State-conditioned memory router for long-horizon consistency in video generation",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 7,
+      "date_found": "2026-08-31",
+      "seq": 21
     }
   ]
 }
