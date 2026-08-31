@@ -243,10 +243,12 @@
       console.warn('heart toggle failed', e);
     }
     btn.disabled = false;
+    renderNavCurrent();
     renderCurrent();
   }
 
   let renderCurrent = () => {};
+  let renderNavCurrent = () => {};
 
   async function init() {
     let data;
@@ -259,6 +261,55 @@
       return;
     }
 
+    const nav = document.getElementById('tagNav');
+    const grid = document.getElementById('grid');
+    let activeTagState = 'all';
+
+    const counts = { all: data.entries.length };
+    data.tags.forEach(t => { counts[t.slug] = data.entries.filter(e => e.tags.includes(t.slug)).length; });
+
+    // "hhhhhhearts" — same repeated-letter naming convention as the site
+    // itself. Only shown when signed in, since it's a personal filter,
+    // not a real tag on the shared library data. If the active filter is
+    // 'hearts' and the user signs out, there's nothing valid left to show
+    // — fall back to 'all' rather than leaving a filter with no meaning.
+    function renderNav() {
+      nav.innerHTML = '';
+
+      const allBtn = document.createElement('button');
+      allBtn.textContent = 'All';
+      allBtn.dataset.tag = 'all';
+      const allCount = document.createElement('span');
+      allCount.className = 'count'; allCount.textContent = `(${counts.all})`;
+      allBtn.appendChild(allCount);
+      nav.appendChild(allBtn);
+
+      data.tags.forEach(t => {
+        if (counts[t.slug] === 0) return; // don't show empty tags in the nav
+        const btn = document.createElement('button');
+        btn.textContent = t.name;
+        btn.dataset.tag = t.slug;
+        const c = document.createElement('span');
+        c.className = 'count'; c.textContent = `(${counts[t.slug]})`;
+        btn.appendChild(c);
+        nav.appendChild(btn);
+      });
+
+      if (currentUser) {
+        const heartsBtn = document.createElement('button');
+        heartsBtn.textContent = 'hhhhhhearts';
+        heartsBtn.dataset.tag = 'hearts';
+        const hc = document.createElement('span');
+        hc.className = 'count'; hc.textContent = `(${myHearts.size})`;
+        heartsBtn.appendChild(hc);
+        nav.appendChild(heartsBtn);
+      } else if (activeTagState === 'hearts') {
+        activeTagState = 'all';
+      }
+
+      nav.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.tag === activeTagState));
+    }
+
     if (sb) {
       const { data: { session } } = await sb.auth.getSession();
       currentUser = session?.user || null;
@@ -266,51 +317,26 @@
         currentUser = session?.user || null;
         renderAuthArea();
         await loadMyHearts();
+        renderNav();
         renderCurrent();
       });
     }
     renderAuthArea();
     await loadHeartCounts();
     await loadMyHearts();
-
-    const tagMeta = Object.fromEntries(data.tags.map(t => [t.slug, t.name]));
-    const nav = document.getElementById('tagNav');
-    const grid = document.getElementById('grid');
-
-    const counts = { all: data.entries.length };
-    data.tags.forEach(t => { counts[t.slug] = data.entries.filter(e => e.tags.includes(t.slug)).length; });
-
-    const allBtn = document.createElement('button');
-    allBtn.textContent = 'All';
-    allBtn.dataset.tag = 'all';
-    allBtn.classList.add('active');
-    const allCount = document.createElement('span');
-    allCount.className = 'count'; allCount.textContent = `(${counts.all})`;
-    allBtn.appendChild(allCount);
-    nav.appendChild(allBtn);
-
-    data.tags.forEach(t => {
-      if (counts[t.slug] === 0) return; // don't show empty tags in the nav
-      const btn = document.createElement('button');
-      btn.textContent = t.name;
-      btn.dataset.tag = t.slug;
-      const c = document.createElement('span');
-      c.className = 'count'; c.textContent = `(${counts[t.slug]})`;
-      btn.appendChild(c);
-      nav.appendChild(btn);
-    });
-
-    let activeTagState = 'all';
+    renderNav();
 
     function render(activeTag) {
       activeTagState = activeTag;
       grid.innerHTML = '';
       const entries = data.entries
-        .filter(e => activeTag === 'all' || e.tags.includes(activeTag))
+        .filter(e => activeTag === 'all' || (activeTag === 'hearts' ? myHearts.has(e.repo) : e.tags.includes(activeTag)))
         .sort((a, b) => new Date(b.date_found) - new Date(a.date_found) || b.seq - a.seq);
 
       if (entries.length === 0) {
-        grid.innerHTML = '<div class="empty">Nothing tagged this way yet.</div>';
+        grid.innerHTML = activeTag === 'hearts'
+          ? '<div class="empty">Nothing hearted yet — click the heart on any entry to save it here.</div>'
+          : '<div class="empty">Nothing tagged this way yet.</div>';
         return;
       }
 
@@ -352,6 +378,7 @@
     }
 
     renderCurrent = () => render(activeTagState);
+    renderNavCurrent = () => renderNav();
 
     nav.addEventListener('click', (evt) => {
       const btn = evt.target.closest('button');
