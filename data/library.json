@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 22,
+  "next_seq": 33,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -352,6 +352,154 @@
       "stars": 7,
       "date_found": "2026-08-31",
       "seq": 21
+    },
+    {
+      "id": "UseAgent-20260901",
+      "repo": "useagenthq/useagent",
+      "name": "UseAgent",
+      "url": "https://github.com/useagenthq/useagent",
+      "description": "Open-source cloud-backed AI coworker: agents with isolated compute, your tools and context, autonomous deliverables (websites, decks, spreadsheets, reports, PRs).",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 245,
+      "date_found": "2026-09-01",
+      "seq": 22
+    },
+    {
+      "id": "CDAF (Cached Descriptive Asset Files)-20260901",
+      "repo": "UditAkhourii/cdaf",
+      "name": "CDAF (Cached Descriptive Asset Files)",
+      "url": "https://github.com/UditAkhourii/cdaf",
+      "description": "Open sidecar format for video: prevents AI agents from re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 103,
+      "date_found": "2026-09-01",
+      "seq": 23
+    },
+    {
+      "id": "Dot Reflex-20260901",
+      "repo": "usedotai/dot-reflex",
+      "name": "Dot Reflex",
+      "url": "https://github.com/usedotai/dot-reflex",
+      "description": "Open-source execution-recovery controller for coding and tool-using AI agents.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 81,
+      "date_found": "2026-09-01",
+      "seq": 24
+    },
+    {
+      "id": "Gas Station Highway-20260901",
+      "repo": "StarKnightt/gas-station-highway",
+      "name": "Gas Station Highway",
+      "url": "https://github.com/StarKnightt/gas-station-highway",
+      "description": "Photorealistic first-person gas station at dawn: Three.js procedural generation, no external assets.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 12,
+      "date_found": "2026-09-01",
+      "seq": 25
+    },
+    {
+      "id": "Every QRCode-20260901",
+      "repo": "AlbertAZ1992/every-qrcode",
+      "name": "Every QRCode",
+      "url": "https://github.com/AlbertAZ1992/every-qrcode",
+      "description": "Deterministic, scannable 3D QR code components for React and Web Components, powered by WebGPU.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-09-01",
+      "seq": 26
+    },
+    {
+      "id": "MiniMax H3 on Hopper-20260901",
+      "repo": "hlander-ai/minimax-h3",
+      "name": "MiniMax H3 on Hopper",
+      "url": "https://github.com/hlander-ai/minimax-h3",
+      "description": "Sub-real-time MiniMax H3 on H100: 13.5 seconds for a 14.4 second 768p video with audio. Four runtime patches removing 9.7 seconds of non-model overhead.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-01",
+      "seq": 27
+    },
+    {
+      "id": "Dwarf Fortress MCP-20260901",
+      "repo": "Dicklesworthstone/dwarf_fortress_mcp",
+      "name": "Dwarf Fortress MCP",
+      "url": "https://github.com/Dicklesworthstone/dwarf_fortress_mcp",
+      "description": "Semantic, transactional, replayable MCP control plane: lets autonomous AI agents operate Dwarf Fortress as long-lived game state with witnessed semantic plans and deterministic replay.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 20,
+      "date_found": "2026-09-01",
+      "seq": 28
+    },
+    {
+      "id": "AI Token Optimizer-20260901",
+      "repo": "uniqueplume/AI-Token-Optimizer-Claude-Codex-Cursor",
+      "name": "AI Token Optimizer",
+      "url": "https://github.com/uniqueplume/AI-Token-Optimizer-Claude-Codex-Cursor",
+      "description": "Local context compressor for Claude Code, Codex, Cursor: duplicate-removal, Git diff prioritization, generated-file filters, token estimates, reusable presets.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 20,
+      "date_found": "2026-09-01",
+      "seq": 29
+    },
+    {
+      "id": "CV Job Market Research-20260901",
+      "repo": "omar-abo-el-maaty/cv-job-market-research",
+      "name": "CV Job Market Research",
+      "url": "https://github.com/omar-abo-el-maaty/cv-job-market-research",
+      "description": "Claude skill: convert CV to structured, verified, bilingual research file of target companies with fit scoring, salary estimates, and actionable shortlist.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-01",
+      "seq": 30
+    },
+    {
+      "id": "ImageToAsset-20260901",
+      "repo": "SeriySpray/ImageToAsset",
+      "name": "ImageToAsset",
+      "url": "https://github.com/SeriySpray/ImageToAsset",
+      "description": "In-browser studio: convert photos to monochrome Halftone/Newsprint stickers with procedural torn-paper edges, crumple texture, 3D shadows. 100% client-side, zero latency.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-01",
+      "seq": 31
+    },
+    {
+      "id": "ProjectVisBug 2-20260901",
+      "repo": "node-projects/ProjectVisBug2",
+      "name": "ProjectVisBug 2",
+      "url": "https://github.com/node-projects/ProjectVisBug2",
+      "description": "Edit any webpage in any state: Firebug-style DOM inspector and live editor for designers.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-01",
+      "seq": 32
     }
   ]
 }
