@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 33,
+  "next_seq": 48,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -500,6 +500,204 @@
       "stars": 2,
       "date_found": "2026-09-01",
       "seq": 32
+    },
+    {
+      "id": "Codex CLI Portable Setup-20260902",
+      "repo": "2akouwu/codex-cli-portable-setup-kit",
+      "name": "Codex CLI Portable Setup",
+      "url": "https://github.com/2akouwu/codex-cli-portable-setup-kit",
+      "description": "Zero-friction setup for Codex CLI with deterministic binary analysis and decoupled pipelines.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 422,
+      "date_found": "2026-09-02",
+      "seq": 33
+    },
+    {
+      "id": "Awesome GrokBot-20260902",
+      "repo": "kydlikebtc/awesome-grokbot",
+      "name": "Awesome GrokBot",
+      "url": "https://github.com/kydlikebtc/awesome-grokbot",
+      "description": "Curated catalog of 361 live GrokBot shares with status checks, bilingual (EN/\u4e2d\u6587), JSON schema, CI, and searchable site.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 119,
+      "date_found": "2026-09-02",
+      "seq": 34
+    },
+    {
+      "id": "Math Pattern Generator-20260902",
+      "repo": "martin-ushiyama/math-pattern-gen",
+      "name": "Math Pattern Generator",
+      "url": "https://github.com/martin-ushiyama/math-pattern-gen",
+      "description": "Adjustable background patterns from 13 mathematical structures; export as SVG or PNG.",
+      "tags": [
+        "design-visual",
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-02",
+      "seq": 35
+    },
+    {
+      "id": "NUIF-20260902",
+      "repo": "refpath/nuif",
+      "name": "NUIF",
+      "url": "https://github.com/refpath/nuif",
+      "description": "Neutral User Interface Format: vendor-neutral, loss-accounting document format and interchange model for UI authoring.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-02",
+      "seq": 36
+    },
+    {
+      "id": "Business Analysis Charts-20260902",
+      "repo": "Ian-QM/business-analysis-charts-skill",
+      "name": "Business Analysis Charts",
+      "url": "https://github.com/Ian-QM/business-analysis-charts-skill",
+      "description": "10 Chinese business analysis chart types with 4 consulting themes; JSON/CSV to publication-grade PNG/SVG in one command.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-02",
+      "seq": 37
+    },
+    {
+      "id": "MathModel Kit-20260902",
+      "repo": "Escap1ng/mathmodel-kit",
+      "name": "MathModel Kit",
+      "url": "https://github.com/Escap1ng/mathmodel-kit",
+      "description": "Agent skill set for mathematical modeling: problem analysis, model building, algorithm implementation, publication figures, paper writing.",
+      "tags": [
+        "data-viz",
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-02",
+      "seq": 38
+    },
+    {
+      "id": "Gesture-FX-20260902",
+      "repo": "Amey-Thakur/GESTURE-FX",
+      "name": "Gesture-FX",
+      "url": "https://github.com/Amey-Thakur/GESTURE-FX",
+      "description": "Gesture-triggered camera effects in browser: frame a shot with your hands, see cartoon transformation\u2014no server, no upload.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-02",
+      "seq": 39
+    },
+    {
+      "id": "Region Bounce-20260902",
+      "repo": "leyanlo/region-bounce",
+      "name": "Region Bounce",
+      "url": "https://github.com/leyanlo/region-bounce",
+      "description": "Native macOS screensaver of evolving connected color territories.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-02",
+      "seq": 40
+    },
+    {
+      "id": "ComfyUI Hand-Tie Clips-20260902",
+      "repo": "dntpi/ComfyUI-Hand-Tie-Clips",
+      "name": "ComfyUI Hand-Tie Clips",
+      "url": "https://github.com/dntpi/ComfyUI-Hand-Tie-Clips",
+      "description": "ComfyUI node pack for MiniMax H3: chain generations into one continuous clip with held identity.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-02",
+      "seq": 41
+    },
+    {
+      "id": "ComfyUI H3 Long Video-20260902",
+      "repo": "Zzz1phyrf/ComfyUI-H3-LongVideo",
+      "name": "ComfyUI H3 Long Video",
+      "url": "https://github.com/Zzz1phyrf/ComfyUI-H3-LongVideo",
+      "description": "ComfyUI long-video controller for MiniMax H3 reference-to-video singing and speaking workflows.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-02",
+      "seq": 42
+    },
+    {
+      "id": "BudgetPixel ComfyUI-20260902",
+      "repo": "budgetpixel-ai/comfyui-budgetpixel",
+      "name": "BudgetPixel ComfyUI",
+      "url": "https://github.com/budgetpixel-ai/comfyui-budgetpixel",
+      "description": "Official BudgetPixel nodes for ComfyUI: 60+ hosted image, video, music, and SFX models via API key.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-02",
+      "seq": 43
+    },
+    {
+      "id": "Agentic Resource Discovery-20260902",
+      "repo": "neuronto/agentic-resource-discovery",
+      "name": "Agentic Resource Discovery",
+      "url": "https://github.com/neuronto/agentic-resource-discovery",
+      "description": "Neuronto ARD: federated search across ARD registries, verified tool index from MCP servers, hybrid retrieval, and ARD-Bench evaluation.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 51,
+      "date_found": "2026-09-02",
+      "seq": 44
+    },
+    {
+      "id": "My Little Office-20260902",
+      "repo": "holasoymalva/my-little-office",
+      "name": "My Little Office",
+      "url": "https://github.com/holasoymalva/my-little-office",
+      "description": "Pixel-art office workspace where AI agents do the work\u2014interface for autonomous agent execution.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 10,
+      "date_found": "2026-09-02",
+      "seq": 45
+    },
+    {
+      "id": "GenPark Crew Orchestrator-20260902",
+      "repo": "alphaparkinc/genpark-role-playing-autonomous-agent-crew-orchestrator-skill",
+      "name": "GenPark Crew Orchestrator",
+      "url": "https://github.com/alphaparkinc/genpark-role-playing-autonomous-agent-crew-orchestrator-skill",
+      "description": "Role-playing autonomous agent orchestrator managing crews with CrewAI-style discipline.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 9,
+      "date_found": "2026-09-02",
+      "seq": 46
+    },
+    {
+      "id": "GenPark Ad Fatigue Auditor-20260902",
+      "repo": "alphaparkinc/genpark-multivariate-ad-creative-fatigue-auditor-skill",
+      "name": "GenPark Ad Fatigue Auditor",
+      "url": "https://github.com/alphaparkinc/genpark-multivariate-ad-creative-fatigue-auditor-skill",
+      "description": "Multivariate ad creative fatigue auditor with refresh triggers\u2014AdEspresso-style analytics for creative discipline.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 9,
+      "date_found": "2026-09-02",
+      "seq": 47
     }
   ]
 }
