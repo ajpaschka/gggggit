@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy — gggggit</title>
+<meta name="description" content="What gggggit collects, why, and how to have it removed.">
+<style>
+  :root { --page-bg: #FAF9F6; --page-ink: #16140F; --page-sub: #5C584E; --page-line: #DEDACD; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --page-bg: #15140F; --page-ink: #F2EFE6; --page-sub: #A9A493; --page-line: #34312A; }
+  }
+  :root[data-theme="dark"] { --page-bg: #15140F; --page-ink: #F2EFE6; --page-sub: #A9A493; --page-line: #34312A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page-bg); color: var(--page-ink); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 56px 24px 90px; line-height: 1.65; }
+  h1 { font-size: 28px; font-weight: 900; margin: 0 0 8px; }
+  .sub { color: var(--page-sub); font-size: 13px; margin: 0 0 40px; }
+  h2 { font-size: 16px; font-weight: 700; margin: 32px 0 8px; }
+  p { margin: 0 0 14px; font-size: 15px; }
+  a { color: var(--page-ink); }
+  code { font-size: 13px; background: var(--page-line); padding: 1px 5px; border-radius: 3px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--page-line); font-size: 13px; color: var(--page-sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy</h1>
+  <p class="sub">What gggggit actually collects, why, and how to have it removed. Plain, short, no filler.</p>
+
+  <h2>What's collected</h2>
+  <p>Two separate things, neither shared with the other:</p>
+  <p><strong>If you sign in with GitHub</strong> (to heart entries): your GitHub id, username, avatar, and whatever heart button you click. Which repos you've hearted is private — visible only to you. The total heart count per repo is public.</p>
+  <p><strong>If you sign up for update notifications</strong> (footer form): your email address, and a timestamp of when you asked to be notified. Nothing else.</p>
+
+  <h2>Why</h2>
+  <p>The GitHub sign-in exists so hearting can actually persist per person. The email signup exists so you can hear about new library additions without checking back manually — it is used for exactly that, and nothing else.</p>
+
+  <h2>How it's protected</h2>
+  <p>Both are stored in a Postgres database with row-level security enforced by the database itself, not just application code. Your individual heart list and your email address are never exposed through gggggit's public API — the only public number is the aggregate heart count per repo, which never reveals who hearted what.</p>
+
+  <h2>Removal</h2>
+  <p>Email <a href="mailto:hello@paschkastudio.com">hello@paschkastudio.com</a> with the address or GitHub account in question and it comes out. No form, no waiting on a vendor — this is a small, self-run database, not a platform.</p>
+
+  <h2>Third parties</h2>
+  <p>Data lives in <a href="https://supabase.com" target="_blank" rel="noopener">Supabase</a> (the database/auth provider) and, if you sign in with GitHub, GitHub's own OAuth flow (governed by <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a>). Nothing here is sold, and none of it is used for advertising.</p>
+
+  <footer>gggggit is built and run by <a href="https://paschkastudio.com">Alexander Paschka</a>, independently of any client work.</footer>
+</div>
+</body>
+</html>
