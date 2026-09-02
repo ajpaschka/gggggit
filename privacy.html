@@ -34,7 +34,7 @@
   <p><strong>If you sign up for update notifications</strong> (footer form): your email address, and a timestamp of when you asked to be notified. Nothing else.</p>
 
   <h2>Why</h2>
-  <p>The GitHub sign-in exists so hearting can actually persist per person. The email signup exists so you can hear about new library additions without checking back manually — it is used for exactly that, and nothing else.</p>
+  <p>The GitHub sign-in exists so hearting can actually persist per person. The email signup is for eventually notifying you about new library additions — sending isn't built yet, so nothing is emailed to this address today. It won't be used for anything else once it is.</p>
 
   <h2>How it's protected</h2>
   <p>Both are stored in a Postgres database with row-level security enforced by the database itself, not just application code. Your individual heart list and your email address are never exposed through gggggit's public API — the only public number is the aggregate heart count per repo, which never reveals who hearted what.</p>
