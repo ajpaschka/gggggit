@@ -1,4 +1,4 @@
-# gggggit
+# GGGGGIT!
 
 A tagged, permanent library of real, trending GitHub repos — not a feed that churns and vanishes.
 Named as a riff on [FFFFOUND!](https://en.wikipedia.org/wiki/FFFFOUND!)'s repeated-letter
