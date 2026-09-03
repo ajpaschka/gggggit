@@ -31,16 +31,17 @@
   <h2>What's collected</h2>
   <p>Two separate things, neither shared with the other:</p>
   <p><strong>If you sign in with GitHub</strong> (to heart entries): your GitHub id, username, avatar, and whatever heart button you click. Which repos you've hearted is private — visible only to you. The total heart count per repo is public.</p>
-  <p><strong>If you sign up for update notifications</strong> (footer form): your email address, and a timestamp of when you asked to be notified. Nothing else.</p>
+  <p><strong>If you submit a repo</strong> (footer form): the repo URL and whatever note you added. No account or email required to submit.</p>
+  <p>Want new entries as they're added? That goes through <a href="https://buymeacoffee.com/ajpaschka" target="_blank" rel="noopener">Buy Me a Coffee</a> now, not this site — whatever you share with them for that is covered by their own privacy policy, not this one.</p>
 
   <h2>Why</h2>
-  <p>The GitHub sign-in exists so hearting can actually persist per person. The email signup is for eventually notifying you about new library additions — sending isn't built yet, so nothing is emailed to this address today. It won't be used for anything else once it is.</p>
+  <p>The GitHub sign-in exists so hearting can actually persist per person. Submissions exist so anyone can flag a repo worth including — Alexander reviews each one by hand before anything's added to the library.</p>
 
   <h2>How it's protected</h2>
-  <p>Both are stored in a Postgres database with row-level security enforced by the database itself, not just application code. Your individual heart list and your email address are never exposed through gggggit's public API — the only public number is the aggregate heart count per repo, which never reveals who hearted what.</p>
+  <p>Both are stored in a Postgres database with row-level security enforced by the database itself, not just application code. Your individual heart list is never exposed through gggggit's public API — the only public number is the aggregate heart count per repo, which never reveals who hearted what. Submissions aren't readable back out through the public API either — only Alexander sees them, via Supabase Studio.</p>
 
   <h2>Removal</h2>
-  <p>Email <a href="mailto:hello@paschkastudio.com">hello@paschkastudio.com</a> with the address or GitHub account in question and it comes out. No form, no waiting on a vendor — this is a small, self-run database, not a platform.</p>
+  <p>Email <a href="mailto:hello@paschkastudio.com">hello@paschkastudio.com</a> with the GitHub account or submission in question and it comes out. No form, no waiting on a vendor — this is a small, self-run database, not a platform.</p>
 
   <h2>Third parties</h2>
   <p>Data lives in <a href="https://supabase.com" target="_blank" rel="noopener">Supabase</a> (the database/auth provider) and, if you sign in with GitHub, GitHub's own OAuth flow (governed by <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a>). Nothing here is sold, and none of it is used for advertising.</p>
