@@ -137,6 +137,17 @@
   }
   .submit-repo button:disabled { opacity: 0.6; cursor: default; }
   .submit-repo-status { margin: 10px 0 0; font-size: 12px; }
+
+  .support-link {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.03em;
+    background: var(--pill-bg); color: var(--pill-ink); border: 1px solid var(--page-line);
+    border-radius: 999px; padding: 8px 16px; text-decoration: none;
+    box-shadow: var(--card-shadow); transition: background 0.15s ease, color 0.15s ease;
+  }
+  .support-link:hover { background: var(--pill-active-bg); color: var(--pill-active-ink); }
+  .support-block { margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid var(--page-line); }
+  .support-block p { margin: 0 0 10px; }
 </style>
 </head>
 <body>
@@ -172,6 +183,13 @@
       <button type="submit" id="digestBtn">Count me in</button>
     </form>
     <p class="digest-status" id="digestStatus" hidden></p>
+  </div>
+  <div class="support-block">
+    <p>Like what this is? gggggit is free to use and free to submit to — a tip just helps keep it running.</p>
+    <a class="support-link" href="https://buymeacoffee.com/ajpaschka" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M4 3h16l-1.5 12.5A3 3 0 0 1 15.53 18H8.47a3 3 0 0 1-2.97-2.5L4 3Zm2.24 2 1.2 10a1 1 0 0 0 .99.83h7.14a1 1 0 0 0 .99-.83l1.2-10H6.24ZM9 20h6v2H9v-2Z"/></svg>
+      Buy me a coffee
+    </a>
   </div>
   Updated weekly. Built by <a href="https://paschkastudio.com">Alexander Paschka</a> — named after
   <a href="https://en.wikipedia.org/wiki/FFFFOUND!">FFFFOUND!</a>, in the spirit of
