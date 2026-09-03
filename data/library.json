@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 48,
+  "next_seq": 54,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -698,6 +698,86 @@
       "stars": 9,
       "date_found": "2026-09-02",
       "seq": 47
+    },
+    {
+      "id": "Reverify-20260903",
+      "repo": "2akouwu/reverify",
+      "name": "Reverify",
+      "url": "https://github.com/2akouwu/reverify",
+      "description": "Verified reverse engineering: AI-assisted RE with deterministic binary verification. Hallucinations checked against ground truth.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 608,
+      "date_found": "2026-09-03",
+      "seq": 48
+    },
+    {
+      "id": "REEF-20260903",
+      "repo": "Human-Agent-Society/reef",
+      "name": "REEF",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "description": "Continual learning infrastructure for self-improving autonomous agents with persistent capability growth.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 184,
+      "date_found": "2026-09-03",
+      "seq": 49
+    },
+    {
+      "id": "Poster Prompt Generator-20260903",
+      "repo": "LZ-creator-master/poster-prompt-generator",
+      "name": "Poster Prompt Generator",
+      "url": "https://github.com/LZ-creator-master/poster-prompt-generator",
+      "description": "Reverse-engineer poster design language into reproducible AI generation prompts. Extract rules from finished work.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-03",
+      "seq": 50
+    },
+    {
+      "id": "Nafkah \u2014 Indonesia Regional Cost Index-20260903",
+      "repo": "adenaufal/nafkah",
+      "name": "Nafkah \u2014 Indonesia Regional Cost Index",
+      "url": "https://github.com/adenaufal/nafkah",
+      "description": "Interactive map showing cost-of-living vs. minimum wage across 514 Indonesian districts. Static Next.js, open data (CC BY 4.0).",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 21,
+      "date_found": "2026-09-03",
+      "seq": 51
+    },
+    {
+      "id": "ComfyUI MiniMax H3 Inpaint-20260903",
+      "repo": "panghea/ComfyUI-MiniMax-H3-Inpaint-Tools",
+      "name": "ComfyUI MiniMax H3 Inpaint",
+      "url": "https://github.com/panghea/ComfyUI-MiniMax-H3-Inpaint-Tools",
+      "description": "ComfyUI node pack: edit finished MiniMax H3 clips by masking latent space. Rewrite rectangles, time spans, or audio alone without regenerating.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-09-03",
+      "seq": 52
+    },
+    {
+      "id": "AI Film Director Skill-20260903",
+      "repo": "AAAAAAAJ/ai-film-general-skill",
+      "name": "AI Film Director Skill",
+      "url": "https://github.com/AAAAAAAJ/ai-film-general-skill",
+      "description": "Claude Code skill: AI film/video project director overseeing images, video, performance, and dailies review across production.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-03",
+      "seq": 53
     }
   ]
 }
