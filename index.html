@@ -122,8 +122,9 @@
   footer { margin-top: 4px; padding: 26px 24px 90px; border-top: 1px solid var(--page-line); font-size: 13px; color: var(--page-sub); line-height: 1.6; max-width: 1180px; margin-left: auto; margin-right: auto; }
   footer a { color: var(--page-ink); }
 
-  .submit-repo { margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid var(--page-line); }
-  .submit-repo p { margin: 0 0 10px; }
+  .submit-band { background: #8E7CC3; }
+  .submit-repo { max-width: 1180px; margin: 0 auto; padding: 22px 24px; }
+  .submit-repo p { margin: 0 0 10px; color: #16140F; font-size: 13px; line-height: 1.6; }
   .submit-repo form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .submit-repo input[type=url], .submit-repo input[type=text] {
     font-family: 'JetBrains Mono', monospace; font-size: 12px;
@@ -138,7 +139,7 @@
     border-radius: 999px; padding: 8px 16px; cursor: pointer;
   }
   .submit-repo button:disabled { opacity: 0.6; cursor: default; }
-  .submit-repo-status { margin: 10px 0 0; font-size: 12px; }
+  .submit-repo-status { margin: 10px 0 0; font-size: 12px; color: #16140F; }
 
   .support-link {
     display: inline-flex; align-items: center; gap: 8px;
@@ -159,18 +160,16 @@
       <div class="kicker">A tagged library, not a feed</div>
       <div class="auth-area" id="authArea"></div>
     </div>
-    <h1>GGGGGIT</h1>
+    <h1>GGGGGIT!</h1>
     <p>Real repos, found by a script that actually searches GitHub every week — not invented, not padded. Everything stays here permanently, browsable by tag. Nothing expires. Sign in with GitHub to heart the ones worth remembering.</p>
   </header>
 
   <nav class="tags" id="tagNav" aria-label="Filter by tag"></nav>
 </div>
 
-<div class="grid" id="grid"></div>
-
-<footer>
+<section class="submit-band">
   <div class="submit-repo">
-    <p>Found something that belongs here? Submit it below — free, always. Alexander reviews everything by hand; submitting doesn't guarantee inclusion.</p>
+    <p>Found something that belongs here? Submit it below — free, always. We review everything by hand; submitting doesn't guarantee inclusion.</p>
     <form id="submitRepoForm">
       <input type="url" id="submitRepoUrl" placeholder="https://github.com/owner/repo" required>
       <input type="text" id="submitRepoNote" placeholder="Why it's worth including (optional)">
@@ -178,6 +177,11 @@
     </form>
     <p class="submit-repo-status" id="submitRepoStatus" hidden></p>
   </div>
+</section>
+
+<div class="grid" id="grid"></div>
+
+<footer>
   <div class="support-block">
     <p>Buy me a coffee and get a weekly digest of everything new — gggggit does the work, you get the benefit. It stays free to use and free to submit to either way.</p>
     <a class="support-link" href="https://buymeacoffee.com/ajpaschka" target="_blank" rel="noopener">
