@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 54,
+  "next_seq": 71,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -778,6 +778,229 @@
       "stars": 4,
       "date_found": "2026-09-03",
       "seq": 53
+    },
+    {
+      "id": "fable51-worlds-20260904",
+      "repo": "PhiloLabs/fable51-worlds",
+      "name": "fable51-worlds",
+      "url": "https://github.com/PhiloLabs/fable51-worlds",
+      "description": "Fable 5.1 world generation via code.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 406,
+      "date_found": "2026-09-04",
+      "seq": 54
+    },
+    {
+      "id": "multiverse-cable-20260904",
+      "repo": "ismailntl/multiverse-cable",
+      "name": "multiverse-cable",
+      "url": "https://github.com/ismailntl/multiverse-cable",
+      "description": "24/7 AI-generated television channel \u2014 bid credits to program slots, vote on clip authenticity.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 13,
+      "date_found": "2026-09-04",
+      "seq": 55
+    },
+    {
+      "id": "humanlike-20260904",
+      "repo": "AlekseiUL/humanlike",
+      "name": "humanlike",
+      "url": "https://github.com/AlekseiUL/humanlike",
+      "description": "Deterministic persona, context, memory, and privacy controls for conversational AI agents.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 11,
+      "date_found": "2026-09-04",
+      "seq": 56
+    },
+    {
+      "id": "Jaimotion-20260904",
+      "repo": "Jaimo-so/Jaimotion",
+      "name": "Jaimotion",
+      "url": "https://github.com/Jaimo-so/Jaimotion",
+      "description": "All-in-one high-definition short-video generation tool combining LLM and automated workflows.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-04",
+      "seq": 57
+    },
+    {
+      "id": "DesignGate-20260904",
+      "repo": "MUZI-LYY/DesignGate",
+      "name": "DesignGate",
+      "url": "https://github.com/MUZI-LYY/DesignGate",
+      "description": "Local-first Sketch design validation plugin \u2014 design system consistency checks, layer problem location, mobile H5 export.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-04",
+      "seq": 58
+    },
+    {
+      "id": "patina-studio-20260904",
+      "repo": "usepatinadotio/patina-studio",
+      "name": "patina-studio",
+      "url": "https://github.com/usepatinadotio/patina-studio",
+      "description": "Design canvas that enforces its own design system \u2014 free beta for macOS, Windows, and Linux.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-04",
+      "seq": 59
+    },
+    {
+      "id": "tradelens-20260904",
+      "repo": "prblydv/tradelens",
+      "name": "tradelens",
+      "url": "https://github.com/prblydv/tradelens",
+      "description": "Windows companion app for assessing MT5 trade risk before placing a trade.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-04",
+      "seq": 60
+    },
+    {
+      "id": "ecommerce-sales-analysis-20260904",
+      "repo": "KrishBharadwaj5678/ecommerce-sales-analysis",
+      "name": "ecommerce-sales-analysis",
+      "url": "https://github.com/KrishBharadwaj5678/ecommerce-sales-analysis",
+      "description": "Data exploration and business intelligence from e-commerce sales data \u2014 customer and product performance, trends, visualizations.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-04",
+      "seq": 61
+    },
+    {
+      "id": "ZP-WindPowerGeneration-20260904",
+      "repo": "zybkpro/ZP-WindPowerGeneration",
+      "name": "ZP-WindPowerGeneration",
+      "url": "https://github.com/zybkpro/ZP-WindPowerGeneration",
+      "description": "Vue3 + Three.js digital twin monitoring for wind power generation \u2014 3D turbine breakdown, interactive ECharts data panel.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-04",
+      "seq": 62
+    },
+    {
+      "id": "awesome-dashboard-skill-20260904",
+      "repo": "shinwood/awesome-dashboard-skill",
+      "name": "awesome-dashboard-skill",
+      "url": "https://github.com/shinwood/awesome-dashboard-skill",
+      "description": "Agent skill: turn any data (spreadsheet, research topic, feed) into dense, interactive single-file HTML dashboards with 10 themes, 16 widgets, linked ECharts.",
+      "tags": [
+        "data-viz",
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-04",
+      "seq": 63
+    },
+    {
+      "id": "sublevel-studio-20260904",
+      "repo": "MengTo/sublevel-studio",
+      "name": "sublevel-studio",
+      "url": "https://github.com/MengTo/sublevel-studio",
+      "description": "Single-file Three.js studio with interactive Kyoto lobby, arcade, portfolio CRTs, and editorial case studies.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 41,
+      "date_found": "2026-09-04",
+      "seq": 64
+    },
+    {
+      "id": "SOUND-TERRARIUM-20260904",
+      "repo": "kariagepompadour/SOUND-TERRARIUM",
+      "name": "SOUND-TERRARIUM",
+      "url": "https://github.com/kariagepompadour/SOUND-TERRARIUM",
+      "description": "Tiny living world for M5Stack Cardputer ADV \u2014 sound generates terrain, tilt shapes the world, real-time and weather shape the sky.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 7,
+      "date_found": "2026-09-04",
+      "seq": 65
+    },
+    {
+      "id": "world_model_from_scratch-20260904",
+      "repo": "nahidalam/world_model_from_scratch",
+      "name": "world_model_from_scratch",
+      "url": "https://github.com/nahidalam/world_model_from_scratch",
+      "description": "Code repository for World Model From Scratch book.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 21,
+      "date_found": "2026-09-04",
+      "seq": 66
+    },
+    {
+      "id": "eikalea-20260904",
+      "repo": "aschet/eikalea",
+      "name": "eikalea",
+      "url": "https://github.com/aschet/eikalea",
+      "description": "Experimental art generator \u2014 LLM-synthesized prompts from seeded pools, optionally rendered via ComfyUI.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-04",
+      "seq": 67
+    },
+    {
+      "id": "lofi-pong-wars-20260904",
+      "repo": "YuJunWang/lofi-pong-wars",
+      "name": "lofi-pong-wars",
+      "url": "https://github.com/YuJunWang/lofi-pong-wars",
+      "description": "Zero-player ambient simulation blending generative lo-fi synthesis, dynamic jazz chords, and multi-faction territory battles.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-04",
+      "seq": 68
+    },
+    {
+      "id": "Needle-20260904",
+      "repo": "AbuZar-Ansarii/Needle",
+      "name": "Needle",
+      "url": "https://github.com/AbuZar-Ansarii/Needle",
+      "description": "14 MB agentic LLM with complete phone control.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 66,
+      "date_found": "2026-09-04",
+      "seq": 69
+    },
+    {
+      "id": "genpark-personalized-video-sales-outreach-script-planner-skill-20260904",
+      "repo": "alphaparkinc/genpark-personalized-video-sales-outreach-script-planner-skill",
+      "name": "genpark-personalized-video-sales-outreach-script-planner-skill",
+      "url": "https://github.com/alphaparkinc/genpark-personalized-video-sales-outreach-script-planner-skill",
+      "description": "Personalized video sales outreach script and storyboard planner (Tavus style).",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 9,
+      "date_found": "2026-09-04",
+      "seq": 70
     }
   ]
 }
