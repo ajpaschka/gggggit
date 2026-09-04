@@ -17,6 +17,26 @@ no filler.
   grid of Pantone-chip-style cards. No backend, no database, no build step.
 - `scripts/` — the update pipeline that appends new entries weekly (see below).
 
+## Community submissions
+
+The site's submit-a-repo form writes into `public.submissions` (Supabase, insert-only —
+nobody can read the list back through the public API). A Database Webhook fires
+`supabase/functions/notify-submission/` on every insert, which emails Alexander so a
+submission actually surfaces instead of waiting to be noticed in Supabase Studio. Nothing
+here auto-publishes — every submission is reviewed by hand before (if ever) becoming a real
+`append-entries.py` entry. See `supabase/functions/notify-submission/SETUP.md` for the two
+one-time setup steps (a Resend API key, a Dashboard webhook click).
+
+**This is deliberately the only reviewed path into the library.** The nightly automated
+scan (`scripts/append-entries.py`, run by a Hermes cron job) publishes straight to
+`data/library.json` and pushes live with no human review step — Alexander decided
+2026-09-04 to accept that risk for scan-sourced entries specifically (real GitHub data,
+topic-filtered, lower stakes than a public-facing factual claim) rather than review 15-20
+scan candidates a night. Human-submitted entries get the opposite treatment, since they
+come from strangers and carry a different risk (spam, off-topic, or worse) that the scan's
+own topic pre-filtering doesn't apply to. See AJAI's `agora/echo-log.md`, 2026-09-04, for
+the full reasoning.
+
 ## Local preview
 
 ```
