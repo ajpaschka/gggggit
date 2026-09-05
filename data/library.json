@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 71,
+  "next_seq": 77,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1001,6 +1001,85 @@
       "stars": 9,
       "date_found": "2026-09-04",
       "seq": 70
+    },
+    {
+      "id": "awesome-ai-agent-platforms-20260905",
+      "repo": "Agenta-AI/awesome-ai-agent-platforms",
+      "name": "awesome-ai-agent-platforms",
+      "url": "https://github.com/Agenta-AI/awesome-ai-agent-platforms",
+      "description": "Curated list of open-source AI agent platforms with licenses: coworkers, builders, workflow automation, browser agents, coding agents",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 205,
+      "date_found": "2026-09-05",
+      "seq": 71
+    },
+    {
+      "id": "ALIGN-20260905",
+      "repo": "wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN",
+      "name": "ALIGN",
+      "url": "https://github.com/wanshuiyin/ALIGN-Agentic-Loop-Image-GeneratioN",
+      "description": "Agentic loop image generation with iterative refinement in p5.js and adversarial visual review; Claude Code and Codex skills",
+      "tags": [
+        "creative-coding",
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-05",
+      "seq": 72
+    },
+    {
+      "id": "crt-screen-20260905",
+      "repo": "GeoCodeCrafter/crt-screen",
+      "name": "crt-screen",
+      "url": "https://github.com/GeoCodeCrafter/crt-screen",
+      "description": "Custom element rendering live interactive DOM inside CRT display effects (aperture grille, shadow mask, dot matrix shaders)",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-05",
+      "seq": 73
+    },
+    {
+      "id": "short-video-generator-AI-20260905",
+      "repo": "pierrenade/short-video-generator-AI",
+      "name": "short-video-generator-AI",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "description": "Open-source tool turning YouTube videos into viral short-form content with highlight detection, subtitles, translation, voiceover",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 112,
+      "date_found": "2026-09-05",
+      "seq": 74
+    },
+    {
+      "id": "amazon-reviews-database-platform-20260905",
+      "repo": "claudiamoya8/amazon-reviews-database-platform",
+      "name": "amazon-reviews-database-platform",
+      "url": "https://github.com/claudiamoya8/amazon-reviews-database-platform",
+      "description": "Hybrid Python platform for 500K+ Amazon reviews with MySQL, MongoDB, Neo4j, memory-efficient ingestion, interactive visualization and collaborative filtering (MAE 0.84)",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-05",
+      "seq": 75
+    },
+    {
+      "id": "taxue-halftone-20260905",
+      "repo": "taxueseek/taxue-halftone",
+      "name": "taxue-halftone",
+      "url": "https://github.com/taxueseek/taxue-halftone",
+      "description": "Halftone poster skill converting text, topics, or images into art covers with 11 print styles: duotone, Riso, shibori, dot matrix",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-05",
+      "seq": 76
     }
   ]
 }
