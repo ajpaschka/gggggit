@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 77,
+  "next_seq": 82,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1080,6 +1080,72 @@
       "stars": 8,
       "date_found": "2026-09-05",
       "seq": 76
+    },
+    {
+      "id": "papergraph-mcp-20260906",
+      "repo": "lotchuazzz-crypto/papergraph-mcp",
+      "name": "papergraph-mcp",
+      "url": "https://github.com/lotchuazzz-crypto/papergraph-mcp",
+      "description": "Convert arXiv and LaTeX papers into theorem dependency graphs for AI agents via MCP.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 82,
+      "date_found": "2026-09-06",
+      "seq": 77
+    },
+    {
+      "id": "PIXAL-3D-20260906",
+      "repo": "PrimeEcto/PIXAL-3D",
+      "name": "PIXAL-3D",
+      "url": "https://github.com/PrimeEcto/PIXAL-3D",
+      "description": "One-click image-to-3D GLB for Pinokio with clean studio UI on ComfyUI, tuned for 8\u201312GB VRAM.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-06",
+      "seq": 78
+    },
+    {
+      "id": "design-brain-20260906",
+      "repo": "fabioalencar/design-brain",
+      "name": "design-brain",
+      "url": "https://github.com/fabioalencar/design-brain",
+      "description": "Capture design decisions across projects, review in a swipe queue, compile into agent skills.",
+      "tags": [
+        "design-visual",
+        "agent-practice"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-06",
+      "seq": 79
+    },
+    {
+      "id": "awesome-ai-design-tools-20260906",
+      "repo": "tioraicom/awesome-ai-design-tools",
+      "name": "awesome-ai-design-tools",
+      "url": "https://github.com/tioraicom/awesome-ai-design-tools",
+      "description": "Curated list of AI design tools that return editable outputs \u2014 interface files, palettes, animation rigs, test results.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 0,
+      "date_found": "2026-09-06",
+      "seq": 80
+    },
+    {
+      "id": "screengraft-20260906",
+      "repo": "seq000/screengraft",
+      "name": "screengraft",
+      "url": "https://github.com/seq000/screengraft",
+      "description": "Composite UI screenshots onto photographed device screens with hand-confirmed perspective homography, not generative guessing.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 0,
+      "date_found": "2026-09-06",
+      "seq": 81
     }
   ]
 }
