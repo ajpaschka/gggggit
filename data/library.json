@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 82,
+  "next_seq": 84,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1146,6 +1146,32 @@
       "stars": 0,
       "date_found": "2026-09-06",
       "seq": 81
+    },
+    {
+      "id": "AI Short Drama Studio-20260907",
+      "repo": "JerrIsTheBesta/AI-Short-Drama-Studio",
+      "name": "AI Short Drama Studio",
+      "url": "https://github.com/JerrIsTheBesta/AI-Short-Drama-Studio",
+      "description": "Open-source AI short drama and video workflow studio supporting LLM, vision, image generation, image-to-video, voiceover, subtitles and video editing",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-07",
+      "seq": 82
+    },
+    {
+      "id": "Video States Website-20260907",
+      "repo": "amirmushichge/video-states-website",
+      "name": "Video States Website",
+      "url": "https://github.com/amirmushichge/video-states-website",
+      "description": "Build cinematic click-driven video websites with LTX footage, image/video prompts, and seam-safe playback",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 22,
+      "date_found": "2026-09-07",
+      "seq": 83
     }
   ]
 }
