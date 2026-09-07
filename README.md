@@ -19,6 +19,13 @@ no filler.
 
 ## Community submissions
 
+What actually clears the bar is published at [`criteria.html`](criteria.html) — four checks (real
+repo, something to actually open, genuinely fits one of the six tags, not already in the library),
+plus why the automated scan and a human submission aren't held to the same review standard. Written
+2026-09-07 after the submission inbox had no stated policy at all — added specifically so a
+submitter (and Alexander, reviewing by hand) has a real bar to check against instead of an ad hoc
+call each time.
+
 The site's submit-a-repo form writes into `public.submissions` (Supabase, insert-only —
 nobody can read the list back through the public API). A Database Webhook fires
 `supabase/functions/notify-submission/` on every insert, which emails Alexander so a

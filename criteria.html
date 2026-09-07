@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Criteria — GGGGGIT!</title>
+<meta name="description" content="What actually gets a spot in the library, and why some real submissions don't make it.">
+<link rel="canonical" href="https://ajpaschka.github.io/gggggit/criteria.html">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#8E7CC3">
+<style>
+  :root { --page-bg: #FAF9F6; --page-ink: #16140F; --page-sub: #5C584E; --page-line: #DEDACD; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --page-bg: #15140F; --page-ink: #F2EFE6; --page-sub: #A9A493; --page-line: #34312A; }
+  }
+  :root[data-theme="dark"] { --page-bg: #15140F; --page-ink: #F2EFE6; --page-sub: #A9A493; --page-line: #34312A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page-bg); color: var(--page-ink); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 56px 24px 90px; line-height: 1.65; }
+  h1 { font-size: 28px; font-weight: 900; margin: 0 0 8px; }
+  .sub { color: var(--page-sub); font-size: 13px; margin: 0 0 40px; }
+  h2 { font-size: 16px; font-weight: 700; margin: 32px 0 8px; }
+  p { margin: 0 0 14px; font-size: 15px; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin: 0 0 6px; font-size: 15px; }
+  a { color: var(--page-ink); }
+  code { font-size: 13px; background: var(--page-line); padding: 1px 5px; border-radius: 3px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--page-line); font-size: 13px; color: var(--page-sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Criteria</h1>
+  <p class="sub">What actually gets a spot in the library, and why some real submissions don't make it. Plain, short, no filler.</p>
+
+  <h2>The bar</h2>
+  <p>An entry has to clear all four:</p>
+  <ul>
+    <li><strong>It's a real GitHub repo</strong> — not a product page, not a landing page for something closed-source, not a demo video with no code behind it.</li>
+    <li><strong>There's something to actually open.</strong> A README that explains what it does, code or content a visitor can read, clone, or use today — not just a name and a star count.</li>
+    <li><strong>It genuinely fits one of the six tags</strong> — AI & Agents, Design & Visual Tools, Data Visualization, Creative Coding, Video & Motion, Agent Practice. If it takes real force to make it fit, it doesn't belong yet; a seventh tag gets added the same way Agent Practice was — when real content justifies it, not designed in ahead of time.</li>
+    <li><strong>It isn't already here.</strong> Checked against the whole library, not just this week's batch — same dedup logic that runs on every automated entry.</li>
+  </ul>
+
+  <h2>What doesn't make it</h2>
+  <p>Star count isn't a criterion by itself — a small, genuinely useful find belongs here the same as a big one, and a repo with thousands of stars still gets skipped if it's off-topic or there's nothing real to point at. What actually disqualifies an entry:</p>
+  <ul>
+    <li>Invented or padded — this library's whole premise is that every entry is real. One fake one breaks that for all of them.</li>
+    <li>Abandoned with no real content — a placeholder repo, a stub, a link to somewhere else.</li>
+    <li>Off-topic — doesn't fit any of the six tags, even loosely.</li>
+    <li>Spam or self-promotion with nothing behind it.</li>
+  </ul>
+
+  <h2>Automated scan vs. your submission</h2>
+  <p>The library updates two ways, and they're not held to the same review standard on purpose. A nightly scan searches GitHub directly, already filtered to the six tags, and publishes straight to the library with no human step in between — real data, pre-filtered by topic, lower stakes than a stranger's claim. A submission through the form below skips that pre-filtering entirely, so every one gets read by hand before anything's added. That's not a formality — it's the actual difference between the two paths.</p>
+
+  <h2>After you submit</h2>
+  <p>No account or email is collected, so there's no way to notify you either way — the only signal is the library itself. If it clears the bar, it shows up there, tagged, with its own permalink. If it doesn't, nothing happens, and that's fine — most real, useful repos still won't fit six tags and a dedup check on the first try.</p>
+
+  <footer>GGGGGIT! is built and run by <a href="https://paschkastudio.com">Alexander Paschka</a>, independently of any client work. See also <a href="privacy.html">Privacy</a>.</footer>
+</div>
+</body>
+</html>
