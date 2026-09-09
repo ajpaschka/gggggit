@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 84,
+  "next_seq": 112,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1172,6 +1172,375 @@
       "stars": 22,
       "date_found": "2026-09-07",
       "seq": 83
+    },
+    {
+      "id": "OKF Agent Memory-20260909",
+      "repo": "okf-memory/okf-agent-memory",
+      "name": "OKF Agent Memory",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "description": "Git-native persistent memory for AI coding agents with sub-300\u00b5s in-memory BM25 search, MCP server, and 80% token reduction via Go.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 498,
+      "date_found": "2026-09-09",
+      "seq": 84
+    },
+    {
+      "id": "mobilecode-20260909",
+      "repo": "hsandhu/mobilecode",
+      "name": "mobilecode",
+      "url": "https://github.com/hsandhu/mobilecode",
+      "description": "Fork of opencode that builds and previews iOS and Android projects from AI agent workflows.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 226,
+      "date_found": "2026-09-09",
+      "seq": 85
+    },
+    {
+      "id": "Apeireth-20260909",
+      "repo": "Apeireth/Apeireth",
+      "name": "Apeireth",
+      "url": "https://github.com/Apeireth/Apeireth",
+      "description": "Pure Safe Rust AGI operating system and cognitive microkernel with continuous topological memory, causal world model, and portable USB agent.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 118,
+      "date_found": "2026-09-09",
+      "seq": 86
+    },
+    {
+      "id": "Penelopa.ai-20260909",
+      "repo": "chigwell/Penelopa.ai",
+      "name": "Penelopa.ai",
+      "url": "https://github.com/chigwell/Penelopa.ai",
+      "description": "Continuous improvement system that analyzes Codex and Claude Code sessions to extract repeated workflow patterns into reusable skills and prompts.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 107,
+      "date_found": "2026-09-09",
+      "seq": 87
+    },
+    {
+      "id": "Awesome OKF-20260909",
+      "repo": "Albertchamberlain/Awesome-OKF",
+      "name": "Awesome OKF",
+      "url": "https://github.com/Albertchamberlain/Awesome-OKF",
+      "description": "Curated YAML-driven catalog of tools, plugins, skills, and proposals for agent-friendly knowledge with MCP integration.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 102,
+      "date_found": "2026-09-09",
+      "seq": 88
+    },
+    {
+      "id": "deedchain-20260909",
+      "repo": "PillCrew/deedchain",
+      "name": "deedchain",
+      "url": "https://github.com/PillCrew/deedchain",
+      "description": "Benchmark framework measuring report fidelity for browser agents to verify stated actions match actual browser behavior.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 47,
+      "date_found": "2026-09-09",
+      "seq": 89
+    },
+    {
+      "id": "tailor-20260909",
+      "repo": "wess/tailor",
+      "name": "tailor",
+      "url": "https://github.com/wess/tailor",
+      "description": "Visual interface builder for gpui \u2014 design, run, and export the Rust code.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-09",
+      "seq": 90
+    },
+    {
+      "id": "designbridge-20260909",
+      "repo": "molast/designbridge",
+      "name": "designbridge",
+      "url": "https://github.com/molast/designbridge",
+      "description": "Local-first design extraction from Lanhu, supporting layers, styles, slices, and comments with MCP bridge to Codex for UI restoration.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-09",
+      "seq": 91
+    },
+    {
+      "id": "plate-20260909",
+      "repo": "ohad6k/plate",
+      "name": "plate",
+      "url": "https://github.com/ohad6k/plate",
+      "description": "Design tools for coding agents to capture, inspect, and resolve real assets for websites, games, and motion projects.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-09",
+      "seq": 92
+    },
+    {
+      "id": "github-constellation-20260909",
+      "repo": "m3hrab/github-constellation",
+      "name": "github-constellation",
+      "url": "https://github.com/m3hrab/github-constellation",
+      "description": "Generative SVG visualization of GitHub contribution history as constellations with streaks and pulsing commit intensity.",
+      "tags": [
+        "data-viz",
+        "creative-coding"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-09",
+      "seq": 93
+    },
+    {
+      "id": "darkflow-20260909",
+      "repo": "casaisdev/darkflow",
+      "name": "darkflow",
+      "url": "https://github.com/casaisdev/darkflow",
+      "description": "Real-time Ethereum mempool visualization showing private order flow entering blocks without announcement.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-09",
+      "seq": 94
+    },
+    {
+      "id": "FMCG Inventory & Retail Analytics-20260909",
+      "repo": "SelectStarFromLife/FMCG-Inventory-Retail-Operations-Analytics",
+      "name": "FMCG Inventory & Retail Analytics",
+      "url": "https://github.com/SelectStarFromLife/FMCG-Inventory-Retail-Operations-Analytics",
+      "description": "Power BI dashboard analyzing FMCG retail sales, inventory replenishment risk, demand patterns, and store performance.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-09",
+      "seq": 95
+    },
+    {
+      "id": "Weather Data Analysis-20260909",
+      "repo": "SelectStarFromLife/Weather_Data_Analysis",
+      "name": "Weather Data Analysis",
+      "url": "https://github.com/SelectStarFromLife/Weather_Data_Analysis",
+      "description": "Exploratory analysis of global weather data using Python, Pandas, NumPy, and Matplotlib.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-09",
+      "seq": 96
+    },
+    {
+      "id": "Softie-20260909",
+      "repo": "yuanyang749/softie-webgpu",
+      "name": "Softie",
+      "url": "https://github.com/yuanyang749/softie-webgpu",
+      "description": "Cute relaxation app built with GPT-6 Astra using WebGPU.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 18,
+      "date_found": "2026-09-09",
+      "seq": 97
+    },
+    {
+      "id": "lusion.co reverse engineering-20260909",
+      "repo": "DDW-X/lusion.co",
+      "name": "lusion.co reverse engineering",
+      "url": "https://github.com/DDW-X/lusion.co",
+      "description": "Comprehensive mathematical deconstruction of lusion.co with custom GLSL liquid glass, GPGPU particles, and 120 FPS architecture.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-09",
+      "seq": 98
+    },
+    {
+      "id": "Pelagic Jellyfish-20260909",
+      "repo": "Denoax/pelagic-jellyfish-webgl",
+      "name": "Pelagic Jellyfish",
+      "url": "https://github.com/Denoax/pelagic-jellyfish-webgl",
+      "description": "Silent interactive WebGL descent through a living jellyfish ocean with pulse-driven swimming and liquid-glass idle clock.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-09",
+      "seq": 99
+    },
+    {
+      "id": "Flield-20260909",
+      "repo": "simien/Flield",
+      "name": "Flield",
+      "url": "https://github.com/simien/Flield",
+      "description": "Browser-based generative pixel art tool creating three-color compositions from seeded flow fields and symmetry.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-09",
+      "seq": 100
+    },
+    {
+      "id": "texere-20260909",
+      "repo": "EZfan/texere",
+      "name": "texere",
+      "url": "https://github.com/EZfan/texere",
+      "description": "Compile text into weavable cloth by converting poems to weaving drafts (WIF) and reading back from woven output.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-09",
+      "seq": 101
+    },
+    {
+      "id": "dsh-iris-20260909",
+      "repo": "mokuyoaxis/dsh-iris",
+      "name": "dsh-iris",
+      "url": "https://github.com/mokuyoaxis/dsh-iris",
+      "description": "Media generation and visual understanding for DeepSeek Harness with multi-provider routing and integrated Iris workbench.",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-09",
+      "seq": 102
+    },
+    {
+      "id": "muapi-cli-20260909",
+      "repo": "SamurAIGPT/muapi-cli",
+      "name": "muapi-cli",
+      "url": "https://github.com/SamurAIGPT/muapi-cli",
+      "description": "Official CLI for muapi.ai with 14 AI models for image, video, and audio generation; MCP server, npm and pip installable.",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-09",
+      "seq": 103
+    },
+    {
+      "id": "TikTok Shop Video Prompts-20260909",
+      "repo": "Clipcat-ai/awesome-tiktok-shop-video-prompts",
+      "name": "TikTok Shop Video Prompts",
+      "url": "https://github.com/Clipcat-ai/awesome-tiktok-shop-video-prompts",
+      "description": "600+ reverse-engineered AI video prompts from real TikTok Shop selling videos across 15 markets and 30 categories; works with Sora 2, Veo 3, Kling.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-09",
+      "seq": 104
+    },
+    {
+      "id": "AI Video Director Skills-20260909",
+      "repo": "xuguohua318/ai-video-director-skills",
+      "name": "AI Video Director Skills",
+      "url": "https://github.com/xuguohua318/ai-video-director-skills",
+      "description": "Chinese AI video director Codex skills covering creative direction, abstract intros, 3D, live-action compositing, and cinema language.",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-09",
+      "seq": 105
+    },
+    {
+      "id": "ContextGate-20260909",
+      "repo": "23512478/ContextGate",
+      "name": "ContextGate",
+      "url": "https://github.com/23512478/ContextGate",
+      "description": "Spring Boot + MyBatis framework-aware code map via static analysis of call chains, SQL, and transaction impact; MCP bridge to AI tools for token efficiency.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 22,
+      "date_found": "2026-09-09",
+      "seq": 106
+    },
+    {
+      "id": "PromptForge-20260909",
+      "repo": "Zvyan/PromptForge",
+      "name": "PromptForge",
+      "url": "https://github.com/Zvyan/PromptForge",
+      "description": "Enterprise prompt engineering framework with 56 structured templates across 9 domains, 118 presets, and adapters for Cursor, ZCode, DeepSeek Harness, Claude, and OpenAI.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 20,
+      "date_found": "2026-09-09",
+      "seq": 107
+    },
+    {
+      "id": "GenPark Agent Log Indexer-20260909",
+      "repo": "alphaparkinc/genpark-high-cardinality-agent-log-ingestion-indexer-skill",
+      "name": "GenPark Agent Log Indexer",
+      "url": "https://github.com/alphaparkinc/genpark-high-cardinality-agent-log-ingestion-indexer-skill",
+      "description": "High-cardinality distributed agent structured log indexer for Axiom and Better Stack.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-09",
+      "seq": 108
+    },
+    {
+      "id": "GenPark Voice Duplex Detector-20260909",
+      "repo": "alphaparkinc/genpark-realtime-voice-duplex-turn-taking-interruption-detector-skill",
+      "name": "GenPark Voice Duplex Detector",
+      "url": "https://github.com/alphaparkinc/genpark-realtime-voice-duplex-turn-taking-interruption-detector-skill",
+      "description": "Realtime duplex voice agent turn-taking and barge-in interruption detector for LiveKit.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-09",
+      "seq": 109
+    },
+    {
+      "id": "GenPark ReBAC Policy Evaluator-20260909",
+      "repo": "alphaparkinc/genpark-rebac-relationship-authorization-policy-evaluator-skill",
+      "name": "GenPark ReBAC Policy Evaluator",
+      "url": "https://github.com/alphaparkinc/genpark-rebac-relationship-authorization-policy-evaluator-skill",
+      "description": "Relationship-based authorization (ReBAC) policy evaluator for Permify and Cerbos.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-09",
+      "seq": 110
+    },
+    {
+      "id": "GenPark DOM Mutation Healer-20260909",
+      "repo": "alphaparkinc/genpark-autonomous-dom-mutation-selector-healer-skill",
+      "name": "GenPark DOM Mutation Healer",
+      "url": "https://github.com/alphaparkinc/genpark-autonomous-dom-mutation-selector-healer-skill",
+      "description": "Autonomous DOM state tree mutation observer and selector healer for Browser Use agents.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-09",
+      "seq": 111
     }
   ]
 }
