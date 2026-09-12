@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 112,
+  "next_seq": 124,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1541,6 +1541,163 @@
       "stars": 8,
       "date_found": "2026-09-09",
       "seq": 111
+    },
+    {
+      "id": "anything2explainer-20260912",
+      "repo": "Vincentwei1021/anything2explainer",
+      "name": "anything2explainer",
+      "url": "https://github.com/Vincentwei1021/anything2explainer",
+      "description": "Claude/Codex skill that generates narrated explainer videos with TTS voiceover, subtitles, and chapter progress bar using Remotion.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 999,
+      "date_found": "2026-09-12",
+      "seq": 112
+    },
+    {
+      "id": "nexscope-ecommerce-api-20260912",
+      "repo": "nexscope-ai/nexscope-ecommerce-api",
+      "name": "nexscope-ecommerce-api",
+      "url": "https://github.com/nexscope-ai/nexscope-ecommerce-api",
+      "description": "Ecommerce data and creative AI APIs for marketplace research, product imagery, and video generation.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 10,
+      "date_found": "2026-09-12",
+      "seq": 113
+    },
+    {
+      "id": "ReShot-20260912",
+      "repo": "maosika-ai/reshot",
+      "name": "ReShot",
+      "url": "https://github.com/maosika-ai/reshot",
+      "description": "Monocular video depth estimation for reference video in ControlNet-guided video generation (Seedance/MiniMax H3).",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 8,
+      "date_found": "2026-09-12",
+      "seq": 114
+    },
+    {
+      "id": "flow_auto-20260912",
+      "repo": "greenyarik0505-jpg/flow_auto",
+      "name": "flow_auto",
+      "url": "https://github.com/greenyarik0505-jpg/flow_auto",
+      "description": "CLI and Web API wrapper for Google Flow video and photo generation (Gemini Omni, Veo 3.1, Imagen 4).",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-09-12",
+      "seq": 115
+    },
+    {
+      "id": "video-regen-recipes-20260912",
+      "repo": "Shenrui-Ma/video-regen-recipes",
+      "name": "video-regen-recipes",
+      "url": "https://github.com/Shenrui-Ma/video-regen-recipes",
+      "description": "Agent-guided anime video generation recipes for local MiniMax H3 inference with flexible image and voice tools.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-09-12",
+      "seq": 116
+    },
+    {
+      "id": "niyam-notionaly-20260912",
+      "repo": "niyamvora/niyam-notionaly",
+      "name": "niyam-notionaly",
+      "url": "https://github.com/niyamvora/niyam-notionaly",
+      "description": "Codex skill for generating hand-drawn monochrome illustrations, characters, icons and infographics with tapered linework.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-12",
+      "seq": 117
+    },
+    {
+      "id": "chromatic-tile-transport-20260912",
+      "repo": "DDDFXYqiming/chromatic-tile-transport",
+      "name": "chromatic-tile-transport",
+      "url": "https://github.com/DDDFXYqiming/chromatic-tile-transport",
+      "description": "Browser visual lab for colour-driven tile transport and Matrix Motion with offline examples and local video.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-12",
+      "seq": 118
+    },
+    {
+      "id": "card-gate-frame-20260912",
+      "repo": "fmarlats/card-gate-frame",
+      "name": "card-gate-frame",
+      "url": "https://github.com/fmarlats/card-gate-frame",
+      "description": "Generate ornamental SVG frames and decorative borders for HTML cards using French ironwork styles and seeded generation.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-12",
+      "seq": 119
+    },
+    {
+      "id": "MCP-STARTER-KIT-20260912",
+      "repo": "fdhhhdjd/MCP-STARTER-KIT",
+      "name": "MCP-STARTER-KIT",
+      "url": "https://github.com/fdhhhdjd/MCP-STARTER-KIT",
+      "description": "Production-ready MCP server template with HTTP/stdio transport and OAuth 2.0 (PKCE) for connecting Claude and AI agents to backends.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 7,
+      "date_found": "2026-09-12",
+      "seq": 120
+    },
+    {
+      "id": "bebok-20260912",
+      "repo": "henrykbrzoska/bebok",
+      "name": "bebok",
+      "url": "https://github.com/henrykbrzoska/bebok",
+      "description": "Headless local-first AI coding agent in Rust with HTTP + SSE backend (MCP bridge, permission engine, PTY terminal) and Angular zoneless client.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-12",
+      "seq": 121
+    },
+    {
+      "id": "carnet-20260912",
+      "repo": "carnet-mcp/carnet",
+      "name": "carnet",
+      "url": "https://github.com/carnet-mcp/carnet",
+      "description": "MCP broker that scopes all tool calls per caller under credentials they never hold, with revocation, metering and audit logging.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-12",
+      "seq": 122
+    },
+    {
+      "id": "legacy2mcp-20260912",
+      "repo": "bvenkata/legacy2mcp",
+      "name": "legacy2mcp",
+      "url": "https://github.com/bvenkata/legacy2mcp",
+      "description": "Safely expose legacy SOAP/WSDL systems to AI agents as typed, schema-validated, audit-logged MCP servers.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-12",
+      "seq": 123
     }
   ]
 }
