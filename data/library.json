@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 124,
+  "next_seq": 143,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1698,6 +1698,256 @@
       "stars": 3,
       "date_found": "2026-09-12",
       "seq": 123
+    },
+    {
+      "id": "MotionClone-20260914",
+      "repo": "blixvip/MotionClone",
+      "name": "MotionClone",
+      "url": "https://github.com/blixvip/MotionClone",
+      "description": "Convert reference videos into editable motion graphics with AI; compare, customize, and export MP4s or HyperFrames projects",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 153,
+      "date_found": "2026-09-14",
+      "seq": 124
+    },
+    {
+      "id": "tracecrate-20260914",
+      "repo": "FankChen/tracecrate",
+      "name": "tracecrate",
+      "url": "https://github.com/FankChen/tracecrate",
+      "description": "Local-first AI agent trace workbench for inspecting Claude Code and Codex logs, comparing runs, and exporting privacy-conscious reports",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 116,
+      "date_found": "2026-09-14",
+      "seq": 125
+    },
+    {
+      "id": "SureForge-20260914",
+      "repo": "Da7-Tech/SureForge",
+      "name": "SureForge",
+      "url": "https://github.com/Da7-Tech/SureForge",
+      "description": "Agent skill enforcing research-ask-plan-build-verify-review discipline as plain-text workflow",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 103,
+      "date_found": "2026-09-14",
+      "seq": 126
+    },
+    {
+      "id": "Baize-20260914",
+      "repo": "Xu123-Bob/Baize",
+      "name": "Baize",
+      "url": "https://github.com/Xu123-Bob/Baize",
+      "description": "Open-source Vibe Coding AI agent CLI supporting DeepSeek, OpenAI, and local Ollama with tool calling, skill loading, and sub-agent delegation",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 69,
+      "date_found": "2026-09-14",
+      "seq": 127
+    },
+    {
+      "id": "dsh-cloud-20260914",
+      "repo": "eskim2001/dsh-cloud",
+      "name": "dsh-cloud",
+      "url": "https://github.com/eskim2001/dsh-cloud",
+      "description": "Self-hosted multi-user cloud platform for DeepSeek Harness with isolated workspaces, persistent storage, and access control",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 64,
+      "date_found": "2026-09-14",
+      "seq": 128
+    },
+    {
+      "id": "polox_ai-20260914",
+      "repo": "saihhold-zhao/polox_ai",
+      "name": "polox_ai",
+      "url": "https://github.com/saihhold-zhao/polox_ai",
+      "description": "Agent-native platform for multimodal AI generation built on DeepSeek Harness with unified creation and editing canvas",
+      "tags": [
+        "ai-agents",
+        "video-motion"
+      ],
+      "stars": 46,
+      "date_found": "2026-09-14",
+      "seq": 129
+    },
+    {
+      "id": "spotkit-20260914",
+      "repo": "Devesh-Shirsath/spotkit",
+      "name": "spotkit",
+      "url": "https://github.com/Devesh-Shirsath/spotkit",
+      "description": "Claude Code skill that converts feature descriptions into minimal, abstract SVG product illustrations from a unified design system",
+      "tags": [
+        "design-visual",
+        "agent-practice"
+      ],
+      "stars": 64,
+      "date_found": "2026-09-14",
+      "seq": 130
+    },
+    {
+      "id": "art-aesthetic-vault-20260914",
+      "repo": "YanKaFei/art-aesthetic-vault",
+      "name": "art-aesthetic-vault",
+      "url": "https://github.com/YanKaFei/art-aesthetic-vault",
+      "description": "147 art movements decomposed into 7 swappable AI prompt layers with CLI and MCP server; includes Obsidian vault with public-domain artworks",
+      "tags": [
+        "creative-coding",
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-14",
+      "seq": 131
+    },
+    {
+      "id": "ScreenWright-20260914",
+      "repo": "Onweekendd/ScreenWright",
+      "name": "ScreenWright",
+      "url": "https://github.com/Onweekendd/ScreenWright",
+      "description": "AI-native BI visualization editor for data screens using natural language, Figma, or screenshots with multi-agent collaboration",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 10,
+      "date_found": "2026-09-14",
+      "seq": 132
+    },
+    {
+      "id": "company-brain-3d-20260914",
+      "repo": "kobimantzur/company-brain-3d",
+      "name": "company-brain-3d",
+      "url": "https://github.com/kobimantzur/company-brain-3d",
+      "description": "React component for exploring company data as a 3D brain\u2014fly from departments to individual neurons across org charts and knowledge bases",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-14",
+      "seq": 133
+    },
+    {
+      "id": "veyra-interactive-car-20260914",
+      "repo": "amirmushichge/veyra-interactive-car",
+      "name": "veyra-interactive-car",
+      "url": "https://github.com/amirmushichge/veyra-interactive-car",
+      "description": "Interactive automotive design study in React with bundled media, one-prompt reproduction, and optional LTX API workflow",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 21,
+      "date_found": "2026-09-14",
+      "seq": 134
+    },
+    {
+      "id": "gemos-still-20260914",
+      "repo": "duoduoaiduoduo/gemos-still",
+      "name": "gemos-still",
+      "url": "https://github.com/duoduoaiduoduo/gemos-still",
+      "description": "Browser-local Gaussian 3D memory terminal with particle tides and cinematic 4K film export",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 9,
+      "date_found": "2026-09-14",
+      "seq": 135
+    },
+    {
+      "id": "photo-playground-20260914",
+      "repo": "TREAFREE/photo-playground",
+      "name": "photo-playground",
+      "url": "https://github.com/TREAFREE/photo-playground",
+      "description": "13 independent photo manipulation Codex skills covering collage, lithography, pixels, beadwork, paper cut, photo books, and wanted posters",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 7,
+      "date_found": "2026-09-14",
+      "seq": 136
+    },
+    {
+      "id": "website-to-code-20260914",
+      "repo": "AVIVASHISHTA29/website-to-code",
+      "name": "website-to-code",
+      "url": "https://github.com/AVIVASHISHTA29/website-to-code",
+      "description": "Reproduce cool websites as reusable code by extracting one interaction per episode from live page numbers",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 6,
+      "date_found": "2026-09-14",
+      "seq": 137
+    },
+    {
+      "id": "wasserman-spark-director-h3-speed-recipe-20260914",
+      "repo": "wassermanproductions/wasserman-spark-director-h3-speed-recipe",
+      "name": "wasserman-spark-director-h3-speed-recipe",
+      "url": "https://github.com/wassermanproductions/wasserman-spark-director-h3-speed-recipe",
+      "description": "Recipe for generating 8s of MiniMax H3 video in 2m54s on DGX Spark with scene-specific refinement and original-voice restoration",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 16,
+      "date_found": "2026-09-14",
+      "seq": 138
+    },
+    {
+      "id": "insane-minimax-h3-max-prompts-20260914",
+      "repo": "VulcanEon/insane-minimax-h3-max-prompts",
+      "name": "insane-minimax-h3-max-prompts",
+      "url": "https://github.com/VulcanEon/insane-minimax-h3-max-prompts",
+      "description": "Curated MiniMax H3 Max video prompts, creator examples, shot breakdowns and workflows maintained by h3max.io",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 12,
+      "date_found": "2026-09-14",
+      "seq": 139
+    },
+    {
+      "id": "moodstone-20260914",
+      "repo": "karacca/moodstone",
+      "name": "moodstone",
+      "url": "https://github.com/karacca/moodstone",
+      "description": "Procedurally generated agent avatars for React Native with animation support",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 36,
+      "date_found": "2026-09-14",
+      "seq": 140
+    },
+    {
+      "id": "photo-abstract-pixel-20260914",
+      "repo": "modest021/photo-abstract-pixel",
+      "name": "photo-abstract-pixel",
+      "url": "https://github.com/modest021/photo-abstract-pixel",
+      "description": "Codex skill for redrawing photos as restrained abstract pixel art through semantic reconstruction",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-14",
+      "seq": 141
+    },
+    {
+      "id": "whetstone-20260914",
+      "repo": "j912835225-prog/whetstone",
+      "name": "whetstone",
+      "url": "https://github.com/j912835225-prog/whetstone",
+      "description": "Nine Claude Code skills for rough-cutting footage, auditing to verdict, visual contract, sprawl taming, print drawing, and Chinese writing",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-14",
+      "seq": 142
     }
   ]
 }
