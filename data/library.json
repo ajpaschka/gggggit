@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 143,
+  "next_seq": 147,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -1948,6 +1948,58 @@
       "stars": 1,
       "date_found": "2026-09-14",
       "seq": 142
+    },
+    {
+      "id": "ToolReplay-20260915",
+      "repo": "Matthew0822/ToolReplay",
+      "name": "ToolReplay",
+      "url": "https://github.com/Matthew0822/ToolReplay",
+      "description": "Audit AI agent tool-call transcripts with hash-chain sealing, deterministic replay, and scope overreach detection",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 168,
+      "date_found": "2026-09-15",
+      "seq": 143
+    },
+    {
+      "id": "aside-codemode-20260915",
+      "repo": "lidge-jun/aside-codemode",
+      "name": "aside-codemode",
+      "url": "https://github.com/lidge-jun/aside-codemode",
+      "description": "Rg-backed search and batched browser work in a single sandboxed JavaScript block, reducing AI tool calls from fifty to one",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 84,
+      "date_found": "2026-09-15",
+      "seq": 144
+    },
+    {
+      "id": "LynnReal-Omni-20260915",
+      "repo": "LynnReal-AI/LynnReal-Omni",
+      "name": "LynnReal-Omni",
+      "url": "https://github.com/LynnReal-AI/LynnReal-Omni",
+      "description": "Unified framework for text-to-video, image-to-video, pose-guided generation, style transfer, video editing and restoration at four-step generation speed",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 52,
+      "date_found": "2026-09-15",
+      "seq": 145
+    },
+    {
+      "id": "google-scholar-mcp-20260915",
+      "repo": "HasData/google-scholar-mcp",
+      "name": "google-scholar-mcp",
+      "url": "https://github.com/HasData/google-scholar-mcp",
+      "description": "MCP server for Google Scholar with paper search, citation lookups in five styles, and BibTeX export",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 15,
+      "date_found": "2026-09-15",
+      "seq": 146
     }
   ]
 }
