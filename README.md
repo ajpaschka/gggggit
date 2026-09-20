@@ -20,7 +20,7 @@ no filler.
 ## Community submissions
 
 What actually clears the bar is published at [`criteria.html`](criteria.html) — four checks (real
-repo, something to actually open, genuinely fits one of the six tags, not already in the library),
+repo, something to actually open, genuinely fits one of the seven tags, not already in the library),
 plus why the automated scan and a human submission aren't held to the same review standard. Written
 2026-09-07 after the submission inbox had no stated policy at all — added specifically so a
 submitter (and Alexander, reviewing by hand) has a real bar to check against instead of an ad hoc
@@ -54,9 +54,12 @@ python3 -m http.server 8000
 
 ## Tags
 
-Six categories, grounded in what real scans have actually turned up (not designed in the abstract):
+Seven categories, grounded in what real scans have actually turned up (not designed in the abstract):
 AI & Agents, Design & Visual Tools, Data Visualization, Creative Coding, Video & Motion, Agent
-Practice. New tags only get added when real content justifies them, same as Agent Practice did.
+Practice, Jev. New tags only get added when real content justifies them — Jev (added 2026-09-20)
+is the first tag named after a specific product ecosystem rather than a topic, a deliberate
+departure once TypeSafe's Jev model had enough independent tooling (a CLI, an MCP server, curated
+lists) built around it to be a real trend rather than a single company's own promotion.
 
 ## Color sequence
 

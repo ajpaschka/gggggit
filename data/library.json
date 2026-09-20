@@ -23,6 +23,10 @@
     {
       "slug": "agent-practice",
       "name": "Agent Practice"
+    },
+    {
+      "slug": "jev",
+      "name": "Jev"
     }
   ],
   "colors": [
@@ -78,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 174,
+  "next_seq": 178,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -2008,7 +2012,7 @@
       "url": "https://github.com/awlevin/typesafe-computer-use",
       "description": "macOS computer-use automation that OCRs the screen, classifies the next action, and clicks \u2014 about $0.0002 per step",
       "tags": [
-        "ai-agents"
+        "jev"
       ],
       "stars": 593,
       "date_found": "2026-09-20",
@@ -2351,6 +2355,58 @@
       "stars": 2,
       "date_found": "2026-09-20",
       "seq": 173
+    },
+    {
+      "id": "awesome-typesafe-20260920",
+      "repo": "AbdelStark/awesome-typesafe",
+      "name": "awesome-typesafe",
+      "url": "https://github.com/AbdelStark/awesome-typesafe",
+      "description": "Curated list of official resources and community projects for TypeSafe, its System One models, and Jev",
+      "tags": [
+        "jev"
+      ],
+      "stars": 386,
+      "date_found": "2026-09-20",
+      "seq": 174
+    },
+    {
+      "id": "awesome-jev-20260920",
+      "repo": "cobanov/awesome-jev",
+      "name": "awesome-jev",
+      "url": "https://github.com/cobanov/awesome-jev",
+      "description": "Source-backed curated list of projects built with Jev, TypeSafe AI's System One model for typed decisions",
+      "tags": [
+        "jev"
+      ],
+      "stars": 255,
+      "date_found": "2026-09-20",
+      "seq": 175
+    },
+    {
+      "id": "jev-cli-20260920",
+      "repo": "Nasrallah-AL/jev-cli",
+      "name": "jev-cli",
+      "url": "https://github.com/Nasrallah-AL/jev-cli",
+      "description": "Command-line tool for TypeSafe's Jev AI model",
+      "tags": [
+        "jev"
+      ],
+      "stars": 12,
+      "date_found": "2026-09-20",
+      "seq": 176
+    },
+    {
+      "id": "jev-mcp-20260920",
+      "repo": "rashedInt32/jev-mcp",
+      "name": "jev-mcp",
+      "url": "https://github.com/rashedInt32/jev-mcp",
+      "description": "MCP server exposing TypeSafe's Jev as typed, calibrated judgment tools \u2014 classify, score, check, batched ask \u2014 shipped as a Claude Code plugin",
+      "tags": [
+        "jev"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-20",
+      "seq": 177
     }
   ]
 }
