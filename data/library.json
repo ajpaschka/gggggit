@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "next_seq": 147,
+  "next_seq": 174,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -2000,6 +2000,357 @@
       "stars": 15,
       "date_found": "2026-09-15",
       "seq": 146
+    },
+    {
+      "id": "typesafe-computer-use-20260920",
+      "repo": "awlevin/typesafe-computer-use",
+      "name": "typesafe-computer-use",
+      "url": "https://github.com/awlevin/typesafe-computer-use",
+      "description": "macOS computer-use automation that OCRs the screen, classifies the next action, and clicks \u2014 about $0.0002 per step",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 593,
+      "date_found": "2026-09-20",
+      "seq": 147
+    },
+    {
+      "id": "astra-flash-orchestrator-20260920",
+      "repo": "ethanplusai/astra-flash-orchestrator",
+      "name": "astra-flash-orchestrator",
+      "url": "https://github.com/ethanplusai/astra-flash-orchestrator",
+      "description": "Two-model orchestration workflow \u2014 one model plans and reviews, DeepSeek Flash builds \u2014 with phased tasks, verification, and reversible setup",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 215,
+      "date_found": "2026-09-20",
+      "seq": 148
+    },
+    {
+      "id": "nautilo-20260920",
+      "repo": "agentsea/nautilo",
+      "name": "nautilo",
+      "url": "https://github.com/agentsea/nautilo",
+      "description": "Self-hosted, open-source workspace where people and AI agents create, code, and work together across desktop, mobile, and web",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 38,
+      "date_found": "2026-09-20",
+      "seq": 149
+    },
+    {
+      "id": "QCode-20260920",
+      "repo": "Qiuner/QCode",
+      "name": "QCode",
+      "url": "https://github.com/Qiuner/QCode",
+      "description": "Explorable island-world course for learning AI coding and building real projects with AI agents, powered by DeepSeek Harness",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 237,
+      "date_found": "2026-09-20",
+      "seq": 150
+    },
+    {
+      "id": "cachebeat-20260920",
+      "repo": "ARahim3/cachebeat",
+      "name": "cachebeat",
+      "url": "https://github.com/ARahim3/cachebeat",
+      "description": "Claude Code skill that keeps your prompt cache warm during idle sessions, so the next message reads from cache instead of paying full price",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 52,
+      "date_found": "2026-09-20",
+      "seq": 151
+    },
+    {
+      "id": "figma-font-handler-20260920",
+      "repo": "yannicschaer/figma-font-handler",
+      "name": "figma-font-handler",
+      "url": "https://github.com/yannicschaer/figma-font-handler",
+      "description": "MCP server plus Figma plugin that gives an AI assistant access to the licensed fonts already installed on your machine",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-20",
+      "seq": 152
+    },
+    {
+      "id": "keyline-20260920",
+      "repo": "TANISHQBAFNA/keyline",
+      "name": "keyline",
+      "url": "https://github.com/TANISHQBAFNA/keyline",
+      "description": "Set design rules in Figma once, and AI agents resolve the right components instead of dumping the whole file",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-20",
+      "seq": 153
+    },
+    {
+      "id": "LazyLord-20260920",
+      "repo": "raisulsohan/LazyLord",
+      "name": "LazyLord",
+      "url": "https://github.com/raisulsohan/LazyLord",
+      "description": "Free replacement for Overlord \u2014 moves artwork between Figma, Photoshop, Illustrator, and After Effects",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-20",
+      "seq": 154
+    },
+    {
+      "id": "pixellab-cli-20260920",
+      "repo": "protonspy/pixellab-cli",
+      "name": "pixellab-cli",
+      "url": "https://github.com/protonspy/pixellab-cli",
+      "description": "Command-line generator for 2D game assets \u2014 sprites, eight-direction characters, animations, tilesets, and atlases \u2014 with cost estimated before each paid call",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 5,
+      "date_found": "2026-09-20",
+      "seq": 155
+    },
+    {
+      "id": "ai-model-world-20260920",
+      "repo": "liyupi/ai-model-world",
+      "name": "ai-model-world",
+      "url": "https://github.com/liyupi/ai-model-world",
+      "description": "Visualization site that turns 556 AI models into pixel characters, browsable by capability, cost, and release timeline, synced hourly from Epoch AI, models.dev, LiveBench, and Hugging Face",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 144,
+      "date_found": "2026-09-20",
+      "seq": 156
+    },
+    {
+      "id": "Open-Health-Atlas-20260920",
+      "repo": "kajeesan/Open-Health-Atlas",
+      "name": "Open-Health-Atlas",
+      "url": "https://github.com/kajeesan/Open-Health-Atlas",
+      "description": "Explores sleep, training, mood, and nutrition together from local records, with traceable calculations and optional MCP tools for your AI client",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 56,
+      "date_found": "2026-09-20",
+      "seq": 157
+    },
+    {
+      "id": "topconf-paper-figure-gallery-20260920",
+      "repo": "qwdwqfwq/topconf-paper-figure-gallery",
+      "name": "topconf-paper-figure-gallery",
+      "url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
+      "description": "Searchable gallery of 2,298 curated Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, and AAAI (2023\u20132025), for paper-overview design reference",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 9,
+      "date_found": "2026-09-20",
+      "seq": 158
+    },
+    {
+      "id": "seijaku-20260920",
+      "repo": "MengTo/seijaku",
+      "name": "seijaku",
+      "url": "https://github.com/MengTo/seijaku",
+      "description": "Continuous interactive walk through a Kyoto residence, with procedural Three.js architecture, gardens, seasons, and responsive photography",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 18,
+      "date_found": "2026-09-20",
+      "seq": 159
+    },
+    {
+      "id": "overprint-20260920",
+      "repo": "chuwd19/overprint",
+      "name": "overprint",
+      "url": "https://github.com/chuwd19/overprint",
+      "description": "Turns photos into risograph-style prints \u2014 spot-colour separation, per-ink halftone screening, overprint \u2014 static WebGL2, no build step",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-20",
+      "seq": 160
+    },
+    {
+      "id": "loom-20260920",
+      "repo": "nicolasloizeau/loom",
+      "name": "loom",
+      "url": "https://github.com/nicolasloizeau/loom",
+      "description": "Generative woven cloth from a JSON settings file \u2014 instant flat renders or 3D yarn rendered in Blender with film grain",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 29,
+      "date_found": "2026-09-20",
+      "seq": 161
+    },
+    {
+      "id": "infinite-pokemon-20260920",
+      "repo": "Shellishack/infinite-pokemon",
+      "name": "infinite-pokemon",
+      "url": "https://github.com/Shellishack/infinite-pokemon",
+      "description": "Pokemon-style adventure built with Codex, with AI-generated maps, NPCs, branching saves, and multiplayer \u2014 the adventure never ends",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 114,
+      "date_found": "2026-09-20",
+      "seq": 162
+    },
+    {
+      "id": "Chroma-Flow-20260920",
+      "repo": "MyLittleShrimp/Chroma-Flow-By-LittleShrimp",
+      "name": "Chroma-Flow",
+      "url": "https://github.com/MyLittleShrimp/Chroma-Flow-By-LittleShrimp",
+      "description": "Interactive 3D colored particle flow built on Three.js and WebGPU, driven by mouse stirring, webcam gaze tracking, and body motion",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-20",
+      "seq": 163
+    },
+    {
+      "id": "gba-exploded-view-20260920",
+      "repo": "fchavonet/creative_coding-gba_exploded_view",
+      "name": "gba-exploded-view",
+      "url": "https://github.com/fchavonet/creative_coding-gba_exploded_view",
+      "description": "Interactive 3D experiment that lets you explore the internal construction of a Game Boy Advance directly in the browser",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-20",
+      "seq": 164
+    },
+    {
+      "id": "headreel-20260920",
+      "repo": "arifszn/headreel",
+      "name": "headreel",
+      "url": "https://github.com/arifszn/headreel",
+      "description": "Generates animated GitHub profile banners from your GitHub activity, via a GitHub Action or CLI",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-20",
+      "seq": 165
+    },
+    {
+      "id": "frame-break-photo-art-20260920",
+      "repo": "iaoc0705-ctrl/frame-break-photo-art",
+      "name": "frame-break-photo-art",
+      "url": "https://github.com/iaoc0705-ctrl/frame-break-photo-art",
+      "description": "Turns photos into tactile paper-mechanism conceptual artworks through action extraction, object role reversal, and spatial recomposition",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-20",
+      "seq": 166
+    },
+    {
+      "id": "remiqora-20260920",
+      "repo": "inikolax/remiqora",
+      "name": "remiqora",
+      "url": "https://github.com/inikolax/remiqora",
+      "description": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one interface \u2014 text-to-music, stem separation, MIDI transcription, LoRA fine-tuning, and a built-in multitrack DAW",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 108,
+      "date_found": "2026-09-20",
+      "seq": 167
+    },
+    {
+      "id": "video-generator-client-20260920",
+      "repo": "letorig/video-generator-client",
+      "name": "video-generator-client",
+      "url": "https://github.com/letorig/video-generator-client",
+      "description": "Async Python wrapper for Seedance, Kling, MiniMax, and Wan video generation, with a CLI and a local web UI",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 540,
+      "date_found": "2026-09-20",
+      "seq": 168
+    },
+    {
+      "id": "guizang-product-video-skill-20260920",
+      "repo": "op7418/guizang-product-video-skill",
+      "name": "guizang-product-video-skill",
+      "url": "https://github.com/op7418/guizang-product-video-skill",
+      "description": "Product-video skill that reuses real product components and design language to build software-update promo videos \u2014 storyboard, score, sound effects, and rendering, for Claude Code and Codex",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 199,
+      "date_found": "2026-09-20",
+      "seq": 169
+    },
+    {
+      "id": "vibetube-20260920",
+      "repo": "mutonby/vibetube",
+      "name": "vibetube",
+      "url": "https://github.com/mutonby/vibetube",
+      "description": "Desktop multicam recorder for macOS that syncs screen and webcam capture, then hands off to Claude Code or Codex for shot selection, subtitles, graphics, and SFX",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 72,
+      "date_found": "2026-09-20",
+      "seq": 170
+    },
+    {
+      "id": "Drehbuch-Referenzanker-Generator-20260920",
+      "repo": "wobushannes/Drehbuch--Referenzanker-Generator",
+      "name": "Drehbuch-Referenzanker-Generator",
+      "url": "https://github.com/wobushannes/Drehbuch--Referenzanker-Generator",
+      "description": "Screenplay studio that converts bullet points and images into strict, timecoded video prompts for MiniMax H3, Maestro, Kling, and Runway, with local vision analysis",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 39,
+      "date_found": "2026-09-20",
+      "seq": 171
+    },
+    {
+      "id": "easyedit-20260920",
+      "repo": "blixvip/easyedit",
+      "name": "easyedit",
+      "url": "https://github.com/blixvip/easyedit",
+      "description": "Turns a raw movie clip into a captioned, beat-cut fan edit \u2014 local-first, no API keys, works with Claude Code or Codex",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 18,
+      "date_found": "2026-09-20",
+      "seq": 172
+    },
+    {
+      "id": "2d-limited-mv-studio-20260920",
+      "repo": "YanKaFei/2d-limited-mv-studio",
+      "name": "2d-limited-mv-studio",
+      "url": "https://github.com/YanKaFei/2d-limited-mv-studio",
+      "description": "DeepSeek Harness skill that turns one character image and one song into a complete MiniMax H3 prompt package for a 14.5-second anime dance music video",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-20",
+      "seq": 173
     }
   ]
 }
