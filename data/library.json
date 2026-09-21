@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 178,
+  "next_seq": 187,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -2407,6 +2407,124 @@
       "stars": 4,
       "date_found": "2026-09-20",
       "seq": 177
+    },
+    {
+      "id": "geo-sleuth-20260921",
+      "repo": "Oldcircle/geo-sleuth",
+      "name": "geo-sleuth",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "description": "Agent skill: identify photo locations using OpenStreetMap, elevation skylines, satellite imagery, and street view; works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and GitHub Copilot.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 214,
+      "date_found": "2026-09-21",
+      "seq": 178
+    },
+    {
+      "id": "iconwiki-20260921",
+      "repo": "resoliwan/iconwiki",
+      "name": "iconwiki",
+      "url": "https://github.com/resoliwan/iconwiki",
+      "description": "Fast static search across 78,000+ icons and emoji from 21 libraries with license filters and multilingual search.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-21",
+      "seq": 179
+    },
+    {
+      "id": "blocklight-20260921",
+      "repo": "digitalhen/blocklight",
+      "name": "blocklight",
+      "url": "https://github.com/digitalhen/blocklight",
+      "description": "Turn building footprints and JSON records into interactive city maps using TypeScript and MapLibre GL JS\u2014framework-independent, MIT licensed.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-21",
+      "seq": 180
+    },
+    {
+      "id": "run3d-20260921",
+      "repo": "crapthings/run3d",
+      "name": "run3d",
+      "url": "https://github.com/crapthings/run3d",
+      "description": "From idea to interactive 3D prototype in one command: JavaScript starter with Vite and React Three Fiber for creative experimentation.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1,
+      "date_found": "2026-09-21",
+      "seq": 181
+    },
+    {
+      "id": "AI Desktop Outfit Video-20260921",
+      "repo": "liyupi/ai-desktop-outfit-video",
+      "name": "AI Desktop Outfit Video",
+      "url": "https://github.com/liyupi/ai-desktop-outfit-video",
+      "description": "Reverse-engineered prompt template for desktop dynamic wallpaper outfit-swap videos: generate 30-second clips in one shot, fixed camera, model-generated Chinese dialogue and captions\u2014works with Claude Code and Cursor as an agent skill.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 20,
+      "date_found": "2026-09-21",
+      "seq": 182
+    },
+    {
+      "id": "ComfyUI DNNodes-20260921",
+      "repo": "ljxdn/ComfyUI-DNNodes",
+      "name": "ComfyUI DNNodes",
+      "url": "https://github.com/ljxdn/ComfyUI-DNNodes",
+      "description": "ComfyUI nodes: asset cards (image + audio + description) feed directly into MiniMax H3 director groups for segmented video generation with rich-text prompt editing.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 7,
+      "date_found": "2026-09-21",
+      "seq": 183
+    },
+    {
+      "id": "claude-vs-codex-20260921",
+      "repo": "kirillshsh/claude-vs-codex",
+      "name": "claude-vs-codex",
+      "url": "https://github.com/kirillshsh/claude-vs-codex",
+      "description": "93-second pixel-art cartoon about Claude and Codex, written entirely in code by Claude\u2014one-shot, single-turn generation.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 17,
+      "date_found": "2026-09-21",
+      "seq": 184
+    },
+    {
+      "id": "gomodel-admin-mcp-20260921",
+      "repo": "weselben/gomodel-admin-mcp",
+      "name": "gomodel-admin-mcp",
+      "url": "https://github.com/weselben/gomodel-admin-mcp",
+      "description": "MCP server for GoModel admin API: grouped tools with gradual discovery, live docs from GitHub, TTL read cache\u2014runs on Bun, distroless Docker, auto-releases via gated CI.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-21",
+      "seq": 185
+    },
+    {
+      "id": "atflows-20260921",
+      "repo": "aetna000/atflows",
+      "name": "atflows",
+      "url": "https://github.com/aetna000/atflows",
+      "description": "Local observability tool for LLM applications: monitor costs, tokens, and latency in real-time from your SDK.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-09-21",
+      "seq": 186
     }
   ]
 }
