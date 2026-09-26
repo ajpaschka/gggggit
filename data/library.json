@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 187,
+  "next_seq": 208,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -2525,6 +2525,282 @@
       "stars": 2,
       "date_found": "2026-09-21",
       "seq": 186
+    },
+    {
+      "id": "golive-skill-20260926",
+      "repo": "mikehasa/golive-skill",
+      "name": "golive-skill",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "description": "Agent skill to take agent-built products live: hosting, database, domain, email, payments \u2014 on your own accounts, with detection, planning, approval and verification.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 954,
+      "date_found": "2026-09-26",
+      "seq": 187
+    },
+    {
+      "id": "awesome-jev-20260926",
+      "repo": "kydlikebtc/awesome-jev",
+      "name": "awesome-jev",
+      "url": "https://github.com/kydlikebtc/awesome-jev",
+      "description": "1207 public resources for Jev system, indexed by decision pattern with source citations, link checks and call-site text verification.",
+      "tags": [
+        "jev"
+      ],
+      "stars": 438,
+      "date_found": "2026-09-26",
+      "seq": 188
+    },
+    {
+      "id": "inkloom-20260926",
+      "repo": "Inkloom-art/inkloom",
+      "name": "inkloom",
+      "url": "https://github.com/Inkloom-art/inkloom",
+      "description": "Specialized AI models for logo design: brand-analysis model extracts constraints, typography and symbol models construct the mark, composition engine produces lockups and clear-space rules.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 324,
+      "date_found": "2026-09-26",
+      "seq": 189
+    },
+    {
+      "id": "anidoodle-20260926",
+      "repo": "alexgreensh/anidoodle",
+      "name": "anidoodle",
+      "url": "https://github.com/alexgreensh/anidoodle",
+      "description": "Art and animation written as code: illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 327,
+      "date_found": "2026-09-26",
+      "seq": 190
+    },
+    {
+      "id": "riso-windowseat-20260926",
+      "repo": "sevenevesai/riso-windowseat",
+      "name": "riso-windowseat",
+      "url": "https://github.com/sevenevesai/riso-windowseat",
+      "description": "Procedural risograph films in single HTML files (Window Seat, Roost and more), with Claude Code skills, docs and tools to make your own.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 222,
+      "date_found": "2026-09-26",
+      "seq": 191
+    },
+    {
+      "id": "short-video-generator-AI-20260926",
+      "repo": "yukitorido/short-video-generator-AI",
+      "name": "short-video-generator-AI",
+      "url": "https://github.com/yukitorido/short-video-generator-AI",
+      "description": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 712,
+      "date_found": "2026-09-26",
+      "seq": 192
+    },
+    {
+      "id": "html-explainer-20260926",
+      "repo": "OneMoh/html-explainer",
+      "name": "html-explainer",
+      "url": "https://github.com/OneMoh/html-explainer",
+      "description": "Turn a topic into narrated, captioned, covered explainer video \u2014 deterministic HTML to MP4 rendering pipeline for AI coding agents.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 59,
+      "date_found": "2026-09-26",
+      "seq": 193
+    },
+    {
+      "id": "simon-skills-20260926",
+      "repo": "trustfuture/simon-skills",
+      "name": "simon-skills",
+      "url": "https://github.com/trustfuture/simon-skills",
+      "description": "AI skill suite for faceless video accounts: long-form investigation and hand-drawn whiteboard explainer video generation from topic to cover and platform copy.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 169,
+      "date_found": "2026-09-26",
+      "seq": 194
+    },
+    {
+      "id": "paint-mv-skills-20260926",
+      "repo": "lintsinghua/paint-mv-skills",
+      "name": "paint-mv-skills",
+      "url": "https://github.com/lintsinghua/paint-mv-skills",
+      "description": "Agent skills that turn a song and its lyrics into hand-painted watercolour music video (p5.brush + headless Chrome + ffmpeg).",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 19,
+      "date_found": "2026-09-26",
+      "seq": 195
+    },
+    {
+      "id": "moyun-20260926",
+      "repo": "axtonliu/moyun",
+      "name": "moyun",
+      "url": "https://github.com/axtonliu/moyun",
+      "description": "Real-time GPU ink fluid simulation, pentatonic guqin and procedural landscape painting that renders a new composition each time.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 15,
+      "date_found": "2026-09-26",
+      "seq": 196
+    },
+    {
+      "id": "pencil-case-20260926",
+      "repo": "Qizhan7/pencil-case",
+      "name": "pencil-case",
+      "url": "https://github.com/Qizhan7/pencil-case",
+      "description": "Hand-built drawing skills (crayon, pen and wash) in Python with every stroke drawn \u2014 no filters, no image generation.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 15,
+      "date_found": "2026-09-26",
+      "seq": 197
+    },
+    {
+      "id": "DesignHub-20260926",
+      "repo": "yakew7/DesignHub",
+      "name": "DesignHub",
+      "url": "https://github.com/yakew7/DesignHub",
+      "description": "Open-source, local-first design and brand toolkit: build a brand once, get logo variants, mockups, social assets, brand book PDF and design tokens.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 11,
+      "date_found": "2026-09-26",
+      "seq": 198
+    },
+    {
+      "id": "causalmesh-20260926",
+      "repo": "VictorAgahi/causalmesh",
+      "name": "causalmesh",
+      "url": "https://github.com/VictorAgahi/causalmesh",
+      "description": "MCP server that maps polyglot codebases for AI coding agents: reverse dependencies, gRPC tracing, event flows and doc search without context overhead.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 10,
+      "date_found": "2026-09-26",
+      "seq": 199
+    },
+    {
+      "id": "ai-model-rankings-20260926",
+      "repo": "Mocas-12/ai-model-rankings",
+      "name": "ai-model-rankings",
+      "url": "https://github.com/Mocas-12/ai-model-rankings",
+      "description": "Real-time AI model power rankings with usage, benchmarks, price-performance and speed from OpenRouter in an ink-wash Streamlit dashboard.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 16,
+      "date_found": "2026-09-26",
+      "seq": 200
+    },
+    {
+      "id": "steam-live-charts-20260926",
+      "repo": "Mocas-12/steam-live-charts",
+      "name": "steam-live-charts",
+      "url": "https://github.com/Mocas-12/steam-live-charts",
+      "description": "Real-time Steam game leaderboards: live player counts, CNY prices and deals, auto-refresh every 60 seconds.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 16,
+      "date_found": "2026-09-26",
+      "seq": 201
+    },
+    {
+      "id": "SpaceSharp-20260926",
+      "repo": "ClearanceClarence/SpaceSharp",
+      "name": "SpaceSharp",
+      "url": "https://github.com/ClearanceClarence/SpaceSharp",
+      "description": "Fast, zoomable treemap disk space analyzer for Windows: scan any drive and see every file as a box sized by space used, with multiple palettes and themes.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 4,
+      "date_found": "2026-09-26",
+      "seq": 202
+    },
+    {
+      "id": "network-constellation-20260926",
+      "repo": "asturksever/network-constellation",
+      "name": "network-constellation",
+      "url": "https://github.com/asturksever/network-constellation",
+      "description": "3D map of your LinkedIn connections, clustered by profession, runs in browser with no data upload.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-09-26",
+      "seq": 203
+    },
+    {
+      "id": "herdr-gpui-20260926",
+      "repo": "penso/herdr-gpui",
+      "name": "herdr-gpui",
+      "url": "https://github.com/penso/herdr-gpui",
+      "description": "Native macOS client for Herdr built with Rust and GPUI: view terminal sessions, workspaces, Git worktrees and agent activity.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 217,
+      "date_found": "2026-09-26",
+      "seq": 204
+    },
+    {
+      "id": "cinematic-video-prompt-skill-20260926",
+      "repo": "Rylaispirit/cinematic-video-prompt-skill",
+      "name": "cinematic-video-prompt-skill",
+      "url": "https://github.com/Rylaispirit/cinematic-video-prompt-skill",
+      "description": "AI video prompt cheat sheet and Claude skill: 700+ cinematic terms (camera angles, movement, lighting, composition, color grading) with Vietnamese explanations.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 95,
+      "date_found": "2026-09-26",
+      "seq": 205
+    },
+    {
+      "id": "drawn-by-code-20260926",
+      "repo": "illodev/drawn-by-code",
+      "name": "drawn-by-code",
+      "url": "https://github.com/illodev/drawn-by-code",
+      "description": "Animation drawn by code with Claude: an engine, styles and skills that learn from every render, all open with PRs welcome.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-09-26",
+      "seq": 206
+    },
+    {
+      "id": "every-frame-is-code-20260926",
+      "repo": "kiselas/every-frame-is-code",
+      "name": "every-frame-is-code",
+      "url": "https://github.com/kiselas/every-frame-is-code",
+      "description": "Agent skill for Claude Code, Codex and ChatGPT that makes motion graphics, 3D scenes and games in HTML/JS and renders to MP4 frame by frame.",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 5,
+      "date_found": "2026-09-26",
+      "seq": 207
     }
   ]
 }
