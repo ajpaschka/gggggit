@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 208,
+  "next_seq": 221,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -2801,6 +2801,182 @@
       "stars": 5,
       "date_found": "2026-09-26",
       "seq": 207
+    },
+    {
+      "id": "awesome-opus5-5-videos-20260930",
+      "repo": "yihui-dev/awesome-opus5-5-videos",
+      "name": "awesome-opus5-5-videos",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "description": "Curated collection of viral videos made with Claude Opus 5.5 and their prompts, with live remakes on Skillry.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 962,
+      "date_found": "2026-09-30",
+      "seq": 208
+    },
+    {
+      "id": "lemo-opuscar-20260930",
+      "repo": "lemomo-ai/lemo-opuscar",
+      "name": "lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "description": "43 reusable film styles with style prompts and full sample films rendered in code by Claude Opus 5.5.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 632,
+      "date_found": "2026-09-30",
+      "seq": 209
+    },
+    {
+      "id": "ai-system-design-20260930",
+      "repo": "amitshekhariitbhu/ai-system-design",
+      "name": "ai-system-design",
+      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+      "description": "Step-by-step guide to designing AI systems built on LLMs, RAG, and AI Agents.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 470,
+      "date_found": "2026-09-30",
+      "seq": 210
+    },
+    {
+      "id": "dioramas-20260930",
+      "repo": "blendi-remade/dioramas",
+      "name": "dioramas",
+      "url": "https://github.com/blendi-remade/dioramas",
+      "description": "Free, open-source framework for cinematic interactive 3D websites with AI-generated assets (Nano Banana 2, Meshy 7.1) and 20 example sites.",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 55,
+      "date_found": "2026-09-30",
+      "seq": 211
+    },
+    {
+      "id": "evident-charts-20260930",
+      "repo": "rhiever/evident-charts",
+      "name": "evident-charts",
+      "url": "https://github.com/rhiever/evident-charts",
+      "description": "Teaches AI coding agents to make clear, honest charts with automated verification before display.",
+      "tags": [
+        "agent-practice",
+        "data-viz"
+      ],
+      "stars": 49,
+      "date_found": "2026-09-30",
+      "seq": 212
+    },
+    {
+      "id": "koi-pond-garden-20260930",
+      "repo": "souranyp-stack/koi-pond-garden",
+      "name": "koi-pond-garden",
+      "url": "https://github.com/souranyp-stack/koi-pond-garden",
+      "description": "Interactive Japanese koi pond garden rendered in real-time with Three.js\u2014single HTML file, no build step, no assets.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 36,
+      "date_found": "2026-09-30",
+      "seq": 213
+    },
+    {
+      "id": "brewreel-20260930",
+      "repo": "Finderchangchang/brewreel",
+      "name": "brewreel",
+      "url": "https://github.com/Finderchangchang/brewreel",
+      "description": "Generate vertical promotional videos with AI: product brief \u2192 lens selection and copywriting \u2192 one-command output with 3 templates, 6 industry presets, and legal ad validation.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 111,
+      "date_found": "2026-09-30",
+      "seq": 214
+    },
+    {
+      "id": "opus-video-prompts-20260930",
+      "repo": "joeseesun/opus-video-prompts",
+      "name": "opus-video-prompts",
+      "url": "https://github.com/joeseesun/opus-video-prompts",
+      "description": "Copy-ready prompts and 54 cases of Claude Opus 5.5 code-rendered videos.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 99,
+      "date_found": "2026-09-30",
+      "seq": 215
+    },
+    {
+      "id": "opus-js-animations-20260930",
+      "repo": "klsoen/opus-js-animations",
+      "name": "opus-js-animations",
+      "url": "https://github.com/klsoen/opus-js-animations",
+      "description": "Claude Opus 5.5 directs and renders films in JavaScript: brief to sound to treatment to frame-exact MP4.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 15,
+      "date_found": "2026-09-30",
+      "seq": 216
+    },
+    {
+      "id": "claude-drawing-skill-20260930",
+      "repo": "cloveric/claude-drawing-skill",
+      "name": "claude-drawing-skill",
+      "url": "https://github.com/cloveric/claude-drawing-skill",
+      "description": "Claude Code skill for procedural illustration in 17 styles (ink wash, watercolour, ukiyo-e, pixel art, clay, cyanotype, cross-stitch, neon) with CPU-only numpy and Pillow.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 11,
+      "date_found": "2026-09-30",
+      "seq": 217
+    },
+    {
+      "id": "seiso-20260930",
+      "repo": "scarletkc/seiso",
+      "name": "seiso",
+      "url": "https://github.com/scarletkc/seiso",
+      "description": "Markdown convention and linter for project docs written by AI and read by humans and agents.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 152,
+      "date_found": "2026-09-30",
+      "seq": 218
+    },
+    {
+      "id": "building-with-typesafe-jev-20260930",
+      "repo": "aaddrick/building-with-typesafe-jev",
+      "name": "building-with-typesafe-jev",
+      "url": "https://github.com/aaddrick/building-with-typesafe-jev",
+      "description": "Unofficial skill teaching coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior art from 150+ community projects.",
+      "tags": [
+        "agent-practice",
+        "ai-agents"
+      ],
+      "stars": 124,
+      "date_found": "2026-09-30",
+      "seq": 219
+    },
+    {
+      "id": "openhouse-3d-20260930",
+      "repo": "yunfanye/openhouse-3d",
+      "name": "openhouse-3d",
+      "url": "https://github.com/yunfanye/openhouse-3d",
+      "description": "Turn real-estate listing photos into 3D house models and cinematic walkthrough videos via photo camera solving and procedural Blender rendering.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 44,
+      "date_found": "2026-09-30",
+      "seq": 220
     }
   ]
 }
