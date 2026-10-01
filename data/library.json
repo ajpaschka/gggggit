@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 221,
+  "next_seq": 232,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -2977,6 +2977,149 @@
       "stars": 44,
       "date_found": "2026-09-30",
       "seq": 220
+    },
+    {
+      "id": "dots-20261001",
+      "repo": "feder-cr/dots",
+      "name": "dots",
+      "url": "https://github.com/feder-cr/dots",
+      "description": "AI agent framework with autonomous browser control that bypasses blocking and captchas.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 1956,
+      "date_found": "2026-10-01",
+      "seq": 221
+    },
+    {
+      "id": "coucou-20261001",
+      "repo": "Louis-CFM/coucou",
+      "name": "coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "description": "Native menu-bar companion that monitors and reports on Claude Code agent sessions in real time.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 1743,
+      "date_found": "2026-10-01",
+      "seq": 222
+    },
+    {
+      "id": "reelmimic-20261001",
+      "repo": "edenfunf/reelmimic",
+      "name": "reelmimic",
+      "url": "https://github.com/edenfunf/reelmimic",
+      "description": "Show a reference video, get a new video in the same style via an AI crew that plans, builds, and reviews each frame.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 541,
+      "date_found": "2026-10-01",
+      "seq": 223
+    },
+    {
+      "id": "shotcandy-20261001",
+      "repo": "btahir/shotcandy",
+      "name": "shotcandy",
+      "url": "https://github.com/btahir/shotcandy",
+      "description": "Free open-source screenshot beautifier: device frames, backgrounds, batch export, code images, no upload.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 33,
+      "date_found": "2026-10-01",
+      "seq": 224
+    },
+    {
+      "id": "RuiC-motion-reel-20261001",
+      "repo": "HRuiCcc/RuiC-motion-reel",
+      "name": "RuiC-motion-reel",
+      "url": "https://github.com/HRuiCcc/RuiC-motion-reel",
+      "description": "Agent skill: generate 15-second motion graphics at 1920\u00d71080 from code alone with custom render engine, no external assets.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 26,
+      "date_found": "2026-10-01",
+      "seq": 225
+    },
+    {
+      "id": "Realtime_Conversation_Video-20261001",
+      "repo": "animede/Realtime_Conversation_Video",
+      "name": "Realtime_Conversation_Video",
+      "url": "https://github.com/animede/Realtime_Conversation_Video",
+      "description": "Character responds in real time with video and voice to live microphone input.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 51,
+      "date_found": "2026-10-01",
+      "seq": 226
+    },
+    {
+      "id": "ai-school-op-20261001",
+      "repo": "lshhhhhhh/ai-school-op",
+      "name": "ai-school-op",
+      "url": "https://github.com/lshhhhhhh/ai-school-op",
+      "description": "AI anime opening generation: storyboards, frame-level character replacement with MiniMax H3, upscaling, cast reference.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 43,
+      "date_found": "2026-10-01",
+      "seq": 227
+    },
+    {
+      "id": "html-anime-20261001",
+      "repo": "blixvip/html-anime",
+      "name": "html-anime",
+      "url": "https://github.com/blixvip/html-anime",
+      "description": "HTML anime generator: prompt a scene, get a shot sheet, and have an AI agent draw the film in code.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 15,
+      "date_found": "2026-10-01",
+      "seq": 228
+    },
+    {
+      "id": "tanim-20261001",
+      "repo": "SantiagoSchez/tanim",
+      "name": "tanim",
+      "url": "https://github.com/SantiagoSchez/tanim",
+      "description": "Procedural screensaver with 20+ pixel-art terminal scenes in true color from a single Rust binary, playable in browser via WebAssembly.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 14,
+      "date_found": "2026-10-01",
+      "seq": 229
+    },
+    {
+      "id": "procedural-art-20261001",
+      "repo": "dogum/procedural-art",
+      "name": "procedural-art",
+      "url": "https://github.com/dogum/procedural-art",
+      "description": "Render real mountains, glass, and paintings from code and elevation data via two Claude Code skills.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-01",
+      "seq": 230
+    },
+    {
+      "id": "codex-kit-20261001",
+      "repo": "zhaoFenG8917/codex-kit",
+      "name": "codex-kit",
+      "url": "https://github.com/zhaoFenG8917/codex-kit",
+      "description": "Single-binary CLI toolkit for AI agents: ls, tree, diff, replace with JSON output and automatic encoding handling.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-01",
+      "seq": 231
     }
   ]
 }
