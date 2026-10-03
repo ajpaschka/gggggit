@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 232,
+  "next_seq": 241,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -3120,6 +3120,129 @@
       "stars": 3,
       "date_found": "2026-10-01",
       "seq": 231
+    },
+    {
+      "id": "imagegen-mac-20261003",
+      "repo": "ph1lb4/imagegen-mac",
+      "name": "imagegen-mac",
+      "url": "https://github.com/ph1lb4/imagegen-mac",
+      "description": "Local AI image generation for Mac (Qwen-Image 2.1 on Apple Silicon) offline and private, with built-in MCP server for Claude Code and AI agents.",
+      "tags": [
+        "ai-agents",
+        "design-visual"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-03",
+      "seq": 232
+    },
+    {
+      "id": "motion-graphics-skills-20261003",
+      "repo": "imMamdouhaboammar/motion-graphics-skills",
+      "name": "motion-graphics-skills",
+      "url": "https://github.com/imMamdouhaboammar/motion-graphics-skills",
+      "description": "Motion graphics agent skills for Claude Code and Codex powered by HyperFrames\u2014brand films, kinetic type, 2D/3D, programmatic video.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 13,
+      "date_found": "2026-10-03",
+      "seq": 233
+    },
+    {
+      "id": "motion-fx-lab-20261003",
+      "repo": "howardc38/motion-fx-lab",
+      "name": "motion-fx-lab",
+      "url": "https://github.com/howardc38/motion-fx-lab",
+      "description": "Create and render social clips, product demos, infographics, and B-roll as web pages to verified frame-exact MP4 with 54 effects.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-03",
+      "seq": 234
+    },
+    {
+      "id": "ai-director-film-20261003",
+      "repo": "bitqs/ai-director-film",
+      "name": "ai-director-film",
+      "url": "https://github.com/bitqs/ai-director-film",
+      "description": "Tutorial for directing a 3-minute short film with AI, including production methodology for beginners.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 28,
+      "date_found": "2026-10-03",
+      "seq": 235
+    },
+    {
+      "id": "motion-graphics-skills-20261003",
+      "repo": "Mort1d/motion-graphics-skills",
+      "name": "motion-graphics-skills",
+      "url": "https://github.com/Mort1d/motion-graphics-skills",
+      "description": "Showreel-grade motion graphics from code with original soundtracks\u2014agent skill for Claude Code, Codex, Cursor.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 24,
+      "date_found": "2026-10-03",
+      "seq": 236
+    },
+    {
+      "id": "deepseek-motion-graphics-20261003",
+      "repo": "theAbdoSabbagh/deepseek-motion-graphics",
+      "name": "deepseek-motion-graphics",
+      "url": "https://github.com/theAbdoSabbagh/deepseek-motion-graphics",
+      "description": "AFTERGLOW\u201415-second motion graphics showreel (1920\u00d71080 @ 60fps) generated entirely from code with original score, no stock assets.",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-03",
+      "seq": 237
+    },
+    {
+      "id": "Muse-Skill-Hub-20261003",
+      "repo": "wahyunuriman999/Muse-Skill-Hub",
+      "name": "Muse-Skill-Hub",
+      "url": "https://github.com/wahyunuriman999/Muse-Skill-Hub",
+      "description": "LLM-agnostic capability runtime for AI agents with 97 skills as typed, permission-enforced MCP tools.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-03",
+      "seq": 238
+    },
+    {
+      "id": "Teamski-20261003",
+      "repo": "janakrathi/Teamski",
+      "name": "Teamski",
+      "url": "https://github.com/janakrathi/Teamski",
+      "description": "Shared AI agents for teams\u2014one agent per channel with memory, connected apps, and approvals, self-hostable.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-03",
+      "seq": 239
+    },
+    {
+      "id": "better-tg-cli-20261003",
+      "repo": "TheVilfer/better-tg-cli",
+      "name": "better-tg-cli",
+      "url": "https://github.com/TheVilfer/better-tg-cli",
+      "description": "Telegram for terminal and AI agents\u2014read, search, send, press bot buttons on your own account with MCP server.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-03",
+      "seq": 240
     }
   ]
 }
