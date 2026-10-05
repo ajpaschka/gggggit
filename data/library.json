@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 241,
+  "next_seq": 260,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -3243,6 +3243,253 @@
       "stars": 2,
       "date_found": "2026-10-03",
       "seq": 240
+    },
+    {
+      "id": "no-viral-no-justice-20261005",
+      "repo": "nonomnonom/no-viral-no-justice",
+      "name": "no-viral-no-justice",
+      "url": "https://github.com/nonomnonom/no-viral-no-justice",
+      "description": "28-second Indonesian ink animation made with JavaScript and p5.brush, full film with source and storyboards.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 14,
+      "date_found": "2026-10-05",
+      "seq": 241
+    },
+    {
+      "id": "sakura-fantasy-20261005",
+      "repo": "billpwchan/sakura-fantasy",
+      "name": "sakura-fantasy",
+      "url": "https://github.com/billpwchan/sakura-fantasy",
+      "description": "A boat journey through a Japanese river valley in four seasons, rendered live with three.js.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 10,
+      "date_found": "2026-10-05",
+      "seq": 242
+    },
+    {
+      "id": "watchdogs-motion-20261005",
+      "repo": "songth1ef/watchdogs-motion",
+      "name": "watchdogs-motion",
+      "url": "https://github.com/songth1ef/watchdogs-motion",
+      "description": "Shot-by-shot recreation of two Watch Dogs trailers, rendered entirely in code with Canvas 2D and three.js.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-05",
+      "seq": 243
+    },
+    {
+      "id": "he-drowns-mv-v2-20261005",
+      "repo": "longruizhi2-beep/he-drowns-mv-v2",
+      "name": "he-drowns-mv-v2",
+      "url": "https://github.com/longruizhi2-beep/he-drowns-mv-v2",
+      "description": "Real-time music video: Canvas2D print/magazine simulation composited with ray-marched WebGL2 3D sea, cut to a 43-section shifting-metre score.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-05",
+      "seq": 244
+    },
+    {
+      "id": "nd-video-studio-20261005",
+      "repo": "vakovalskii/nd-video-studio",
+      "name": "nd-video-studio",
+      "url": "https://github.com/vakovalskii/nd-video-studio",
+      "description": "Explainer videos from HTML (HyperFrames \u2192 MP4) with AI narrator, music and mixing for Claude Code and Codex.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 21,
+      "date_found": "2026-10-05",
+      "seq": 245
+    },
+    {
+      "id": "cinematic-film-20261005",
+      "repo": "minosdevs/cinematic-film",
+      "name": "cinematic-film",
+      "url": "https://github.com/minosdevs/cinematic-film",
+      "description": "Claude Code skill: turn any subject into a cinematic animated film with Remotion, three.js, AI image assets, and synthesized TTS narrator.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 19,
+      "date_found": "2026-10-05",
+      "seq": 246
+    },
+    {
+      "id": "ecommerce-video-skills-20261005",
+      "repo": "xianyu110/ecommerce-video-skills",
+      "name": "ecommerce-video-skills",
+      "url": "https://github.com/xianyu110/ecommerce-video-skills",
+      "description": "12 e-commerce short-video agent skills: hooks, shot lists, image-to-video prompts, TTS, subtitles, ffmpeg automation, multi-language.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-05",
+      "seq": 247
+    },
+    {
+      "id": "minimax-h3-tensorfold-rtx-20261005",
+      "repo": "jayleaton/minimax-h3-tensorfold-rtx",
+      "name": "minimax-h3-tensorfold-rtx",
+      "url": "https://github.com/jayleaton/minimax-h3-tensorfold-rtx",
+      "description": "MiniMax H3 audio-video model on TensorFold NVFP4 kernels: 2.3x faster ComfyUI loader for RTX 50-series GPU.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-05",
+      "seq": 248
+    },
+    {
+      "id": "spotlight-20261005",
+      "repo": "AmirSbss/spotlight",
+      "name": "spotlight",
+      "url": "https://github.com/AmirSbss/spotlight",
+      "description": "Agent skill for Claude Code and Codex: point at a website or topic, get back a finished short video (launch, promo, or explainer).",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-05",
+      "seq": 249
+    },
+    {
+      "id": "lumicells-20261005",
+      "repo": "supsad/lumicells",
+      "name": "lumicells",
+      "url": "https://github.com/supsad/lumicells",
+      "description": "Live WebGL2 neon pixel-grid background with tuning playground, React wrapper and Web Component.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-05",
+      "seq": 250
+    },
+    {
+      "id": "paint-video-skill-20261005",
+      "repo": "nzl153/paint-video-skill",
+      "name": "paint-video-skill",
+      "url": "https://github.com/nzl153/paint-video-skill",
+      "description": "Agent skill for hand-painted animated shorts and music videos in code: watercolor, ink, crayon.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-05",
+      "seq": 251
+    },
+    {
+      "id": "CodeCinema-20261005",
+      "repo": "ZJUCQR/CodeCinema",
+      "name": "CodeCinema",
+      "url": "https://github.com/ZJUCQR/CodeCinema",
+      "description": "Framework for making complete short films with code: picture, music, sound, titles and master.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-05",
+      "seq": 252
+    },
+    {
+      "id": "screensavers-for-mac-20261005",
+      "repo": "someone-in-texas/screensavers-for-mac",
+      "name": "screensavers-for-mac",
+      "url": "https://github.com/someone-in-texas/screensavers-for-mac",
+      "description": "Native macOS screen savers that turn idle displays into imaginative, ever-changing worlds.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-05",
+      "seq": 253
+    },
+    {
+      "id": "genpark-agent-executive-chart-visual-compiler-skill-20261005",
+      "repo": "alphaparkinc/genpark-agent-executive-chart-visual-compiler-skill",
+      "name": "genpark-agent-executive-chart-visual-compiler-skill",
+      "url": "https://github.com/alphaparkinc/genpark-agent-executive-chart-visual-compiler-skill",
+      "description": "Compiles raw metrics and financial datasets into boardroom-ready SVG/JSON chart configurations optimized for presentation slides.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-05",
+      "seq": 254
+    },
+    {
+      "id": "AiPC-20261005",
+      "repo": "SysikNagibator/AiPC",
+      "name": "AiPC",
+      "url": "https://github.com/SysikNagibator/AiPC",
+      "description": "Give the agent this tool and it gets a real PC.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-05",
+      "seq": 255
+    },
+    {
+      "id": "hyperlytics-20261005",
+      "repo": "grqphical/hyperlytics",
+      "name": "hyperlytics",
+      "url": "https://github.com/grqphical/hyperlytics",
+      "description": "A non-euclidean sports data visualization web application built for StormHacks 2026.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-05",
+      "seq": 256
+    },
+    {
+      "id": "systems-archetype-map-20261005",
+      "repo": "palmerwizard/systems-archetype-map",
+      "name": "systems-archetype-map",
+      "url": "https://github.com/palmerwizard/systems-archetype-map",
+      "description": "245 terms for talking about minds, machines, and meaning, grouped by co-occurrence, with integration map.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-05",
+      "seq": 257
+    },
+    {
+      "id": "navette-20261005",
+      "repo": "slabbdev/navette",
+      "name": "navette",
+      "url": "https://github.com/slabbdev/navette",
+      "description": "The browser for agents: one tiny Rust binary driving the WebView your OS already ships, no Chromium.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-05",
+      "seq": 258
+    },
+    {
+      "id": "ilse-20261005",
+      "repo": "idantas/ilse",
+      "name": "ilse",
+      "url": "https://github.com/idantas/ilse",
+      "description": "The designer's eye inside the code agent: point at what's wrong in the browser, your agent fixes it in the code.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-05",
+      "seq": 259
     }
   ]
 }
