@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 260,
+  "next_seq": 277,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -3490,6 +3490,235 @@
       "stars": 3,
       "date_found": "2026-10-05",
       "seq": 259
+    },
+    {
+      "id": "Open Instinct-20261007",
+      "repo": "mariagorskikh/open-instinct",
+      "name": "Open Instinct",
+      "url": "https://github.com/mariagorskikh/open-instinct",
+      "description": "Personal agent accessible via iMessage with its own computer and trusted agent network, built on Pi, Inkbox, Maritime and Composio.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 221,
+      "date_found": "2026-10-07",
+      "seq": 260
+    },
+    {
+      "id": "Mortiflix-20261007",
+      "repo": "GTKottman/mortiflix-oss",
+      "name": "Mortiflix",
+      "url": "https://github.com/GTKottman/mortiflix-oss",
+      "description": "Motion design studio where Claude generates video step-by-step with human approval at each stage.",
+      "tags": [
+        "ai-agents",
+        "video-motion"
+      ],
+      "stars": 190,
+      "date_found": "2026-10-07",
+      "seq": 261
+    },
+    {
+      "id": "P3 Stack-20261007",
+      "repo": "uzairansaruzi/p3-stack",
+      "name": "P3 Stack",
+      "url": "https://github.com/uzairansaruzi/p3-stack",
+      "description": "T3 Code rework with delegated subagents, worktree threads, PR watching, and scheduled runs.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 130,
+      "date_found": "2026-10-07",
+      "seq": 262
+    },
+    {
+      "id": "Claude Code Mods-20261007",
+      "repo": "hamzafer/claude-code-mods",
+      "name": "Claude Code Mods",
+      "url": "https://github.com/hamzafer/claude-code-mods",
+      "description": "Plugin system for Claude Code with hooks that add context bar, usage meter, Codex review watch, markdown preview, Spotify integration.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 130,
+      "date_found": "2026-10-07",
+      "seq": 263
+    },
+    {
+      "id": "ComfyUI Civitai Browser-20261007",
+      "repo": "fth1905-bot/ComfyUI-Civitai-Browser",
+      "name": "ComfyUI Civitai Browser",
+      "url": "https://github.com/fth1905-bot/ComfyUI-Civitai-Browser",
+      "description": "Browse and load Civitai workflows and models inside ComfyUI with one-click setup and auto-download.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 23,
+      "date_found": "2026-10-07",
+      "seq": 264
+    },
+    {
+      "id": "Dralo Studio-20261007",
+      "repo": "lnblfkj-del/Dralo-Studio",
+      "name": "Dralo Studio",
+      "url": "https://github.com/lnblfkj-del/Dralo-Studio",
+      "description": "Open-source AI short-drama studio with screenwriting, infinite canvas, storyboarding, multi-model image/video generation and multi-track editing.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-07",
+      "seq": 265
+    },
+    {
+      "id": "Pigoune-20261007",
+      "repo": "Gor3pig/Pigoune",
+      "name": "Pigoune",
+      "url": "https://github.com/Gor3pig/Pigoune",
+      "description": "Native, local, free GNOME asset manager for organizing graphic assets.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 21,
+      "date_found": "2026-10-07",
+      "seq": 266
+    },
+    {
+      "id": "Tastellar-20261007",
+      "repo": "AESkald/Tastellar",
+      "name": "Tastellar",
+      "url": "https://github.com/AESkald/Tastellar",
+      "description": "Open-source media tracker for rating any media type with taste analysis and universe-style visualization.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-07",
+      "seq": 267
+    },
+    {
+      "id": "Universal Visualizer-20261007",
+      "repo": "xinyuqiu896-afk/universal-visualizer",
+      "name": "Universal Visualizer",
+      "url": "https://github.com/xinyuqiu896-afk/universal-visualizer",
+      "description": "AI-driven document visualization: upload Word/PPT/PDF/Excel/CSV/images, auto-generate summaries and visual pages with ECharts.",
+      "tags": [
+        "data-viz",
+        "ai-agents"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-07",
+      "seq": 268
+    },
+    {
+      "id": "Awesome Fable 5.5 Videos-20261007",
+      "repo": "yihui-dev/awesome-fable5-5-videos",
+      "name": "Awesome Fable 5.5 Videos",
+      "url": "https://github.com/yihui-dev/awesome-fable5-5-videos",
+      "description": "Collection of videos created with Claude Fable 5.5, with creator prompts and attribution.",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 37,
+      "date_found": "2026-10-07",
+      "seq": 269
+    },
+    {
+      "id": "world.execute(me);-20261007",
+      "repo": "Nyankomintsu/world-execute-me-lyric-mv",
+      "name": "world.execute(me);",
+      "url": "https://github.com/Nyankomintsu/world-execute-me-lyric-mv",
+      "description": "Fan-made lyric MV rendered frame-by-frame from code as a chat with Claude, with prompts included.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-07",
+      "seq": 270
+    },
+    {
+      "id": "deskgarden-20261007",
+      "repo": "CircuitGhost/deskgarden",
+      "name": "deskgarden",
+      "url": "https://github.com/CircuitGhost/deskgarden",
+      "description": "Digital botanical terrarium and ambient desk clock with procedural L-systems, diurnal sky cycles and ESP-NOW mesh on ESP32-C6.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-07",
+      "seq": 271
+    },
+    {
+      "id": "67 \u2014 A Brief History of Art-20261007",
+      "repo": "Tunai-0511/meme67-art-history",
+      "name": "67 \u2014 A Brief History of Art",
+      "url": "https://github.com/Tunai-0511/meme67-art-history",
+      "description": "Procedural p5.js and p5.brush film exploring art history.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-07",
+      "seq": 272
+    },
+    {
+      "id": "fframes-py-20261007",
+      "repo": "Scr44gr/fframes-py",
+      "name": "fframes-py",
+      "url": "https://github.com/Scr44gr/fframes-py",
+      "description": "Typed Python bindings for fframes video rendering.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-07",
+      "seq": 273
+    },
+    {
+      "id": "ComfyUI Prism T8-20261007",
+      "repo": "T8mars/Comfyui-Prism-T8",
+      "name": "ComfyUI Prism T8",
+      "url": "https://github.com/T8mars/Comfyui-Prism-T8",
+      "description": "Native Tencent Prism video/audio nodes for ComfyUI with standalone INT8 ConvRot models and canvas workflows.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-07",
+      "seq": 274
+    },
+    {
+      "id": "Claude Video Skills-20261007",
+      "repo": "Neelshah1810/Claude-Video-Skills",
+      "name": "Claude Video Skills",
+      "url": "https://github.com/Neelshah1810/Claude-Video-Skills",
+      "description": "11 Claude skills for professional motion graphics videos: launch films, explainers, social ads, data stories as HTML + MP4.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-07",
+      "seq": 275
+    },
+    {
+      "id": "animate-20261007",
+      "repo": "cth9191/animate",
+      "name": "animate",
+      "url": "https://github.com/cth9191/animate",
+      "description": "Procedural animation in any style for Claude Code: single-file canvas videos with story, style-matching from references, beat-mapped music, product screenshots.",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 71,
+      "date_found": "2026-10-07",
+      "seq": 276
     }
   ]
 }
