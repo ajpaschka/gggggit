@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 277,
+  "next_seq": 287,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -3719,6 +3719,138 @@
       "stars": 71,
       "date_found": "2026-10-07",
       "seq": 276
+    },
+    {
+      "id": "OpenQodex-20261008",
+      "repo": "openqodex/openqodex",
+      "name": "OpenQodex",
+      "url": "https://github.com/openqodex/openqodex",
+      "description": "Open-source AI code review for Claude Code and Codex: SAST, secrets, dependencies, lint on changed lines with separate reviewer process.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 317,
+      "date_found": "2026-10-08",
+      "seq": 277
+    },
+    {
+      "id": "Bops-20261008",
+      "repo": "nickvasilescu/bops",
+      "name": "Bops",
+      "url": "https://github.com/nickvasilescu/bops",
+      "description": "Team of AI bots managing business operations, each with its own computer, email and phone.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 180,
+      "date_found": "2026-10-08",
+      "seq": 278
+    },
+    {
+      "id": "IWRZWR Visual Archive-20261008",
+      "repo": "kaganin/iwrzwr-visual-archive",
+      "name": "IWRZWR Visual Archive",
+      "url": "https://github.com/kaganin/iwrzwr-visual-archive",
+      "description": "160+ experimental visualization studies: waveform animations, spectrum displays, matrix patterns, particle fields, rhythm and mechanical motion.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 63,
+      "date_found": "2026-10-08",
+      "seq": 279
+    },
+    {
+      "id": "GRACE-20261008",
+      "repo": "cvlab-kaist/GRACE",
+      "name": "GRACE",
+      "url": "https://github.com/cvlab-kaist/GRACE",
+      "description": "Official implementation of generation-aware latent compression for efficient video generation.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 13,
+      "date_found": "2026-10-08",
+      "seq": 280
+    },
+    {
+      "id": "Rebalance Review-20261008",
+      "repo": "yz3639-gif/rebalance-review",
+      "name": "Rebalance Review",
+      "url": "https://github.com/yz3639-gif/rebalance-review",
+      "description": "Browser-based research terminal for comparing ETF allocations: risk attribution, historical replay, cost scenarios.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 22,
+      "date_found": "2026-10-08",
+      "seq": 281
+    },
+    {
+      "id": "Agent Charts-20261008",
+      "repo": "hashd1ve/agent-charts",
+      "name": "Agent Charts",
+      "url": "https://github.com/hashd1ve/agent-charts",
+      "description": "Inline charts for AI agents in terminal: line, candlestick, heatmap, pie, KPI tiles via OpenCode and Claude Code plugins, themed and live while streaming.",
+      "tags": [
+        "data-viz",
+        "ai-agents"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-08",
+      "seq": 282
+    },
+    {
+      "id": "Figma Tokens to Ink-20261008",
+      "repo": "rafaelmatosdasilva/rms-figma-tokens-to-ink",
+      "name": "Figma Tokens to Ink",
+      "url": "https://github.com/rafaelmatosdasilva/rms-figma-tokens-to-ink",
+      "description": "Extend Figma color variables into print-ready values and keep colors consistent across digital and physical output.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-08",
+      "seq": 283
+    },
+    {
+      "id": "SVG Path Studio-20261008",
+      "repo": "bookklik-technologies/svg-path-studio",
+      "name": "SVG Path Studio",
+      "url": "https://github.com/bookklik-technologies/svg-path-studio",
+      "description": "Online editor for creating and manipulating SVG path data.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-08",
+      "seq": 284
+    },
+    {
+      "id": "Layout Forge-20261008",
+      "repo": "vumox/layout-forge",
+      "name": "Layout Forge",
+      "url": "https://github.com/vumox/layout-forge",
+      "description": "Visual generators for design and front-end: Grid, Flex, palettes, backgrounds, 3D mockups in the browser.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-08",
+      "seq": 285
+    },
+    {
+      "id": "TokenForge-20261008",
+      "repo": "chteau/tokenforge",
+      "name": "TokenForge",
+      "url": "https://github.com/chteau/tokenforge",
+      "description": "Claude Code plugin that optimizes token usage: same work, same quality, about half the tokens per request.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-08",
+      "seq": 286
     }
   ]
 }
