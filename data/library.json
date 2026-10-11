@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 287,
+  "next_seq": 310,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -3851,6 +3851,307 @@
       "stars": 3,
       "date_found": "2026-10-08",
       "seq": 286
+    },
+    {
+      "id": "big-arrow-on-the-screen-20261011",
+      "repo": "franzenzenhofer/big-arrow-on-the-screen",
+      "name": "big-arrow-on-the-screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "description": "CLI tool for AI agents to paint arrows, boxes and text on macOS screen with automatic dismissal.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 597,
+      "date_found": "2026-10-11",
+      "seq": 287
+    },
+    {
+      "id": "agent-chrome-relay-20261011",
+      "repo": "aindeev/agent-chrome-relay",
+      "name": "agent-chrome-relay",
+      "url": "https://github.com/aindeev/agent-chrome-relay",
+      "description": "Enables AI agents to use Chrome browser signed in as the user with background tab control.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 249,
+      "date_found": "2026-10-11",
+      "seq": 288
+    },
+    {
+      "id": "Bops-20261011",
+      "repo": "OrgoAI/bops",
+      "name": "Bops",
+      "url": "https://github.com/OrgoAI/bops",
+      "description": "Team of AI bots that run business operations, each with its own computer, email and phone number.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 249,
+      "date_found": "2026-10-11",
+      "seq": 289
+    },
+    {
+      "id": "robot-heads-20261011",
+      "repo": "fayazara/robot-heads",
+      "name": "robot-heads",
+      "url": "https://github.com/fayazara/robot-heads",
+      "description": "Animated 3D robot head React components with LED faces displaying agent status.",
+      "tags": [
+        "design-visual",
+        "creative-coding"
+      ],
+      "stars": 204,
+      "date_found": "2026-10-11",
+      "seq": 290
+    },
+    {
+      "id": "edit-drift-20261011",
+      "repo": "MegaTroll222/edit-drift",
+      "name": "edit-drift",
+      "url": "https://github.com/MegaTroll222/edit-drift",
+      "description": "Chained-edit benchmark for image models measuring preservation fidelity with installable scorer and Claude Code plugin.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 11,
+      "date_found": "2026-10-11",
+      "seq": 291
+    },
+    {
+      "id": "afflatus-20261011",
+      "repo": "bardak971/afflatus",
+      "name": "afflatus",
+      "url": "https://github.com/bardak971/afflatus",
+      "description": "Self-hosted studio for pictures, videos and timelines built on ComfyUI.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-11",
+      "seq": 292
+    },
+    {
+      "id": "turbofig-20261011",
+      "repo": "LukeHawkins/turbofig",
+      "name": "turbofig",
+      "url": "https://github.com/LukeHawkins/turbofig",
+      "description": "AI-driven Figma plugin for macOS requiring no paid Figma seat or quota.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-11",
+      "seq": 293
+    },
+    {
+      "id": "unslop-20261011",
+      "repo": "0design/unslop-skill",
+      "name": "unslop",
+      "url": "https://github.com/0design/unslop-skill",
+      "description": "Audit plugin for Claude Code and Codex.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-11",
+      "seq": 294
+    },
+    {
+      "id": "liquid-glass-studio-20261011",
+      "repo": "hilsetapp/liquid-glass-studio",
+      "name": "liquid-glass-studio",
+      "url": "https://github.com/hilsetapp/liquid-glass-studio",
+      "description": "Visual design tool for iOS 26 liquid glass effect with one-click production-ready CSS/Tailwind export.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-11",
+      "seq": 295
+    },
+    {
+      "id": "SectionForge-20261011",
+      "repo": "Faizan-khan144/sectionforge",
+      "name": "SectionForge",
+      "url": "https://github.com/Faizan-khan144/sectionforge",
+      "description": "Screenshot-to-component converter producing clean React, Tailwind or HTML from live website sections.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-11",
+      "seq": 296
+    },
+    {
+      "id": "dsgn-tweaks-20261011",
+      "repo": "TheStevenShyaka/dsgn-tweaks",
+      "name": "dsgn-tweaks",
+      "url": "https://github.com/TheStevenShyaka/dsgn-tweaks",
+      "description": "Live design panel for websites in development: edit text, restyle, swap layouts and send batch updates to coding agents.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-11",
+      "seq": 297
+    },
+    {
+      "id": "Prism-20261011",
+      "repo": "floorianmb/prism-viz",
+      "name": "Prism",
+      "url": "https://github.com/floorianmb/prism-viz",
+      "description": "Sandboxed, themed, interactive visualizations for Obsidian notes.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 40,
+      "date_found": "2026-10-11",
+      "seq": 298
+    },
+    {
+      "id": "skia-diagrams-20261011",
+      "repo": "osuki-dev/skia-diagrams",
+      "name": "skia-diagrams",
+      "url": "https://github.com/osuki-dev/skia-diagrams",
+      "description": "Native Mermaid diagrams for React Native rendered with Skia, with customizable themes and interactive charts.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 13,
+      "date_found": "2026-10-11",
+      "seq": 299
+    },
+    {
+      "id": "platen-20261011",
+      "repo": "winchxyz/platen",
+      "name": "platen",
+      "url": "https://github.com/winchxyz/platen",
+      "description": "Cozy web typewriter: 3D manual typewriter with real paper, ribbon and synthesized mechanical sound for writing and typewriter art.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-11",
+      "seq": 300
+    },
+    {
+      "id": "wip-20261011",
+      "repo": "Imaginative-Prompting/wip",
+      "name": "wip",
+      "url": "https://github.com/Imaginative-Prompting/wip",
+      "description": "Local review app for people and agents displaying concepts, renders, notes and current cut in one list.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-11",
+      "seq": 301
+    },
+    {
+      "id": "awesome-claude-5-5-videos-20261011",
+      "repo": "mailes/awesome-claude-5-5-videos",
+      "name": "awesome-claude-5-5-videos",
+      "url": "https://github.com/mailes/awesome-claude-5-5-videos",
+      "description": "Gallery of 552 viral videos made with Claude Opus 5.5 and Fable 5.5 with prompts and author credits.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-11",
+      "seq": 302
+    },
+    {
+      "id": "geomotion-20261011",
+      "repo": "hacimertgokhan/geomotion",
+      "name": "geomotion",
+      "url": "https://github.com/hacimertgokhan/geomotion",
+      "description": "Hand-drawn morphing line animations from simple shapes with zero-dependency JS engine, CLI, MCP server and Claude skill.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-11",
+      "seq": 303
+    },
+    {
+      "id": "ai-promo-video-maker-20261011",
+      "repo": "liyupi/ai-promo-video-maker",
+      "name": "ai-promo-video-maker",
+      "url": "https://github.com/liyupi/ai-promo-video-maker",
+      "description": "End-to-end AI product promo video generator: product research, style exploration, 4K page capture, music-synced editing and AI narration.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 120,
+      "date_found": "2026-10-11",
+      "seq": 304
+    },
+    {
+      "id": "khan-explainer-20261011",
+      "repo": "haiderfarooq3/khan-explainer",
+      "name": "khan-explainer",
+      "url": "https://github.com/haiderfarooq3/khan-explainer",
+      "description": "Claude Code skill generating Khan Academy style explainer videos with pen animation and voice narration.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 61,
+      "date_found": "2026-10-11",
+      "seq": 305
+    },
+    {
+      "id": "synctile-h3-20261011",
+      "repo": "alaintural/synctile-h3",
+      "name": "synctile-h3",
+      "url": "https://github.com/alaintural/synctile-h3",
+      "description": "MiniMax H3 acceleration enabling 4.9x faster local generation and seam-free 4K via synchronized tiles.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 11,
+      "date_found": "2026-10-11",
+      "seq": 306
+    },
+    {
+      "id": "Delta MCP-20261011",
+      "repo": "mcpdelta/mcpdelta",
+      "name": "Delta MCP",
+      "url": "https://github.com/mcpdelta/mcpdelta",
+      "description": "MCP orchestrator reducing token usage up to 24.1\u00d7 by running one program per task instead of one tool call per step.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 80,
+      "date_found": "2026-10-11",
+      "seq": 307
+    },
+    {
+      "id": "claude-mod-20261011",
+      "repo": "HMarzban/claude-mod",
+      "name": "claude-mod",
+      "url": "https://github.com/HMarzban/claude-mod",
+      "description": "Live cost calculator for Claude Code showing prompt-cache countdown, re-warm price and usage limits.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-11",
+      "seq": 308
+    },
+    {
+      "id": "framewright-20261011",
+      "repo": "nishanthsr7-eng/framewright",
+      "name": "framewright",
+      "url": "https://github.com/nishanthsr7-eng/framewright",
+      "description": "AI-assisted video editing framework with 19 MCP servers exposing 45 tools for frame-accurate DaVinci Resolve timelines.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-11",
+      "seq": 309
     }
   ]
 }
