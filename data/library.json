@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 310,
+  "next_seq": 331,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -4152,6 +4152,280 @@
       "stars": 2,
       "date_found": "2026-10-11",
       "seq": 309
+    },
+    {
+      "id": "solid-glass-20261013",
+      "repo": "deeplethe/solid-glass",
+      "name": "solid-glass",
+      "url": "https://github.com/deeplethe/solid-glass",
+      "description": "A design system for AI applications with physical and tactile material principles.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 237,
+      "date_found": "2026-10-13",
+      "seq": 310
+    },
+    {
+      "id": "ai-video-drama-platform-20261013",
+      "repo": "dc-tw/ai-video-drama-platform",
+      "name": "ai-video-drama-platform",
+      "url": "https://github.com/dc-tw/ai-video-drama-platform",
+      "description": "Full-stack AI short-drama video pipeline with FastAPI, ComfyUI, and FFmpeg.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 15,
+      "date_found": "2026-10-13",
+      "seq": 311
+    },
+    {
+      "id": "talus-20261013",
+      "repo": "osfv/talus",
+      "name": "talus",
+      "url": "https://github.com/osfv/talus",
+      "description": "23M-parameter diffusion model that generates game terrain heightmaps with training code and benchmarks.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-13",
+      "seq": 312
+    },
+    {
+      "id": "zee-rp-20261013",
+      "repo": "LilZeeCN/zee-rp",
+      "name": "zee-rp",
+      "url": "https://github.com/LilZeeCN/zee-rp",
+      "description": "Open-source MCP server for AI to read, write, and generate Axure RP 11 prototype files.",
+      "tags": [
+        "design-visual",
+        "agent-practice"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-13",
+      "seq": 313
+    },
+    {
+      "id": "swatchly-color-20261013",
+      "repo": "saurabhwebdev/swatchly-color",
+      "name": "swatchly-color",
+      "url": "https://github.com/saurabhwebdev/swatchly-color",
+      "description": "Dependency-free Rust color science: OKLCH palettes, WCAG contrast, color-blindness simulation, image palette extraction.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-13",
+      "seq": 314
+    },
+    {
+      "id": "my-food-pile-20261013",
+      "repo": "sumitbedi/my-food-pile",
+      "name": "my-food-pile",
+      "url": "https://github.com/sumitbedi/my-food-pile",
+      "description": "Visualize a year of Swiggy orders as a physics pile: type a food to watch it jump out.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 17,
+      "date_found": "2026-10-13",
+      "seq": 315
+    },
+    {
+      "id": "mcd-memory-can-20261013",
+      "repo": "MarkWang90/mcd-memory-can",
+      "name": "mcd-memory-can",
+      "url": "https://github.com/MarkWang90/mcd-memory-can",
+      "description": "Visualize McDonald's order history as cinematic nine-panel scrolls using the MCP interface.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 11,
+      "date_found": "2026-10-13",
+      "seq": 316
+    },
+    {
+      "id": "mcd-diff-20261013",
+      "repo": "weixiao121/mcd-diff",
+      "name": "mcd-diff",
+      "url": "https://github.com/weixiao121/mcd-diff",
+      "description": "Run historical McDonald's orders through a diff algorithm to show optimized budgets and nutrition.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-13",
+      "seq": 317
+    },
+    {
+      "id": "skills-20261013",
+      "repo": "juliobsz/skills",
+      "name": "skills",
+      "url": "https://github.com/juliobsz/skills",
+      "description": "Agent skill that builds award-caliber websites from a single-line description.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 284,
+      "date_found": "2026-10-13",
+      "seq": 318
+    },
+    {
+      "id": "motion-lab-20261013",
+      "repo": "AndreXes03/motion-lab",
+      "name": "motion-lab",
+      "url": "https://github.com/AndreXes03/motion-lab",
+      "description": "Code-driven 2D and 3D rendering with procedural animation, compositing, and movement-modulated sound.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-13",
+      "seq": 319
+    },
+    {
+      "id": "EdenLive-20261013",
+      "repo": "VAST-AI-Research/EdenLive",
+      "name": "EdenLive",
+      "url": "https://github.com/VAST-AI-Research/EdenLive",
+      "description": "Real-time generative rendering for interactive worlds from reference images.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 57,
+      "date_found": "2026-10-13",
+      "seq": 320
+    },
+    {
+      "id": "showreel-20261013",
+      "repo": "revfactory/showreel",
+      "name": "showreel",
+      "url": "https://github.com/revfactory/showreel",
+      "description": "Claude Code skill for motion-graphics videos: script, narration, music, images, deterministic HTML render, automated QA.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 32,
+      "date_found": "2026-10-13",
+      "seq": 321
+    },
+    {
+      "id": "papercut-explainer-20261013",
+      "repo": "0xS4N4TG/papercut-explainer",
+      "name": "papercut-explainer",
+      "url": "https://github.com/0xS4N4TG/papercut-explainer",
+      "description": "Claude Code skills and Remotion library for short vertical cut-paper explainer reels with full pipeline.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 23,
+      "date_found": "2026-10-13",
+      "seq": 322
+    },
+    {
+      "id": "vibe-knowledge-video-20261013",
+      "repo": "xiazhuo123456789/vibe-knowledge-video",
+      "name": "vibe-knowledge-video",
+      "url": "https://github.com/xiazhuo123456789/vibe-knowledge-video",
+      "description": "Skill for cinematic knowledge short videos: no narration, dual subtitles, synthesized BGM, reverse-engineered from viral templates.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 20,
+      "date_found": "2026-10-13",
+      "seq": 323
+    },
+    {
+      "id": "accelerando-8192-20261013",
+      "repo": "gillverd/accelerando-8192",
+      "name": "accelerando-8192",
+      "url": "https://github.com/gillverd/accelerando-8192",
+      "description": "8,192-token alien glyph alphabet with interactive encoder and complete visual atlas.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 55,
+      "date_found": "2026-10-13",
+      "seq": 324
+    },
+    {
+      "id": "journal-page-20261013",
+      "repo": "lumen-prism/journal-page",
+      "name": "journal-page",
+      "url": "https://github.com/lumen-prism/journal-page",
+      "description": "Claude Code skill that paints full journal pages in code: watercolor stickers, washi tape, tickets, cursive notes.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 15,
+      "date_found": "2026-10-13",
+      "seq": 325
+    },
+    {
+      "id": "wled-usermod-gpt-matrix-fx-20261013",
+      "repo": "piggei/wled-usermod-gpt-matrix-fx",
+      "name": "wled-usermod-gpt-matrix-fx",
+      "url": "https://github.com/piggei/wled-usermod-gpt-matrix-fx",
+      "description": "40 original animated, audio-reactive 2D matrix effects for WLED with procedural graphics.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-13",
+      "seq": 326
+    },
+    {
+      "id": "ascii-h3-director-20261013",
+      "repo": "YanKaFei/ascii-h3-director",
+      "name": "ascii-h3-director",
+      "url": "https://github.com/YanKaFei/ascii-h3-director",
+      "description": "ASCII and kinetic-typography film direction for MiniMax H3 with deterministic preview and 21-motion grammar.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-13",
+      "seq": 327
+    },
+    {
+      "id": "homeshed-mcp-20261013",
+      "repo": "keefng8/homeshed-mcp",
+      "name": "homeshed-mcp",
+      "url": "https://github.com/keefng8/homeshed-mcp",
+      "description": "Self-hosted MCP server with memory, reasoning, git, Docker, network and release tools in one install.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-13",
+      "seq": 328
+    },
+    {
+      "id": "mcp-toolpacks-20261013",
+      "repo": "3265807971-cloud/mcp-toolpacks",
+      "name": "mcp-toolpacks",
+      "url": "https://github.com/3265807971-cloud/mcp-toolpacks",
+      "description": "Group MCP tools by purpose with one switch per pack: reference implementation and design patterns.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-13",
+      "seq": 329
+    },
+    {
+      "id": "CircuitPilot-20261013",
+      "repo": "Abdelhayali/CircuitPilot",
+      "name": "CircuitPilot",
+      "url": "https://github.com/Abdelhayali/CircuitPilot",
+      "description": "AI copilot for PCB design: describe a circuit, it picks real parts, routes the PCB, exports Gerbers and designs enclosures.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-13",
+      "seq": 330
     }
   ]
 }
