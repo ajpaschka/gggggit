@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 331,
+  "next_seq": 345,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -4426,6 +4426,194 @@
       "stars": 2,
       "date_found": "2026-10-13",
       "seq": 330
+    },
+    {
+      "id": "Mailcheap-20261015",
+      "repo": "marclou/mailcheap",
+      "name": "Mailcheap",
+      "url": "https://github.com/marclou/mailcheap",
+      "description": "Open-source newsletter platform built for the agentic era: self-host or use mailcheap.ai.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 940,
+      "date_found": "2026-10-15",
+      "seq": 331
+    },
+    {
+      "id": "Decomp.wtf-20261015",
+      "repo": "i12bp8/decomp.wtf",
+      "name": "Decomp.wtf",
+      "url": "https://github.com/i12bp8/decomp.wtf",
+      "description": "AI agent decompiles games you own into C code that compiles to byte-exact binaries, runs locally.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 284,
+      "date_found": "2026-10-15",
+      "seq": 332
+    },
+    {
+      "id": "Blender AI Add-on-20261015",
+      "repo": "BlenderGPT3D/blender-ai-addon",
+      "name": "Blender AI Add-on",
+      "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
+      "description": "Blender add-on: create and edit 3D models by chatting with AI, sends generated bpy code.",
+      "tags": [
+        "design-visual",
+        "ai-agents"
+      ],
+      "stars": 213,
+      "date_found": "2026-10-15",
+      "seq": 333
+    },
+    {
+      "id": "Siliconed-20261015",
+      "repo": "gwenn-ha-dev/Siliconed",
+      "name": "Siliconed",
+      "url": "https://github.com/gwenn-ha-dev/Siliconed",
+      "description": "Native macOS app for local AI image generation on Apple silicon: Z-Image Turbo, Qwen-Image-2.1 in Swift and Metal with strict memory budgeting.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-15",
+      "seq": 334
+    },
+    {
+      "id": "Image2Editable-20261015",
+      "repo": "guangzhaoli/image2editable",
+      "name": "Image2Editable",
+      "url": "https://github.com/guangzhaoli/image2editable",
+      "description": "Agent skill for turning images, papers and briefs into editable figures, posters and visual designs via SVG/PPTX.",
+      "tags": [
+        "design-visual",
+        "ai-agents"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-15",
+      "seq": 335
+    },
+    {
+      "id": "Datasets-20261015",
+      "repo": "toddrjones/datasets",
+      "name": "Datasets",
+      "url": "https://github.com/toddrjones/datasets",
+      "description": "Compilation of 100+ free datasets for social science, applied microeconomics, and data visualization.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 161,
+      "date_found": "2026-10-15",
+      "seq": 336
+    },
+    {
+      "id": "Anima-20261015",
+      "repo": "Garinmckayl/anima",
+      "name": "Anima",
+      "url": "https://github.com/Garinmckayl/anima",
+      "description": "Claude Code skill that turns biology concepts into interactive, sourced isometric figures with dopamine, stimulants and semaglutide examples.",
+      "tags": [
+        "data-viz",
+        "agent-practice"
+      ],
+      "stars": 142,
+      "date_found": "2026-10-15",
+      "seq": 337
+    },
+    {
+      "id": "Prompt Spider UI-20261015",
+      "repo": "Kirito14IT/prompt-spider-ui",
+      "name": "Prompt Spider UI",
+      "url": "https://github.com/Kirito14IT/prompt-spider-ui",
+      "description": "Native JavaScript Canvas 2D mechanical spider visualization UI; zero dependencies for demo, optional MCP integration for agent task display.",
+      "tags": [
+        "creative-coding",
+        "ai-agents"
+      ],
+      "stars": 14,
+      "date_found": "2026-10-15",
+      "seq": 338
+    },
+    {
+      "id": "Awesome Gemini 4 Video Prompts-20261015",
+      "repo": "LeaddeOpenLab/awesome-gemini4-video-prompts",
+      "name": "Awesome Gemini 4 Video Prompts",
+      "url": "https://github.com/LeaddeOpenLab/awesome-gemini4-video-prompts",
+      "description": "Curated Gemini 4 video production prompts with original sources, video previews and required tools.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-15",
+      "seq": 339
+    },
+    {
+      "id": "ATAS-20261015",
+      "repo": "ziplab/ATAS",
+      "name": "ATAS",
+      "url": "https://github.com/ziplab/ATAS",
+      "description": "Any Time, Any Space: world-state-centric framework for agentic video generation.",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 194,
+      "date_found": "2026-10-15",
+      "seq": 340
+    },
+    {
+      "id": "Take One-20261015",
+      "repo": "talsiach/take-one",
+      "name": "Take One",
+      "url": "https://github.com/talsiach/take-one",
+      "description": "Claude Code skill: one-line launch videos, ads and music videos with idea, script, visuals, voice, music, edit, QA and iterative review room.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 53,
+      "date_found": "2026-10-15",
+      "seq": 341
+    },
+    {
+      "id": "Golden Temple-20261015",
+      "repo": "Leonxlnx/golden-temple",
+      "name": "Golden Temple",
+      "url": "https://github.com/Leonxlnx/golden-temple",
+      "description": "Golden-hour Japanese temple built entirely in code with three.js, no models or textures; rendered offline to 70s-style 1080p60 film.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-15",
+      "seq": 342
+    },
+    {
+      "id": "Game-Creation-Agents-20261015",
+      "repo": "Tencent/Game-Creation-Agents",
+      "name": "Game-Creation-Agents",
+      "url": "https://github.com/Tencent/Game-Creation-Agents",
+      "description": "End-to-end pipeline that turns natural-language game ideas into playable, verified browser games.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 19,
+      "date_found": "2026-10-15",
+      "seq": 343
+    },
+    {
+      "id": "Memecub-20261015",
+      "repo": "liyupi/memecub",
+      "name": "Memecub",
+      "url": "https://github.com/liyupi/memecub",
+      "description": "Meme search and auto-placement for AI agents: MCP server, agent skill, CLI and REST API to find reaction memes and GIFs by feeling.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-15",
+      "seq": 344
     }
   ]
 }
