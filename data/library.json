@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 345,
+  "next_seq": 349,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -4614,6 +4614,60 @@
       "stars": 4,
       "date_found": "2026-10-15",
       "seq": 344
+    },
+    {
+      "id": "Open Scion-20261016",
+      "repo": "feder-cr/open_scion",
+      "name": "Open Scion",
+      "url": "https://github.com/feder-cr/open_scion",
+      "description": "Open-source version control built for coding agents \u2014 branch, merge, and workflow awareness for AI.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 1019,
+      "date_found": "2026-10-16",
+      "seq": 345
+    },
+    {
+      "id": "Eleven-20261016",
+      "repo": "Zfinix/eleven",
+      "name": "Eleven",
+      "url": "https://github.com/Zfinix/eleven",
+      "description": "Agent-first reverse engineering \u2014 any ACP agent reads, renames and patches binaries, Android apps and GPU kernels.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 526,
+      "date_found": "2026-10-16",
+      "seq": 346
+    },
+    {
+      "id": "Frametell-20261016",
+      "repo": "sitor-ai/frametell",
+      "name": "Frametell",
+      "url": "https://github.com/sitor-ai/frametell",
+      "description": "Turn ideas and material into explainer videos with an AI director agent \u2014 local-first, any model.",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 133,
+      "date_found": "2026-10-16",
+      "seq": 347
+    },
+    {
+      "id": "Susanoo-20261016",
+      "repo": "Breadstick-Crumbs/susanoo",
+      "name": "Susanoo",
+      "url": "https://github.com/Breadstick-Crumbs/susanoo",
+      "description": "Workflow guardrails for Claude Code \u2014 routes tasks to FAST/STANDARD/DEEP, blocks edits until plan approval, requires verified test evidence.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-16",
+      "seq": 348
     }
   ]
 }
