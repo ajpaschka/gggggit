@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 349,
+  "next_seq": 359,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -4668,6 +4668,140 @@
       "stars": 2,
       "date_found": "2026-10-16",
       "seq": 348
+    },
+    {
+      "id": "Git AI-20261018",
+      "repo": "feder-cr/git-ai",
+      "name": "Git AI",
+      "url": "https://github.com/feder-cr/git-ai",
+      "description": "Git version control redesigned for AI agent workflows.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 1151,
+      "date_found": "2026-10-18",
+      "seq": 349
+    },
+    {
+      "id": "Earshot-20261018",
+      "repo": "Leonxlnx/earshot",
+      "name": "Earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "description": "Audio capability layer for AI coding agents: hear, review and generate sound on CPU-only.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 707,
+      "date_found": "2026-10-18",
+      "seq": 350
+    },
+    {
+      "id": "Harshpreet Hand-20261018",
+      "repo": "harshpreet931/harshpreet-hand",
+      "name": "Harshpreet Hand",
+      "url": "https://github.com/harshpreet931/harshpreet-hand",
+      "description": "Convert handwritten college notes to a functional typeface using Claude Code: 120 pages \u2192 working font in 66 minutes for $13.68.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 30,
+      "date_found": "2026-10-18",
+      "seq": 351
+    },
+    {
+      "id": "Jutsu Studio-20261018",
+      "repo": "jutsuhq/jutsu-studio",
+      "name": "Jutsu Studio",
+      "url": "https://github.com/jutsuhq/jutsu-studio",
+      "description": "Native macOS desktop app for AI video and image generation with Seedance, Kling, Wan and Genjutsu; motion transfer, object swap, restyle.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 11,
+      "date_found": "2026-10-18",
+      "seq": 352
+    },
+    {
+      "id": "GIMP OpenFill-20261018",
+      "repo": "beckettharriman/gimp-openfill",
+      "name": "GIMP OpenFill",
+      "url": "https://github.com/beckettharriman/gimp-openfill",
+      "description": "Generative Fill, object removal and Generative Expand for GIMP 3 using Stable Diffusion via ComfyUI; free local alternative to Photoshop AI tools.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 10,
+      "date_found": "2026-10-18",
+      "seq": 353
+    },
+    {
+      "id": "Recipe Nook-20261018",
+      "repo": "wave2234/recipe-nook",
+      "name": "Recipe Nook",
+      "url": "https://github.com/wave2234/recipe-nook",
+      "description": "Self-hosted recipe library (280k recipes) with meal log and LLM tool integration for recipe search, cooking guidance and dietary scoring.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 18,
+      "date_found": "2026-10-18",
+      "seq": 354
+    },
+    {
+      "id": "Codex OpenPencil-20261018",
+      "repo": "ZSeven-W/codex-openpencil",
+      "name": "Codex OpenPencil",
+      "url": "https://github.com/ZSeven-W/codex-openpencil",
+      "description": "Codex plugin for OpenPencil interactive Rust/WASM canvas; create editable .op files from prompts and refine UI elements with AI assistance.",
+      "tags": [
+        "design-visual",
+        "ai-agents"
+      ],
+      "stars": 13,
+      "date_found": "2026-10-18",
+      "seq": 355
+    },
+    {
+      "id": "Xiaoma Studio-20261018",
+      "repo": "crawfordxx/xiaoma-studio",
+      "name": "Xiaoma Studio",
+      "url": "https://github.com/crawfordxx/xiaoma-studio",
+      "description": "Code-driven motion video and HTML slide skill for Opus 5.5: 30 high-engagement video deconstructed into workflow rules and deterministic rendering engine.",
+      "tags": [
+        "video-motion",
+        "agent-practice"
+      ],
+      "stars": 13,
+      "date_found": "2026-10-18",
+      "seq": 356
+    },
+    {
+      "id": "Toulanba-20261018",
+      "repo": "Sin10874/toulanba",
+      "name": "Toulanba",
+      "url": "https://github.com/Sin10874/toulanba",
+      "description": "macOS desktop utility that transforms your desktop into a beach basketball court: crumple files into paper balls and shoot them into the hoop for organization.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-18",
+      "seq": 357
+    },
+    {
+      "id": "Mechanism-20261018",
+      "repo": "DiegoLopez0208/mechanism",
+      "name": "Mechanism",
+      "url": "https://github.com/DiegoLopez0208/mechanism",
+      "description": "Agent skill for mechanical design: model real objects exactly, assemble and disassemble with full traceability; rendering enforces numeric consistency.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 10,
+      "date_found": "2026-10-18",
+      "seq": 358
     }
   ]
 }
