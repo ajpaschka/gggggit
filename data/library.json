@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 359,
+  "next_seq": 375,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -4802,6 +4802,220 @@
       "stars": 10,
       "date_found": "2026-10-18",
       "seq": 358
+    },
+    {
+      "id": "res-20261021",
+      "repo": "alextnetto/res",
+      "name": "res",
+      "url": "https://github.com/alextnetto/res",
+      "description": "Agent skill to reverse-engineer a SaaS product through the browser into a knowledge base \u2014 screens, rules, data model, design tokens, barriers.",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 151,
+      "date_found": "2026-10-21",
+      "seq": 359
+    },
+    {
+      "id": "EAC design world-20261021",
+      "repo": "Ebony-Vinyl/EAC-design-world",
+      "name": "EAC design world",
+      "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+      "description": "Local video editing and design plugin with multi-track timeline, templates, design systems, and native canvas preview.",
+      "tags": [
+        "design-visual",
+        "video-motion"
+      ],
+      "stars": 74,
+      "date_found": "2026-10-21",
+      "seq": 360
+    },
+    {
+      "id": "PaperCraft-20261021",
+      "repo": "slyim/papercraft",
+      "name": "PaperCraft",
+      "url": "https://github.com/slyim/papercraft",
+      "description": "Independent local design editor in Rust/egui with planned Craft app interoperability.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-21",
+      "seq": 361
+    },
+    {
+      "id": "dashboard-design-skill-20261021",
+      "repo": "abdiraimov-otabek/dashboard-design-skill",
+      "name": "dashboard-design-skill",
+      "url": "https://github.com/abdiraimov-otabek/dashboard-design-skill",
+      "description": "Claude Code skill for dashboard UI design \u2014 KPI tiles, charts, date pickers, ranked lists, layouts, QA pass; distilled from 127 shipped dashboards.",
+      "tags": [
+        "data-viz",
+        "agent-practice"
+      ],
+      "stars": 86,
+      "date_found": "2026-10-21",
+      "seq": 362
+    },
+    {
+      "id": "aurum-jet-20261021",
+      "repo": "omarrim/aurum-jet",
+      "name": "aurum-jet",
+      "url": "https://github.com/omarrim/aurum-jet",
+      "description": "Free Power BI report with native SVG animations and photo layouts drawn in DAX; light/dark modes, full PBIP project with Parquet data.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 21,
+      "date_found": "2026-10-21",
+      "seq": 363
+    },
+    {
+      "id": "nn-field-guide-20261021",
+      "repo": "reidjohnson/nn-field-guide",
+      "name": "nn-field-guide",
+      "url": "https://github.com/reidjohnson/nn-field-guide",
+      "description": "Reference chart of neural network architectures from perceptron to diffusion LLMs; both poster and interactive page.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 17,
+      "date_found": "2026-10-21",
+      "seq": 364
+    },
+    {
+      "id": "ascii-magic-art-20261021",
+      "repo": "kailashsr38/ascii-magic-art",
+      "name": "ascii-magic-art",
+      "url": "https://github.com/kailashsr38/ascii-magic-art",
+      "description": "634 animated ASCII art pieces for web, READMEs, wallpapers, terminals; browse via CLI, add to project in one prompt.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 224,
+      "date_found": "2026-10-21",
+      "seq": 365
+    },
+    {
+      "id": "webgl-seascape-video-20261021",
+      "repo": "holooooo/webgl-seascape-video",
+      "name": "webgl-seascape-video",
+      "url": "https://github.com/holooooo/webgl-seascape-video",
+      "description": "Shader and 3D tech videos rendered by Opus 5.5 \u2014 realistic seascape, stylized shaders, black-hole cosmos, voxel Jiangnan valley.",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-21",
+      "seq": 366
+    },
+    {
+      "id": "vol01-manga-portfolio-20261021",
+      "repo": "inesCherif/vol01-manga-portfolio",
+      "name": "vol01-manga-portfolio",
+      "url": "https://github.com/inesCherif/vol01-manga-portfolio",
+      "description": "Interactive CV as a black and white manga; Astro, GSAP ScrollTrigger, Lenis; no framework framework.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-21",
+      "seq": 367
+    },
+    {
+      "id": "awesome-opus5-5-videos-20261021",
+      "repo": "billyhetech/awesome-opus5-5-videos",
+      "name": "awesome-opus5-5-videos",
+      "url": "https://github.com/billyhetech/awesome-opus5-5-videos",
+      "description": "Curated list of 2,000+ viral videos made with Claude Opus 5.5 \u2014 code-rendered animations, 3D scenes, games, explainers; 700+ reusable prompts.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-21",
+      "seq": 368
+    },
+    {
+      "id": "music-mv-20261021",
+      "repo": "Win-Hao/music-mv",
+      "name": "music-mv",
+      "url": "https://github.com/Win-Hao/music-mv",
+      "description": "Agent skill that writes code to generate music video from audio \u2014 analyze song, design style, character, storyboard, rough draft, final render; code-drawn frames.",
+      "tags": [
+        "creative-coding",
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-21",
+      "seq": 369
+    },
+    {
+      "id": "World-from-Motion-20261021",
+      "repo": "GradientSpaces/World-from-Motion",
+      "name": "World-from-Motion",
+      "url": "https://github.com/GradientSpaces/World-from-Motion",
+      "description": "[NeurIPS 2026] Generative Dynamic Gaussian reconstruction from monocular video.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 26,
+      "date_found": "2026-10-21",
+      "seq": 370
+    },
+    {
+      "id": "motion-engine-20261021",
+      "repo": "oguzhankayan/motion-engine",
+      "name": "motion-engine",
+      "url": "https://github.com/oguzhankayan/motion-engine",
+      "description": "Editable launch films and product ads via local HTML-to-video rendering; optional image, video, audio generation with Raywake.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 19,
+      "date_found": "2026-10-21",
+      "seq": 371
+    },
+    {
+      "id": "open-creator-20261021",
+      "repo": "cporter202/open-creator",
+      "name": "open-creator",
+      "url": "https://github.com/cporter202/open-creator",
+      "description": "Open-source AI workspace for creators \u2014 video download, translation, dubbing, generation, editing with agents; powered by Codex.",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 11,
+      "date_found": "2026-10-21",
+      "seq": 372
+    },
+    {
+      "id": "awesome-kling-4-usecases-20261021",
+      "repo": "cheercheung/awesome-kling-4-usecases",
+      "name": "awesome-kling-4-usecases",
+      "url": "https://github.com/cheercheung/awesome-kling-4-usecases",
+      "description": "93 Kling 4 video demos, creator workflows and 15 public prompts organized by category in 11 languages.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-21",
+      "seq": 373
+    },
+    {
+      "id": "genpark-jinja-like-prompt-template-renderer-skill-20261021",
+      "repo": "Alpha-Park/genpark-jinja-like-prompt-template-renderer-skill",
+      "name": "genpark-jinja-like-prompt-template-renderer-skill",
+      "url": "https://github.com/Alpha-Park/genpark-jinja-like-prompt-template-renderer-skill",
+      "description": "Safe zero-dependency Jinja-like prompt template parser and renderer supporting for-loops, if-conditions, variables.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-21",
+      "seq": 374
     }
   ]
 }
