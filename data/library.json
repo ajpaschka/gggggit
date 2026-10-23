@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 375,
+  "next_seq": 396,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -5016,6 +5016,289 @@
       "stars": 7,
       "date_found": "2026-10-21",
       "seq": 374
+    },
+    {
+      "id": "MemT-1.0-20261023",
+      "repo": "MemTensor/MemT-1.0",
+      "name": "MemT-1.0",
+      "url": "https://github.com/MemTensor/MemT-1.0",
+      "description": "Official repository for MemT-1.0",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 360,
+      "date_found": "2026-10-23",
+      "seq": 375
+    },
+    {
+      "id": "awesome-grokbot-playbooks-20261023",
+      "repo": "sit-in/awesome-grokbot-playbooks",
+      "name": "awesome-grokbot-playbooks",
+      "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+      "description": "Chinese-first Grok Bot playbooks: battle rooms, radar routines, quota health checks; maintained by Grok Bot + Claude collaboration",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 359,
+      "date_found": "2026-10-23",
+      "seq": 376
+    },
+    {
+      "id": "claude-super-sidebar-20261023",
+      "repo": "Zafer-Liu/claude-super-sidebar",
+      "name": "claude-super-sidebar",
+      "url": "https://github.com/Zafer-Liu/claude-super-sidebar",
+      "description": "Visual sidebar for Claude Code and Codex: agent trees, live status, and conversation task flows",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 155,
+      "date_found": "2026-10-23",
+      "seq": 377
+    },
+    {
+      "id": "deepseek-local-guide-ru-20261023",
+      "repo": "justxor/deepseek-local-guide-ru",
+      "name": "deepseek-local-guide-ru",
+      "url": "https://github.com/justxor/deepseek-local-guide-ru",
+      "description": "Complete Russian guide: install and run DeepSeek locally (V4, R1) on PC, Mac, server via Ollama, llama.cpp, LM Studio, vLLM, Open WebUI, including RAG, agents, fine-tuning",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 133,
+      "date_found": "2026-10-23",
+      "seq": 378
+    },
+    {
+      "id": "decks-20261023",
+      "repo": "paulmil11/decks",
+      "name": "decks",
+      "url": "https://github.com/paulmil11/decks",
+      "description": "Agent-first slide decks: comment under a slide and your coding agent (Claude Code or Codex) makes the change and replies on the slide",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 99,
+      "date_found": "2026-10-23",
+      "seq": 379
+    },
+    {
+      "id": "Officely-20261023",
+      "repo": "Tahirpathan-AiLab/Officely",
+      "name": "Officely",
+      "url": "https://github.com/Tahirpathan-AiLab/Officely",
+      "description": "Virtual agentic 3D office where four AI robot agents (Evan, Lummi, Athena, Zed) collaborate with task calendar, activity panel, and plugins (Gmail, Drive, GitHub)",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 14,
+      "date_found": "2026-10-23",
+      "seq": 380
+    },
+    {
+      "id": "deskstudio-20261023",
+      "repo": "adityareddy-dev/deskstudio",
+      "name": "deskstudio",
+      "url": "https://github.com/adityareddy-dev/deskstudio",
+      "description": "Your own design studio inside the coding agent you already use",
+      "tags": [
+        "design-visual",
+        "ai-agents"
+      ],
+      "stars": 41,
+      "date_found": "2026-10-23",
+      "seq": 381
+    },
+    {
+      "id": "McCosmos-20261023",
+      "repo": "ayingQAQ/McCosmos",
+      "name": "McCosmos",
+      "url": "https://github.com/ayingQAQ/McCosmos",
+      "description": "McDonald's MCP nutrition data rendered as three-dimensional cartoon food universe with real food photos, nutrition atlas, and space exploration",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 54,
+      "date_found": "2026-10-23",
+      "seq": 382
+    },
+    {
+      "id": "yantra-20261023",
+      "repo": "niyankhadka/yantra",
+      "name": "yantra",
+      "url": "https://github.com/niyankhadka/yantra",
+      "description": "Interactive step-by-step diagrams and one-page answers as single offline HTML file; automatic layout, routed edges, validator, CLI, MCP, Python SDK",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-23",
+      "seq": 383
+    },
+    {
+      "id": "The-Pelican-Test-20261023",
+      "repo": "RoyceBella-commits/The-Pelican-Test",
+      "name": "The-Pelican-Test",
+      "url": "https://github.com/RoyceBella-commits/The-Pelican-Test",
+      "description": "A 2:17 film drawn and scored entirely by code: a pelican rides a bicycle through 20 eras of art history",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 23,
+      "date_found": "2026-10-23",
+      "seq": 384
+    },
+    {
+      "id": "horizon-20261023",
+      "repo": "SiddDevZ/horizon",
+      "name": "horizon",
+      "url": "https://github.com/SiddDevZ/horizon",
+      "description": "A black hole drops onto a page of text and bends it live in ASCII; WebGL 2 ray tracer, zero dependencies",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-23",
+      "seq": 385
+    },
+    {
+      "id": "webgl2video-20261023",
+      "repo": "Avi130805/webgl2video",
+      "name": "webgl2video",
+      "url": "https://github.com/Avi130805/webgl2video",
+      "description": "Render any WebGL or HTML animation (Three.js, shaders, p5.js, AI-generated pages) to frame-exact 4K60 video on GPU, locally or cloud",
+      "tags": [
+        "video-motion",
+        "creative-coding"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-23",
+      "seq": 386
+    },
+    {
+      "id": "clawd-mv-20261023",
+      "repo": "YojenWang/clawd-mv",
+      "name": "clawd-mv",
+      "url": "https://github.com/YojenWang/clawd-mv",
+      "description": "ClaudeAnimationBase skill pack for hand-drawn animated music videos",
+      "tags": [
+        "creative-coding",
+        "video-motion"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-23",
+      "seq": 387
+    },
+    {
+      "id": "Looking-Ahead-20261023",
+      "repo": "TencentARC/Looking-Ahead",
+      "name": "Looking-Ahead",
+      "url": "https://github.com/TencentARC/Looking-Ahead",
+      "description": "Looking Ahead: modeling future evolution in autoregressive video generation",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 75,
+      "date_found": "2026-10-23",
+      "seq": 388
+    },
+    {
+      "id": "video-factory-20261023",
+      "repo": "LordVayron/video-factory",
+      "name": "video-factory",
+      "url": "https://github.com/LordVayron/video-factory",
+      "description": "AI video studio your coding agent installs: UGC ads, micro-dramas, sitcoms, launch films, fantasy shorts, hour-long meditations via Claude Code / Codex + APIMart + Kie.ai + ElevenLabs",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 22,
+      "date_found": "2026-10-23",
+      "seq": 389
+    },
+    {
+      "id": "explainer-studio-20261023",
+      "repo": "reedodev/explainer-studio",
+      "name": "explainer-studio",
+      "url": "https://github.com/reedodev/explainer-studio",
+      "description": "One line in, explainer video out in eight hand-drawn styles (Claude Code skill)",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 17,
+      "date_found": "2026-10-23",
+      "seq": 390
+    },
+    {
+      "id": "code-video-20261023",
+      "repo": "dxawdc/code-video",
+      "name": "code-video",
+      "url": "https://github.com/dxawdc/code-video",
+      "description": "Any AI model makes videos via code: Agent Skill + film CLI with nine tech stacks (Canvas/GLSL/Three.js/p5.brush/GSAP/Remotion/Manim/Blender), auto music/voiceover/captions/frame review; supports Claude Code, Codex, WorkBuddy",
+      "tags": [
+        "video-motion",
+        "ai-agents"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-23",
+      "seq": 391
+    },
+    {
+      "id": "haloflux-20261023",
+      "repo": "Ryder191/haloflux",
+      "name": "haloflux",
+      "url": "https://github.com/Ryder191/haloflux",
+      "description": "Beat-driven sci-fi light-ring visualization: pure Canvas, single HTML, zero dependencies; Wallpaper Engine support",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 12,
+      "date_found": "2026-10-23",
+      "seq": 392
+    },
+    {
+      "id": "bili-cli-20261023",
+      "repo": "kukemc/bili-cli",
+      "name": "bili-cli",
+      "url": "https://github.com/kukemc/bili-cli",
+      "description": "Bilibili command-line tool designed for AI agents: login, watch, comment, message, post, upload; full JSON output",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 72,
+      "date_found": "2026-10-23",
+      "seq": 393
+    },
+    {
+      "id": "mafdet-20261023",
+      "repo": "TheLastOxygen/mafdet",
+      "name": "mafdet",
+      "url": "https://github.com/TheLastOxygen/mafdet",
+      "description": "Local LLMs that read and think while you type",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 30,
+      "date_found": "2026-10-23",
+      "seq": 394
+    },
+    {
+      "id": "blender-agent-sdk-20261023",
+      "repo": "yazzang-homelab/blender-agent-sdk",
+      "name": "blender-agent-sdk",
+      "url": "https://github.com/yazzang-homelab/blender-agent-sdk",
+      "description": "Drive Blender from AI agents with plain Python SDK (no MCP), grounded in reverse engineering of Blender 5.2.2",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 17,
+      "date_found": "2026-10-23",
+      "seq": 395
     }
   ]
 }
