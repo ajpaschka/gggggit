@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 396,
+  "next_seq": 405,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -5299,6 +5299,123 @@
       "stars": 17,
       "date_found": "2026-10-23",
       "seq": 395
+    },
+    {
+      "id": "Simple Reviewer-20261024",
+      "repo": "Monopoly0024/simple-reviewer-v1",
+      "name": "Simple Reviewer",
+      "url": "https://github.com/Monopoly0024/simple-reviewer-v1",
+      "description": "A Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and verify goals with evidence.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 137,
+      "date_found": "2026-10-24",
+      "seq": 396
+    },
+    {
+      "id": "UrTV-20261024",
+      "repo": "tshi-dev/UrTV",
+      "name": "UrTV",
+      "url": "https://github.com/tshi-dev/UrTV",
+      "description": "Arabic home screen and Saudi screensaver for Android TV / Google TV, with AI agent setup.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 127,
+      "date_found": "2026-10-24",
+      "seq": 397
+    },
+    {
+      "id": "Stalemap-20261024",
+      "repo": "Umair/stalemap",
+      "name": "Stalemap",
+      "url": "https://github.com/Umair/stalemap",
+      "description": "Tell your coding agent which dependencies changed after its training cutoff; diffs types and changelogs into AGENTS.md.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 100,
+      "date_found": "2026-10-24",
+      "seq": 398
+    },
+    {
+      "id": "Glyph Kit-20261024",
+      "repo": "alextraykov/glyph-kit",
+      "name": "Glyph Kit",
+      "url": "https://github.com/alextraykov/glyph-kit",
+      "description": "Product-design figures as text: research flows, wireframes, plans and motion in four shades and a few lines; a Claude Code / Codex skill.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 10,
+      "date_found": "2026-10-24",
+      "seq": 399
+    },
+    {
+      "id": "Model Radar-20261024",
+      "repo": "Brando-2077/model-radar",
+      "name": "Model Radar",
+      "url": "https://github.com/Brando-2077/model-radar",
+      "description": "Scenario-based LLM capability radar with 8-dimensional ability assessment and family-relative public benchmark scoring.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 10,
+      "date_found": "2026-10-24",
+      "seq": 400
+    },
+    {
+      "id": "Map Design-20261024",
+      "repo": "ashishkaloge/map-design",
+      "name": "Map Design",
+      "url": "https://github.com/ashishkaloge/map-design",
+      "description": "Agent skill for real maps: data maps and city posters as self-contained HTML, SVG and PNG with no API keys or runtime dependencies.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 10,
+      "date_found": "2026-10-24",
+      "seq": 401
+    },
+    {
+      "id": "Na Pali-20261024",
+      "repo": "Leonxlnx/napali",
+      "name": "Na Pali",
+      "url": "https://github.com/Leonxlnx/napali",
+      "description": "A drone flight over the Na Pali coast rendered entirely in code, with no textures, images or models.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 28,
+      "date_found": "2026-10-24",
+      "seq": 402
+    },
+    {
+      "id": "HTML to Explainer Video-20261024",
+      "repo": "amliuyong/html-to-explainer-video",
+      "name": "HTML to Explainer Video",
+      "url": "https://github.com/amliuyong/html-to-explainer-video",
+      "description": "Agent skill: turn any topic into a narrated explainer video with word-level captions and HTML/GSAP animation frame-synced to speech.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-24",
+      "seq": 403
+    },
+    {
+      "id": "Manga Generator-20261024",
+      "repo": "stockedge/manga-generator",
+      "name": "Manga Generator",
+      "url": "https://github.com/stockedge/manga-generator",
+      "description": "Codex-oriented manga production tool: original story to script, image generation, layout and PDF output.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 70,
+      "date_found": "2026-10-24",
+      "seq": 404
     }
   ]
 }
