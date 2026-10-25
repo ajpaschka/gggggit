@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 405,
+  "next_seq": 411,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -5416,6 +5416,85 @@
       "stars": 70,
       "date_found": "2026-10-24",
       "seq": 404
+    },
+    {
+      "id": "What's My Agent Doing-20261025",
+      "repo": "Charonyuu/whatsmyagentdoing",
+      "name": "What's My Agent Doing",
+      "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+      "description": "Live visualization of Claude Code and Codex agent activity and status in a tabletop office interface.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 196,
+      "date_found": "2026-10-25",
+      "seq": 405
+    },
+    {
+      "id": "Blob Atelier-20261025",
+      "repo": "victoriawu-77/blob-atelier",
+      "name": "Blob Atelier",
+      "url": "https://github.com/victoriawu-77/blob-atelier",
+      "description": "Free open-source avatar maker for AI agents with SVG, PNG, GIF, WebM export in a single HTML file.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-25",
+      "seq": 406
+    },
+    {
+      "id": "Ochrelle-20261025",
+      "repo": "izynu/ochrelle",
+      "name": "Ochrelle",
+      "url": "https://github.com/izynu/ochrelle",
+      "description": "28 open-source Agent Skills for interface art direction with WCAG 2.2 AA guardrails and production-quality guidance.",
+      "tags": [
+        "design-visual",
+        "agent-practice"
+      ],
+      "stars": 6,
+      "date_found": "2026-10-25",
+      "seq": 407
+    },
+    {
+      "id": "Oh My McDonald-20261025",
+      "repo": "xiaozhangup/Oh-My-McDonald",
+      "name": "Oh My McDonald",
+      "url": "https://github.com/xiaozhangup/Oh-My-McDonald",
+      "description": "Conversational AI skill for McDonald's product recommendation, price comparison, promotions, nutrition, and voxel-style sharing graphics.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 80,
+      "date_found": "2026-10-25",
+      "seq": 408
+    },
+    {
+      "id": "ComfyUI Hy-Nomas-20261025",
+      "repo": "PedroMarinhoDev/ComfyUI-Hy-Nomas",
+      "name": "ComfyUI Hy-Nomas",
+      "url": "https://github.com/PedroMarinhoDev/ComfyUI-Hy-Nomas",
+      "description": "Tencent's Hy-Nomas video world model in ComfyUI with text or image input, chained segments, camera control, and interactive drive mode.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-25",
+      "seq": 409
+    },
+    {
+      "id": "NVAI Open-20261025",
+      "repo": "Mantux775/NVAI-open",
+      "name": "NVAI Open",
+      "url": "https://github.com/Mantux775/NVAI-open",
+      "description": "Local image, audio, video, and 3D generation on consumer hardware (NVIDIA/AMD) with LTX-2.5 video, LoRAs, and Claude Code MCP server.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-25",
+      "seq": 410
     }
   ]
 }
