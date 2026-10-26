@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 411,
+  "next_seq": 418,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -5495,6 +5495,97 @@
       "stars": 7,
       "date_found": "2026-10-25",
       "seq": 410
+    },
+    {
+      "id": "open-sesame-20261026",
+      "repo": "hassan-algo/open-sesame",
+      "name": "open-sesame",
+      "url": "https://github.com/hassan-algo/open-sesame",
+      "description": "An AI web-pentest skill for Claude Code that maps attack surface, works through OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 91,
+      "date_found": "2026-10-26",
+      "seq": 411
+    },
+    {
+      "id": "sketchtoui-20261026",
+      "repo": "fjl-gj/sketchtoui",
+      "name": "sketchtoui",
+      "url": "https://github.com/fjl-gj/sketchtoui",
+      "description": "Import Sketch designs into a browser canvas and expose artboards, layers, and assets to AI clients through authenticated Remote MCP.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-26",
+      "seq": 412
+    },
+    {
+      "id": "ligma-20261026",
+      "repo": "trelakor/ligma",
+      "name": "ligma",
+      "url": "https://github.com/trelakor/ligma",
+      "description": "Lightweight Figma desktop app for macOS & Windows (~4 MB) with tabs, themes, plugins, Discord Rich Presence; built with Tauri.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 4,
+      "date_found": "2026-10-26",
+      "seq": 413
+    },
+    {
+      "id": "diorama-20261026",
+      "repo": "sloemo01/diorama",
+      "name": "diorama",
+      "url": "https://github.com/sloemo01/diorama",
+      "description": "Pixel-art diorama playbook and Three.js code kit: research-first workflow, locked camera, palette snap, ordered dither, inked contour, animated cast with per-entity frame QA.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 46,
+      "date_found": "2026-10-26",
+      "seq": 414
+    },
+    {
+      "id": "ULTIMATEVJ-releases-20261026",
+      "repo": "weswalz/ULTIMATEVJ-releases",
+      "name": "ULTIMATEVJ-releases",
+      "url": "https://github.com/weswalz/ULTIMATEVJ-releases",
+      "description": "Free native macOS VJ software for Apple Silicon with GPU video compositing, ordered effect chains, MIDI control, and 28 built-in RenderWave generators.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 23,
+      "date_found": "2026-10-26",
+      "seq": 415
+    },
+    {
+      "id": "hyperflow-infinity-20261026",
+      "repo": "Video-Rebirth/hyperflow-infinity",
+      "name": "hyperflow-infinity",
+      "url": "https://github.com/Video-Rebirth/hyperflow-infinity",
+      "description": "HyperFlow-Infinity: Video Rebirth's minimal agent harness for infinite video generation with H3 HyperFlow.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 30,
+      "date_found": "2026-10-26",
+      "seq": 416
+    },
+    {
+      "id": "silkreel-20261026",
+      "repo": "hridaya423/silkreel",
+      "name": "silkreel",
+      "url": "https://github.com/hridaya423/silkreel",
+      "description": "KiCad board in, release film out: renders .kicad_pcb as a lit, scored product film or typographic loop; MP4, GIF, WebM, ProRes with alpha.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 9,
+      "date_found": "2026-10-26",
+      "seq": 417
     }
   ]
 }
