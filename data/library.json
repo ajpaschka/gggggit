@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 418,
+  "next_seq": 449,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -5586,6 +5586,409 @@
       "stars": 9,
       "date_found": "2026-10-26",
       "seq": 417
+    },
+    {
+      "id": "BAMA-20261030",
+      "repo": "daveebbelaar/bama",
+      "name": "BAMA",
+      "url": "https://github.com/daveebbelaar/bama",
+      "description": "Agent skills to research, clone, design, build, optimize and test native macOS apps with Swift and SwiftUI.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 822,
+      "date_found": "2026-10-30",
+      "seq": 418
+    },
+    {
+      "id": "Capri-20261030",
+      "repo": "ChannelCooperStart/capri-ai",
+      "name": "Capri",
+      "url": "https://github.com/ChannelCooperStart/capri-ai",
+      "description": "Edgerunners-inspired AI agent for your desktop, works with Claude Code, Codex, Antigravity and more.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 431,
+      "date_found": "2026-10-30",
+      "seq": 419
+    },
+    {
+      "id": "kensaku-20261030",
+      "repo": "yjid/kensaku",
+      "name": "kensaku",
+      "url": "https://github.com/yjid/kensaku",
+      "description": "Free, open-source file launcher with OCR, semantic search and MCP agent access \u2014 search inside documents, code and screenshots instantly and locally.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 238,
+      "date_found": "2026-10-30",
+      "seq": 420
+    },
+    {
+      "id": "AgentFlux-20261030",
+      "repo": "davemessew/AgentFlux",
+      "name": "AgentFlux",
+      "url": "https://github.com/davemessew/AgentFlux",
+      "description": "Agentic AI platform for visual workflows and autonomous agents, runnable via Docker on your own computer or server.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 235,
+      "date_found": "2026-10-30",
+      "seq": 421
+    },
+    {
+      "id": "kanzo-20261030",
+      "repo": "emanuele-em/kanzo",
+      "name": "kanzo",
+      "url": "https://github.com/emanuele-em/kanzo",
+      "description": "Self-hosted kanban for humans and agents in a single 4 MB binary that starts in 2 ms with zero setup.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 186,
+      "date_found": "2026-10-30",
+      "seq": 422
+    },
+    {
+      "id": "grim-prompter-20261030",
+      "repo": "jmanico/grim-prompter",
+      "name": "grim-prompter",
+      "url": "https://github.com/jmanico/grim-prompter",
+      "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo to get an evidence-traced threat model from 36 architectures and 29 methods.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 179,
+      "date_found": "2026-10-30",
+      "seq": 423
+    },
+    {
+      "id": "anymove-20261030",
+      "repo": "patch-gg/anymove",
+      "name": "anymove",
+      "url": "https://github.com/patch-gg/anymove",
+      "description": "Motion capture for any creature from one AI video using two cameras, DINOv2 joint reading and GLB output.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 430,
+      "date_found": "2026-10-30",
+      "seq": 424
+    },
+    {
+      "id": "trompe-20261030",
+      "repo": "patch-gg/trompe",
+      "name": "trompe",
+      "url": "https://github.com/patch-gg/trompe",
+      "description": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake and export to glTF.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 180,
+      "date_found": "2026-10-30",
+      "seq": 425
+    },
+    {
+      "id": "prove-the-resp-ui-20261030",
+      "repo": "Cloudshred/prove-the-resp-ui",
+      "name": "prove-the-resp-ui",
+      "url": "https://github.com/Cloudshred/prove-the-resp-ui",
+      "description": "Stop agents shipping UI they never opened: open the live page, check it against specs, SHIP, FIX or CAN'T SEE, then patch only the misses.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 32,
+      "date_found": "2026-10-30",
+      "seq": 426
+    },
+    {
+      "id": "Kinoloom-20261030",
+      "repo": "harlixay7/Kinoloom",
+      "name": "Kinoloom",
+      "url": "https://github.com/harlixay7/Kinoloom",
+      "description": "Local AI film studio for one Windows PC with 8 GB NVIDIA: write story, cast people and render with LTX-2.5, MiniMax H3 and Qwen-Image 2.1, built on ComfyUI.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 19,
+      "date_found": "2026-10-30",
+      "seq": 427
+    },
+    {
+      "id": "moonreel-20261030",
+      "repo": "siri2moon/moonreel",
+      "name": "moonreel",
+      "url": "https://github.com/siri2moon/moonreel",
+      "description": "Open-source Meta Muse video generator that automates muse.ai: one idea in, scripted and subtitled short video out for TikTok, Reels, Shorts and YouTube.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 16,
+      "date_found": "2026-10-30",
+      "seq": 428
+    },
+    {
+      "id": "ComfyUI-Pink-Peach-20261030",
+      "repo": "pink-qink/ComfyUI-Pink-Peach",
+      "name": "ComfyUI-Pink-Peach",
+      "url": "https://github.com/pink-qink/ComfyUI-Pink-Peach",
+      "description": "Full-pipeline ComfyUI node pack for Krea 2 Turbo with NAG negative guidance, variance diversity, custom schedulers and samplers.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 14,
+      "date_found": "2026-10-30",
+      "seq": 429
+    },
+    {
+      "id": "vibe-resp-skill-20261030",
+      "repo": "NV5892anaheim/vibe-resp-skill",
+      "name": "vibe-resp-skill",
+      "url": "https://github.com/NV5892anaheim/vibe-resp-skill",
+      "description": "Collection of Claude Code CLI skills as structured instruction sets for planning, building, reviewing, testing, deploying and handing off projects.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 32,
+      "date_found": "2026-10-30",
+      "seq": 430
+    },
+    {
+      "id": "iching-64-motion-20261030",
+      "repo": "jianxinss/iching-64-motion",
+      "name": "iching-64-motion",
+      "url": "https://github.com/jianxinss/iching-64-motion",
+      "description": "I Ching 64 Hexagrams motion graphics made entirely with code using Remotion and React.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 154,
+      "date_found": "2026-10-30",
+      "seq": 431
+    },
+    {
+      "id": "YouTube-AI-Motion-Graphics-20261030",
+      "repo": "sirioberati/YouTube-AI-Motion-Graphics",
+      "name": "YouTube-AI-Motion-Graphics",
+      "url": "https://github.com/sirioberati/YouTube-AI-Motion-Graphics",
+      "description": "74 animated HTML explainer boards synced to voice with Whisper and exported frame-by-frame using Chrome and FFmpeg.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 93,
+      "date_found": "2026-10-30",
+      "seq": 432
+    },
+    {
+      "id": "jet-reports-skill-rpocket-20261030",
+      "repo": "AbyssOmegaag/jet-reports-skill-rpocket",
+      "name": "jet-reports-skill-rpocket",
+      "url": "https://github.com/AbyssOmegaag/jet-reports-skill-rpocket",
+      "description": "Claude Code skill to describe a Jet Reports workbook and generate ready-to-run .xlsx for NAV and Business Central.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 32,
+      "date_found": "2026-10-30",
+      "seq": 433
+    },
+    {
+      "id": "data-analysis-with-python-en-20261030",
+      "repo": "wabidur/data-analysis-with-python-en",
+      "name": "data-analysis-with-python-en",
+      "url": "https://github.com/wabidur/data-analysis-with-python-en",
+      "description": "Complete eleven-class course from print('Hello World') to publication-ready geospatial analysis with trend maps, spatial statistics and journal-quality figures.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 14,
+      "date_found": "2026-10-30",
+      "seq": 434
+    },
+    {
+      "id": "code-animation-prompts-20261030",
+      "repo": "XiaoyeCodes/code-animation-prompts",
+      "name": "code-animation-prompts",
+      "url": "https://github.com/XiaoyeCodes/code-animation-prompts",
+      "description": "341 code animation style prompts, 193 reference frames and offline picker encapsulated as Claude Code/Codex skill with one-click import and HTML video rendering.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 88,
+      "date_found": "2026-10-30",
+      "seq": 435
+    },
+    {
+      "id": "three-small-worlds-20261030",
+      "repo": "amirmushichge/three-small-worlds",
+      "name": "three-small-worlds",
+      "url": "https://github.com/amirmushichge/three-small-worlds",
+      "description": "Three animated 3D portals and React Three Fiber starter adapted to your own scenes.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 23,
+      "date_found": "2026-10-30",
+      "seq": 436
+    },
+    {
+      "id": "nozomi-20261030",
+      "repo": "Andrew-Velox/nozomi",
+      "name": "nozomi",
+      "url": "https://github.com/Andrew-Velox/nozomi",
+      "description": "Living cherry blossom tree that grows differently every time, with petals, wind, weather and rain in 16 KB of TypeScript.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-10-30",
+      "seq": 437
+    },
+    {
+      "id": "beryl-20261030",
+      "repo": "Sam1983Aing/beryl",
+      "name": "beryl",
+      "url": "https://github.com/Sam1983Aing/beryl",
+      "description": "Glass reading stone you can slide across a web page to swell words and ripple on tap, made in raw WebGL2 as one HTML file.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-30",
+      "seq": 438
+    },
+    {
+      "id": "openjutsu-20261030",
+      "repo": "D3voz/openjutsu",
+      "name": "openjutsu",
+      "url": "https://github.com/D3voz/openjutsu",
+      "description": "One-click character swap for videos: open-source local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3 with FLUX.3 Klein relighting.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 430,
+      "date_found": "2026-10-30",
+      "seq": 439
+    },
+    {
+      "id": "vibe-knowledge-20261030",
+      "repo": "andyhuo520/vibe-knowledge",
+      "name": "vibe-knowledge",
+      "url": "https://github.com/andyhuo520/vibe-knowledge",
+      "description": "Claude Code skill to generate sourced knowledge shorts with voiceover in 44 style variations, rendering frame-by-frame.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 176,
+      "date_found": "2026-10-30",
+      "seq": 440
+    },
+    {
+      "id": "IP-Bot-20261030",
+      "repo": "pyqdcyy123-byte/IP-Bot",
+      "name": "IP-Bot",
+      "url": "https://github.com/pyqdcyy123-byte/IP-Bot",
+      "description": "Free open-source digital-human video creation workbench and backend, deployable locally or in the cloud.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 135,
+      "date_found": "2026-10-30",
+      "seq": 441
+    },
+    {
+      "id": "Cineloop-resp-20261030",
+      "repo": "Faunhear42681t/Cineloop-resp",
+      "name": "Cineloop-resp",
+      "url": "https://github.com/Faunhear42681t/Cineloop-resp",
+      "description": "Agentic video editing engine, skill and plugin.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 32,
+      "date_found": "2026-10-30",
+      "seq": 442
+    },
+    {
+      "id": "pixel-studio-20261030",
+      "repo": "MuhammadaliMS/pixel-studio",
+      "name": "pixel-studio",
+      "url": "https://github.com/MuhammadaliMS/pixel-studio",
+      "description": "Make viral pixel-art videos with Claude using a free, dependency-free engine where every pixel, physics beat and sound effect is drawn in code.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-30",
+      "seq": 443
+    },
+    {
+      "id": "cal-li-multiverse-20261030",
+      "repo": "poppincalvin/cal-li-multiverse",
+      "name": "cal-li-multiverse",
+      "url": "https://github.com/poppincalvin/cal-li-multiverse",
+      "description": "Every film is one universe of Cal Li \u2014 full recipes (prompts, timing, sound) that any coding agent and image model can rebuild.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-30",
+      "seq": 444
+    },
+    {
+      "id": "time-stretch-20261030",
+      "repo": "TheLiangSui/time-stretch",
+      "name": "time-stretch",
+      "url": "https://github.com/TheLiangSui/time-stretch",
+      "description": "Web and Windows desktop tool for Anton Repponen's Time Stretch effect: select and horizontally stretch a photo area by its center pixel column, single HTML file with zero dependencies.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 2,
+      "date_found": "2026-10-30",
+      "seq": 445
+    },
+    {
+      "id": "repdix-rpocket-team-20261030",
+      "repo": "Stormtop-alt/repdix-rpocket-team",
+      "name": "repdix-rpocket-team",
+      "url": "https://github.com/Stormtop-alt/repdix-rpocket-team",
+      "description": "Universal Telegram bot orchestrator for natural-language database queries using local LLM with Tool Calling, SQL audit and Docker support.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 32,
+      "date_found": "2026-10-30",
+      "seq": 446
+    },
+    {
+      "id": "rgx-20261030",
+      "repo": "danalec/rgx",
+      "name": "rgx",
+      "url": "https://github.com/danalec/rgx",
+      "description": "High-performance full-text search across PDFs, Office documents, archives, email, media metadata and GGUF/LLM model files with ripgrep-compatible CLI and zero dependencies.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 11,
+      "date_found": "2026-10-30",
+      "seq": 447
+    },
+    {
+      "id": "agent-dev-tools-20261030",
+      "repo": "matveymaslov/agent-dev-tools",
+      "name": "agent-dev-tools",
+      "url": "https://github.com/matveymaslov/agent-dev-tools",
+      "description": "Small, dependency-light tools for AI coding agents: hook installers, guards, AGENTS.md/CLAUDE.md generation, flaky-test evidence, Vitest pitfalls, memory index lint.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-10-30",
+      "seq": 448
     }
   ]
 }
