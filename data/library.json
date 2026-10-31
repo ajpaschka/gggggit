@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 449,
+  "next_seq": 458,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -5989,6 +5989,123 @@
       "stars": 3,
       "date_found": "2026-10-30",
       "seq": 448
+    },
+    {
+      "id": "Capri AI-20261031",
+      "repo": "boardshogunfluctuate/Capri-AI",
+      "name": "Capri AI",
+      "url": "https://github.com/boardshogunfluctuate/Capri-AI",
+      "description": "Cyberpunk AI agent for file, project and code interaction through Claude Code, Codex or Antigravity with Windows installer.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 286,
+      "date_found": "2026-10-31",
+      "seq": 449
+    },
+    {
+      "id": "Sapper v2-20261031",
+      "repo": "N1nEmAn/sapper-v2",
+      "name": "Sapper v2",
+      "url": "https://github.com/N1nEmAn/sapper-v2",
+      "description": "Autonomous pentest legion with AI commander and worker swarm using layered fact-intent graph.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 226,
+      "date_found": "2026-10-31",
+      "seq": 450
+    },
+    {
+      "id": "Agent Office 3D-20261031",
+      "repo": "jefferysha0627/agent-office-3d",
+      "name": "Agent Office 3D",
+      "url": "https://github.com/jefferysha0627/agent-office-3d",
+      "description": "Low-poly 3D office visualization showing live status of AI coding agents.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 122,
+      "date_found": "2026-10-31",
+      "seq": 451
+    },
+    {
+      "id": "Legion OS-20261031",
+      "repo": "unitshaperextol/Legion-os",
+      "name": "Legion OS",
+      "url": "https://github.com/unitshaperextol/Legion-os",
+      "description": "Multi-agent swarm orchestration engine coordinating 50+ LLM nodes in high-speed mesh network.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 75,
+      "date_found": "2026-10-31",
+      "seq": 452
+    },
+    {
+      "id": "Open Source Higgsfield-20261031",
+      "repo": "lucataco/open-source-higgsfield",
+      "name": "Open Source Higgsfield",
+      "url": "https://github.com/lucataco/open-source-higgsfield",
+      "description": "Open-weights video character recasting on local ComfyUI with SAM 3.1, FLUX 3 Image Klein and SCAIL-2.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 25,
+      "date_found": "2026-10-31",
+      "seq": 453
+    },
+    {
+      "id": "TabSight-20261031",
+      "repo": "yesh069/tabsight",
+      "name": "TabSight",
+      "url": "https://github.com/yesh069/tabsight",
+      "description": "BI-quality charts, world maps and dashboards from pandas DataFrame in one offline HTML file.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 5,
+      "date_found": "2026-10-31",
+      "seq": 454
+    },
+    {
+      "id": "Pro Threads-20261031",
+      "repo": "kubai087/pro-threads",
+      "name": "Pro Threads",
+      "url": "https://github.com/kubai087/pro-threads",
+      "description": "Animated WebGL wallpaper with letters woven from threads of light and full A\u2013Z thread typeface.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 16,
+      "date_found": "2026-10-31",
+      "seq": 455
+    },
+    {
+      "id": "Abztract-20261031",
+      "repo": "arhamkhnz/abztract",
+      "name": "Abztract",
+      "url": "https://github.com/arhamkhnz/abztract",
+      "description": "Create abstract shapes from a seed, explore 30 shape families and export as SVG or PNG.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 7,
+      "date_found": "2026-10-31",
+      "seq": 456
+    },
+    {
+      "id": "Prism UI Snippets-20261031",
+      "repo": "krishyaa06/prism-ui-snippets",
+      "name": "Prism UI Snippets",
+      "url": "https://github.com/krishyaa06/prism-ui-snippets",
+      "description": "Copy-paste dark-mode UI components in pure HTML and CSS with glow buttons, glass cards, floating inputs and more.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 1,
+      "date_found": "2026-10-31",
+      "seq": 457
     }
   ]
 }
