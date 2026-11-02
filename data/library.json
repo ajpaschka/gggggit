@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 458,
+  "next_seq": 464,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -6106,6 +6106,85 @@
       "stars": 1,
       "date_found": "2026-10-31",
       "seq": 457
+    },
+    {
+      "id": "cs329z-chinese-20261102",
+      "repo": "wanghao-SunSky/cs329z-chinese",
+      "name": "cs329z-chinese",
+      "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
+      "description": "Stanford CS329Z Engineering AI Agents Chinese course: 19 lectures and 4 practicals on LLM, RAG, tool calling, memory, multi-agent, evaluation and safety",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 414,
+      "date_found": "2026-11-02",
+      "seq": 458
+    },
+    {
+      "id": "cheap-ag-20261102",
+      "repo": "muaaz9329/cheap-ag",
+      "name": "cheap-ag",
+      "url": "https://github.com/muaaz9329/cheap-ag",
+      "description": "50x your Claude usage with cheap-ag: Opus plans, dirt-cheap model writes every line, tests decide what ships",
+      "tags": [
+        "ai-agents",
+        "agent-practice"
+      ],
+      "stars": 207,
+      "date_found": "2026-11-02",
+      "seq": 459
+    },
+    {
+      "id": "my-office-20261102",
+      "repo": "khanh020905/my-office",
+      "name": "my-office",
+      "url": "https://github.com/khanh020905/my-office",
+      "description": "3D office for Claude Code sessions as a visual workspace",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 143,
+      "date_found": "2026-11-02",
+      "seq": 460
+    },
+    {
+      "id": "Frontier-UI-20261102",
+      "repo": "Jumbomuffin777/Frontier-UI",
+      "name": "Frontier-UI",
+      "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+      "description": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps, multi-day trips, budgets, calculators, weather, stocks with Word/Excel/PowerPoint exports",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 40,
+      "date_found": "2026-11-02",
+      "seq": 461
+    },
+    {
+      "id": "florilegium-20261102",
+      "repo": "kevinraymond/florilegium",
+      "name": "florilegium",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn entirely in Lua",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 1315,
+      "date_found": "2026-11-02",
+      "seq": 462
+    },
+    {
+      "id": "AI-Video-Factory-20261102",
+      "repo": "ersinkoc/AI-Video-Factory",
+      "name": "AI-Video-Factory",
+      "url": "https://github.com/ersinkoc/AI-Video-Factory",
+      "description": "AI video factory: one topic to finished multilingual YouTube video with Claude agents writing, planning, drawing and reviewing; Studio keeps human in charge",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 105,
+      "date_found": "2026-11-02",
+      "seq": 463
     }
   ]
 }
