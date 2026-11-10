@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 482,
+  "next_seq": 501,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -6419,6 +6419,253 @@
       "stars": 8,
       "date_found": "2026-11-04",
       "seq": 481
+    },
+    {
+      "id": "Vork-20261110",
+      "repo": "voyager-so/vork",
+      "name": "Vork",
+      "url": "https://github.com/voyager-so/vork",
+      "description": "Headless 3D and VFX engine for agents.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 1320,
+      "date_found": "2026-11-10",
+      "seq": 482
+    },
+    {
+      "id": "Poki-20261110",
+      "repo": "JosssphZhou/poki",
+      "name": "Poki",
+      "url": "https://github.com/JosssphZhou/poki",
+      "description": "Let AI agents operate a real iPhone via local MCP server, no jailbreak or extra hardware.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 824,
+      "date_found": "2026-11-10",
+      "seq": 483
+    },
+    {
+      "id": "Sandbox MCP-20261110",
+      "repo": "shanselman/sandbox-mcp",
+      "name": "Sandbox MCP",
+      "url": "https://github.com/shanselman/sandbox-mcp",
+      "description": "MCP server and CLI automating Windows Sandbox for throwaway testing environments.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 390,
+      "date_found": "2026-11-10",
+      "seq": 484
+    },
+    {
+      "id": "Best Agent Memory MCP-20261110",
+      "repo": "Glen-Web-App/best-agent-memory-mcp",
+      "name": "Best Agent Memory MCP",
+      "url": "https://github.com/Glen-Web-App/best-agent-memory-mcp",
+      "description": "Ranked comparison of agent memory MCP servers (Mem0, Supermemory, Zep, Hindsight, and others) with storage, capture model, and team sharing details.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 238,
+      "date_found": "2026-11-10",
+      "seq": 485
+    },
+    {
+      "id": "YouTube AI Video Editing System-20261110",
+      "repo": "dhruvthakur11/youtube-ai-video-editing-system",
+      "name": "YouTube AI Video Editing System",
+      "url": "https://github.com/dhruvthakur11/youtube-ai-video-editing-system",
+      "description": "JSON-driven animation and motion graphics workflow combining eyeline teleprompter with editing agents.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 481,
+      "date_found": "2026-11-10",
+      "seq": 486
+    },
+    {
+      "id": "PromptReel-20261110",
+      "repo": "silverdugongenhance/PromptReel",
+      "name": "PromptReel",
+      "url": "https://github.com/silverdugongenhance/PromptReel",
+      "description": "Free desktop app turning text prompts into short video clips locally using Wan 2.2 text-to-video; no subscription or queue.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 207,
+      "date_found": "2026-11-10",
+      "seq": 487
+    },
+    {
+      "id": "Foldline-20261110",
+      "repo": "alireza12t/foldline",
+      "name": "Foldline",
+      "url": "https://github.com/alireza12t/foldline",
+      "description": "Render HTML canvas animations to MP4 fast on Mac via WebCodecs H.264; MCP server for Claude Code with 66 code-made film styles.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-11-10",
+      "seq": 488
+    },
+    {
+      "id": "Hyperrizz-20261110",
+      "repo": "mojomast/hyperrizz",
+      "name": "Hyperrizz",
+      "url": "https://github.com/mojomast/hyperrizz",
+      "description": "Production-minded agent skill for distinctive HyperFrames films with art direction, motion, audio, and deterministic rendering.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 4,
+      "date_found": "2026-11-10",
+      "seq": 489
+    },
+    {
+      "id": "Solo to Team Skills-20261110",
+      "repo": "dabingfy-dot/solo-to-team-skills",
+      "name": "Solo to Team Skills",
+      "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+      "description": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 444,
+      "date_found": "2026-11-10",
+      "seq": 490
+    },
+    {
+      "id": "Vibe-resp-skill-20261110",
+      "repo": "riverenpaw2708/vibe-resp-skill",
+      "name": "Vibe-resp-skill",
+      "url": "https://github.com/riverenpaw2708/vibe-resp-skill",
+      "description": "Collection of Claude Code CLI skills as structured instruction sets for planning, building, reviewing, testing, deploying, and handing off projects.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 53,
+      "date_found": "2026-11-10",
+      "seq": 491
+    },
+    {
+      "id": "ZTD Charts-20261110",
+      "repo": "Junhan2/ztd-charts",
+      "name": "ZTD Charts",
+      "url": "https://github.com/Junhan2/ztd-charts",
+      "description": "36 animated, interactive React charts in pure SVG with CLI and MCP server.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 205,
+      "date_found": "2026-11-10",
+      "seq": 492
+    },
+    {
+      "id": "Real-Time Operations Intelligence Accelerator-20261110",
+      "repo": "BenjiNgei/real-time-operations-intelligence-accelerator",
+      "name": "Real-Time Operations Intelligence Accelerator",
+      "url": "https://github.com/BenjiNgei/real-time-operations-intelligence-accelerator",
+      "description": "Solution accelerator for real-time dashboards, anomaly detection, and Fabric data integration.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 149,
+      "date_found": "2026-11-10",
+      "seq": 493
+    },
+    {
+      "id": "PyStatlas-20261110",
+      "repo": "warint/pystatlas",
+      "name": "PyStatlas",
+      "url": "https://github.com/warint/pystatlas",
+      "description": "Python gallery of statistical graphics for social sciences, organized by research question with reportable statistics and copy-paste code.",
+      "tags": [
+        "data-viz"
+      ],
+      "stars": 6,
+      "date_found": "2026-11-10",
+      "seq": 494
+    },
+    {
+      "id": "Living ASCII-20261110",
+      "repo": "yusen-dev/living-ascii",
+      "name": "Living ASCII",
+      "url": "https://github.com/yusen-dev/living-ascii",
+      "description": "Bring still images to life as seamless ASCII loops using Three.js custom shaders with thousands of animated strands.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 36,
+      "date_found": "2026-11-10",
+      "seq": 495
+    },
+    {
+      "id": "Bottle Studio-20261110",
+      "repo": "amirmushichge/bottle-studio",
+      "name": "Bottle Studio",
+      "url": "https://github.com/amirmushichge/bottle-studio",
+      "description": "Premium whisky bottle studio in single HTML file with parametric glass, studio lighting, and lens bokeh using Three.js.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 8,
+      "date_found": "2026-11-10",
+      "seq": 496
+    },
+    {
+      "id": "Glyphworks-20261110",
+      "repo": "kaan0d/glyphworks",
+      "name": "Glyphworks",
+      "url": "https://github.com/kaan0d/glyphworks",
+      "description": "Real-time 3D rendered as glowing glyphs via WebGL2, Three.js, and custom GLSL; 14 browser-based works.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-11-10",
+      "seq": 497
+    },
+    {
+      "id": "Forma Board-20261110",
+      "repo": "Pukhaan/forma-board",
+      "name": "Forma Board",
+      "url": "https://github.com/Pukhaan/forma-board",
+      "description": "Visual memory board for projects kept as plain files on Mac, shared between you and your AI.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 6,
+      "date_found": "2026-11-10",
+      "seq": 498
+    },
+    {
+      "id": "Grids-20261110",
+      "repo": "geragarazagh/grids",
+      "name": "Grids",
+      "url": "https://github.com/geragarazagh/grids",
+      "description": "Free open-source grid overlay for Mac showing halves, quarters, golden ratio, thirds, and 8-pt grids; native Swift menu bar app.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 3,
+      "date_found": "2026-11-10",
+      "seq": 499
+    },
+    {
+      "id": "Colour Pattern Search-20261110",
+      "repo": "yoshidaman99/colour-pattern-search",
+      "name": "Colour Pattern Search",
+      "url": "https://github.com/yoshidaman99/colour-pattern-search",
+      "description": "Offline Windows app for browsing 563 color palettes including Sanzo Wada, Werner's Nomenclature, and traditional Japanese colors.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 2,
+      "date_found": "2026-11-10",
+      "seq": 500
     }
   ]
 }
