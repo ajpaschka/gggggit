@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 501,
+  "next_seq": 504,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -6666,6 +6666,45 @@
       "stars": 2,
       "date_found": "2026-11-10",
       "seq": 500
+    },
+    {
+      "id": "hyperflow-h3-flash-20261111",
+      "repo": "Video-Rebirth/hyperflow-h3-flash",
+      "name": "hyperflow-h3-flash",
+      "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "description": "Video Rebirth's 13.7B, 4-8 step compressed MiniMax-H3 for joint video and audio generation (INT8 and GGUF)",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 186,
+      "date_found": "2026-11-11",
+      "seq": 501
+    },
+    {
+      "id": "ascii-deepsea-20261111",
+      "repo": "inspiriflow/ascii-deepsea",
+      "name": "ascii-deepsea",
+      "url": "https://github.com/inspiriflow/ascii-deepsea",
+      "description": "Living deep-sea aquarium in ASCII with behaviour engines for whales, orcas, sharks, octopus, jellyfish, fish schools",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 11,
+      "date_found": "2026-11-11",
+      "seq": 502
+    },
+    {
+      "id": "afterglyph-20261111",
+      "repo": "winchxyz/afterglyph",
+      "name": "afterglyph",
+      "url": "https://github.com/winchxyz/afterglyph",
+      "description": "Turn images, GIFs or videos into glowing glyph art you can spin in 3D; one HTML file, runs in browser",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 13,
+      "date_found": "2026-11-11",
+      "seq": 503
     }
   ]
 }
