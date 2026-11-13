@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 508,
+  "next_seq": 524,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -6757,6 +6757,217 @@
       "stars": 7,
       "date_found": "2026-11-12",
       "seq": 507
+    },
+    {
+      "id": "Guizang Game Skill-20261113",
+      "repo": "op7418/guizang-game-skill",
+      "name": "Guizang Game Skill",
+      "url": "https://github.com/op7418/guizang-game-skill",
+      "description": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
+      "tags": [
+        "ai-agents",
+        "creative-coding"
+      ],
+      "stars": 271,
+      "date_found": "2026-11-13",
+      "seq": 508
+    },
+    {
+      "id": "Numbrone-20261113",
+      "repo": "stevenmichaelthomas/numbrone",
+      "name": "Numbrone",
+      "url": "https://github.com/stevenmichaelthomas/numbrone",
+      "description": "A chief of staff for your coding agents: route requests to per-project manager agents that run parallel workers in git worktrees.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 139,
+      "date_found": "2026-11-13",
+      "seq": 509
+    },
+    {
+      "id": "LASIK-20261113",
+      "repo": "pktq/lasik",
+      "name": "LASIK",
+      "url": "https://github.com/pktq/lasik",
+      "description": "Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 123,
+      "date_found": "2026-11-13",
+      "seq": 510
+    },
+    {
+      "id": "Koala Canvas-20261113",
+      "repo": "jespinosa19/koala-poc-canvas",
+      "name": "Koala Canvas",
+      "url": "https://github.com/jespinosa19/koala-poc-canvas",
+      "description": "Agents lay out live variants of your screens on a local canvas. You decide: Pick, Maybe, Out, comments, drawings, and a recorded decision.",
+      "tags": [
+        "design-visual",
+        "agent-practice"
+      ],
+      "stars": 4,
+      "date_found": "2026-11-13",
+      "seq": 511
+    },
+    {
+      "id": "DSH Clone-20261113",
+      "repo": "egorfedorov/dsh-clone",
+      "name": "DSH Clone",
+      "url": "https://github.com/egorfedorov/dsh-clone",
+      "description": "Screenshot in, working UI out: several agents rebuild the same reference interface in parallel, and you adopt the live result you like best.",
+      "tags": [
+        "design-visual",
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-11-13",
+      "seq": 512
+    },
+    {
+      "id": "Super Artifact Manager-20261113",
+      "repo": "SupermodularAI/super-artifact-manager",
+      "name": "Super Artifact Manager",
+      "url": "https://github.com/SupermodularAI/super-artifact-manager",
+      "description": "A Claude Code skill that gives any prototype a player bar, journeys, versions, a storyboard and live comments, on the real product.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 2,
+      "date_found": "2026-11-13",
+      "seq": 513
+    },
+    {
+      "id": "Ferro Toggle-20261113",
+      "repo": "argofowl/ferro-toggle",
+      "name": "Ferro Toggle",
+      "url": "https://github.com/argofowl/ferro-toggle",
+      "description": "A ferrofluid dark mode switch made with claude opus 5.5. One HTML file, WebGL 2, no libraries, no build step.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 7,
+      "date_found": "2026-11-13",
+      "seq": 514
+    },
+    {
+      "id": "LofiCity-20261113",
+      "repo": "ovinidev/LofiCity",
+      "name": "LofiCity",
+      "url": "https://github.com/ovinidev/LofiCity",
+      "description": "Lo-fi pixel-art scenes that follow the real clock and live weather of Tokyo and Esperan\u00e7a (Brazil), with Creative Commons radio stations.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-11-13",
+      "seq": 515
+    },
+    {
+      "id": "FrankenLife-20261113",
+      "repo": "Dicklesworthstone/frankenlife",
+      "name": "FrankenLife",
+      "url": "https://github.com/Dicklesworthstone/frankenlife",
+      "description": "Real-time artificial-life laboratory in memory-safe Rust: hundreds of thousands of organisms, each with its own heritable neural network, evolving through a shared energy-conserving chemical field.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-11-13",
+      "seq": 516
+    },
+    {
+      "id": "Video Kit-20261113",
+      "repo": "achun1107/video-kit",
+      "name": "Video Kit",
+      "url": "https://github.com/achun1107/video-kit",
+      "description": "One command to turn GitHub repos or Douyin videos into vertical-screen explainer videos.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 103,
+      "date_found": "2026-11-13",
+      "seq": 517
+    },
+    {
+      "id": "ComfyUI Banzhang All-20261113",
+      "repo": "alinuo666/ComfyUI-Banzhang-All",
+      "name": "ComfyUI Banzhang All",
+      "url": "https://github.com/alinuo666/ComfyUI-Banzhang-All",
+      "description": "ComfyUI custom node pack for MiniMax H3 video generation: three-pass workflow, HD video on a 6 GB GPU.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 46,
+      "date_found": "2026-11-13",
+      "seq": 518
+    },
+    {
+      "id": "Whiteboard Teacher Motion-20261113",
+      "repo": "liangdabiao/whiteboard-teacher-video-motion",
+      "name": "Whiteboard Teacher Motion",
+      "url": "https://github.com/liangdabiao/whiteboard-teacher-video-motion",
+      "description": "AI-native SVG vector diagram explanation skill: hand-drawn line-growth + GIF frame micro-motion, integrated into a deterministic timeline.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 39,
+      "date_found": "2026-11-13",
+      "seq": 519
+    },
+    {
+      "id": "Explainroo UI-20261113",
+      "repo": "jastfan/explainroo-ui",
+      "name": "Explainroo UI",
+      "url": "https://github.com/jastfan/explainroo-ui",
+      "description": "Visual UI for Explainroo. Explainer videos and product demos made by your AI agent. Free and open source: local voice (Kokoro), word timing (Whisper) and canvas renderer turn a script into narrated MP4.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 28,
+      "date_found": "2026-11-13",
+      "seq": 520
+    },
+    {
+      "id": "Toolsmith MCP-20261113",
+      "repo": "devlomingo/toolsmith-mcp",
+      "name": "Toolsmith MCP",
+      "url": "https://github.com/devlomingo/toolsmith-mcp",
+      "description": "MCP gateway: turns OpenAPI, GraphQL and gRPC APIs into tools, mines repeated agent workflows into verified composite tools, behind human approval.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 3,
+      "date_found": "2026-11-13",
+      "seq": 521
+    },
+    {
+      "id": "Image Scout-20261113",
+      "repo": "2039108952x-lab/image-scout",
+      "name": "Image Scout",
+      "url": "https://github.com/2039108952x-lab/image-scout",
+      "description": "Give your agent eyes: search Wikimedia Commons and Openverse, download real images, and verify magic bytes and dimensions before use. Zero-dependency CLI + DSH plugin skill.",
+      "tags": [
+        "agent-practice"
+      ],
+      "stars": 2,
+      "date_found": "2026-11-13",
+      "seq": 522
+    },
+    {
+      "id": "Splice CLI-20261113",
+      "repo": "matthew-eth724/splice-cli",
+      "name": "Splice CLI",
+      "url": "https://github.com/matthew-eth724/splice-cli",
+      "description": "Video editing CLI for AI agents: one JSON project in, ffmpeg out. Cut by word, captions from Gemini or Deepgram, incremental renders.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 1,
+      "date_found": "2026-11-13",
+      "seq": 523
     }
   ]
 }
