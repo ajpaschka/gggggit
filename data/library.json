@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "next_seq": 524,
+  "next_seq": 534,
   "entries": [
     {
       "id": "genart-skill-20260831",
@@ -6968,6 +6968,138 @@
       "stars": 1,
       "date_found": "2026-11-13",
       "seq": 523
+    },
+    {
+      "id": "GPUCanvas-20261114",
+      "repo": "berkantay/gpucanvas",
+      "name": "GPUCanvas",
+      "url": "https://github.com/berkantay/gpucanvas",
+      "description": "Infinite canvas with thousands of live DOM nodes drawn by GPU; editor selects/moves/resizes with shaders and transitions; AI agents can read and point.",
+      "tags": [
+        "design-visual",
+        "ai-agents"
+      ],
+      "stars": 248,
+      "date_found": "2026-11-14",
+      "seq": 524
+    },
+    {
+      "id": "Blender AI MCP Addon-20261114",
+      "repo": "hitkeeen/blender-ai-mcp-addon",
+      "name": "Blender AI MCP Addon",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows with ChatGPT, Claude, Gemini, Ollama.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 210,
+      "date_found": "2026-11-14",
+      "seq": 525
+    },
+    {
+      "id": "Fontroom-20261114",
+      "repo": "Tekcify/fontroom",
+      "name": "Fontroom",
+      "url": "https://github.com/Tekcify/fontroom",
+      "description": "Preview fonts on real websites and mobile apps before writing code; test Google Fonts pairings or custom font files.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 10,
+      "date_found": "2026-11-14",
+      "seq": 526
+    },
+    {
+      "id": "Scenra Designer-20261114",
+      "repo": "oneo-me/nsgo-scenra",
+      "name": "Scenra Designer",
+      "url": "https://github.com/oneo-me/nsgo-scenra",
+      "description": "Design apps by talking: AI assistant draws app screens and flow charts as you agree, saved as plain-text .scenra files.",
+      "tags": [
+        "design-visual",
+        "ai-agents"
+      ],
+      "stars": 8,
+      "date_found": "2026-11-14",
+      "seq": 527
+    },
+    {
+      "id": "Open Papertrail-20261114",
+      "repo": "jabbarlee/open-papertrail",
+      "name": "Open Papertrail",
+      "url": "https://github.com/jabbarlee/open-papertrail",
+      "description": "Vertical videos drawn entirely in code: Claude Code writes and animates them, voice runs on Mac, four styles, six free voices.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-11-14",
+      "seq": 528
+    },
+    {
+      "id": "Aria-20261114",
+      "repo": "Abhinav-murugan1/Aria",
+      "name": "Aria",
+      "url": "https://github.com/Abhinav-murugan1/Aria",
+      "description": "Claude Code skills for finished videos with expressive voices: emotion-tagged narration, word-timed captions, GPU-rendered scenes, music in code.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 6,
+      "date_found": "2026-11-14",
+      "seq": 529
+    },
+    {
+      "id": "Claude Stickman Shorts-20261114",
+      "repo": "SyedBahjat/claude-stickman-shorts",
+      "name": "Claude Stickman Shorts",
+      "url": "https://github.com/SyedBahjat/claude-stickman-shorts",
+      "description": "Claude Code skill making stick-figure shorts and cloning any video format (explainers, top-10s, quizzes) for YouTube Shorts/TikTok/Reels with captions and copyright-free SFX.",
+      "tags": [
+        "video-motion"
+      ],
+      "stars": 5,
+      "date_found": "2026-11-14",
+      "seq": 530
+    },
+    {
+      "id": "Nightgrain-20261114",
+      "repo": "winchxyz/nightgrain",
+      "name": "Nightgrain",
+      "url": "https://github.com/winchxyz/nightgrain",
+      "description": "Turn any image, GIF or video into shimmering dithered pixel art, runs in browser.",
+      "tags": [
+        "creative-coding"
+      ],
+      "stars": 4,
+      "date_found": "2026-11-14",
+      "seq": 531
+    },
+    {
+      "id": "Return RP-20261114",
+      "repo": "karlmoriaty/return_rp",
+      "name": "Return RP",
+      "url": "https://github.com/karlmoriaty/return_rp",
+      "description": "Turn screenshots or descriptions into fully editable Axure RP 9/11 prototypes via AI-native canvas, CLI and MCP server.",
+      "tags": [
+        "design-visual"
+      ],
+      "stars": 2,
+      "date_found": "2026-11-14",
+      "seq": 532
+    },
+    {
+      "id": "Chat Export Server-20261114",
+      "repo": "svergio/chat-export-server",
+      "name": "Chat Export Server",
+      "url": "https://github.com/svergio/chat-export-server",
+      "description": "Local MCP server for Chat Export: list/export/create/delete and chat_ask on ChatGPT, Grok, Claude, Copilot, Qwen, DeepSeek, Perplexity via Chrome.",
+      "tags": [
+        "ai-agents"
+      ],
+      "stars": 1,
+      "date_found": "2026-11-14",
+      "seq": 533
     }
   ]
 }
